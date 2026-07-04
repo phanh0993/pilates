@@ -1,0 +1,320 @@
+[
+  {
+    "id": "roll-down",
+    "nameEn": "ROLL-DOWN",
+    "nameVi": "Cuộn xuống",
+    "category": "ROLL-DOWN BAR (Thanh cuộn xuống)",
+    "packId": "roll-down-bar",
+    "prep": "Ngồi hướng mặt về phía thanh roll-down, lưng-hông trung tính. Hai chân duỗi thẳng, úp lòng bàn chân vào hai bên cột. Nắm hai tay vào thanh, cánh tay thẳng. Bả vai ổn định.",
+    "steps": "Hít vào: chuẩn bị. Thở ra: duy trì bả vai ổn định, bắt đầu đổ hông về sau, cuộn lần lượt từng đốt sống xuống đệm. Hít vào: ổn định bả vai trên đệm, đưa cột sống về trung tính. Thở ra: gập khuỷu tay, kéo gậy về phía ngực. Hít vào: ổn định bả vai, duỗi khuỷu tay từ từ. Thở ra: nâng đầu khỏi đệm và cuộn lên vị trí ngồi. Hít vào: cuộn từ hông lên vị trí ban đầu.",
+    "reps": "10 lần",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Tư thế chuẩn bị",
+        "url": "/images/roll-down/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Cuộn lưng về sau",
+        "url": "/images/roll-down/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Nằm xuống giường",
+        "url": "/images/roll-down/3.jpg"
+      },
+      {
+        "step": 4,
+        "caption": "Gập khuỷu tay",
+        "url": "/images/roll-down/4.jpg"
+      },
+      {
+        "step": 5,
+        "caption": "Bắt đầu cuộn lên",
+        "url": "/images/roll-down/5.jpg"
+      },
+      {
+        "step": 6,
+        "caption": "Úp người về phía trước",
+        "url": "/images/roll-down/6.jpg"
+      },
+      {
+        "step": 7,
+        "caption": "Cuộn thẳng lưng",
+        "url": "/images/roll-down/7.jpg"
+      }
+    ],
+    "audioUrl": "/audio/roll-down.mp3"
+  },
+  {
+    "id": "roll-down-with-back-extension",
+    "nameEn": "ROLL-DOWN WITH BACK EXTENSION",
+    "nameVi": "Cuộn xuống kèm duỗi lưng",
+    "category": "ROLL-DOWN BAR (Thanh cuộn xuống)",
+    "packId": "roll-down-bar",
+    "prep": "Ngồi hướng mặt về phía thanh roll-down, lưng-hông trung tính. Hai chân duỗi thẳng, úp lòng bàn chân vào hai bên cột. Nắm hai tay vào thanh, cánh tay thẳng.",
+    "steps": "Thực hiện roll-down, sau đó gập khuỷu tay kéo gậy về ngực đồng thời duỗi cột sống nâng lưng khỏi thảm. Duỗi khuỷu tay và hạ lưng xuống đệm. Cuộn lên trở lại vị trí ngồi.",
+    "reps": "10 lần",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Gập khuỷu tay và duỗi cột sống",
+        "url": "/images/roll-down-with-back-extension/1.jpg"
+      }
+    ],
+    "audioUrl": "/audio/roll-down-with-back-extension.mp3"
+  },
+  {
+    "id": "side-bend",
+    "nameEn": "SIDE BEND",
+    "nameVi": "Gập người sang bên",
+    "category": "ROLL-DOWN BAR (Thanh cuộn xuống)",
+    "packId": "roll-down-bar",
+    "prep": "Nằm nghiêng trên giường, cột sống trung tính. Tay trên duỗi thẳng nắm vào tâm gậy, tay dưới làm gối đầu. Hai chân thẳng.",
+    "steps": "Hít vào: ổn định lưng-hông, vươn dài người và bắt đầu gập người lên. Thở ra: gập khuỷu tay phía trên. Hít vào: duỗi khuỷu tay hạ người xuống. Thở ra: hạ người và tay xuống giường.",
+    "reps": "10 lần",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Tư thế chuẩn bị",
+        "url": "/images/side-bend/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Nâng thân trên lên",
+        "url": "/images/side-bend/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Gập khuỷu tay, gập eo",
+        "url": "/images/side-bend/3.jpg"
+      }
+    ],
+    "audioUrl": "/audio/side-bend.mp3"
+  },
+  {
+    "id": "lat-press",
+    "nameEn": "LAT PRESS",
+    "nameVi": "Ấn cơ lưng rộng",
+    "category": "ROLL-DOWN BAR (Thanh cuộn xuống)",
+    "packId": "roll-down-bar",
+    "prep": "Chống hai gối trên giường, quay mặt về phía thanh, cột sống trung tính. Hai tay đặt lên gậy, cánh tay rộng bằng vai, duỗi thẳng.",
+    "steps": "Hít vào: chuẩn bị. Thở ra: nhấn gậy xuống, giữ cánh tay thẳng. Hít vào: đưa thanh trở lại, kiểm soát lò xo.",
+    "reps": "10 lần",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Tư thế chuẩn bị",
+        "url": "/images/lat-press/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Hạ cánh tay",
+        "url": "/images/lat-press/2.jpg"
+      }
+    ],
+    "audioUrl": "/audio/lat-press.mp3"
+  },
+  {
+    "id": "press-down-with-triceps",
+    "nameEn": "PRESS DOWN WITH TRICEPS",
+    "nameVi": "Đẩy xuống với cơ tay sau",
+    "category": "ROLL-DOWN BAR (Thanh cuộn xuống)",
+    "packId": "roll-down-bar",
+    "prep": "Chống hai gối trên giường, quay mặt về phía thanh, cột sống trung tính. Hai tay nắm vào gậy, cánh tay rộng bằng vai.",
+    "steps": "Hít vào: gập khuỷu tay về phía thân. Thở ra: duỗi khuỷu tay để kéo đẩy xuống. Hít vào: gập khuỷu tay lên. Thở ra: đưa thanh trở lại.",
+    "reps": "10 lần",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Tư thế chuẩn bị",
+        "url": "/images/press-down-with-triceps/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Gập khuỷu tay",
+        "url": "/images/press-down-with-triceps/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Duỗi khuỷu tay",
+        "url": "/images/press-down-with-triceps/3.jpg"
+      }
+    ],
+    "audioUrl": "/audio/press-down-with-triceps.mp3"
+  },
+  {
+    "id": "thigh-stretch",
+    "nameEn": "THIGH STRETCH",
+    "nameVi": "Duỗi cơ đùi",
+    "category": "ROLL-DOWN BAR (Thanh cuộn xuống)",
+    "packId": "roll-down-bar",
+    "prep": "Chống hai gối trên giường, quay mặt về phía thanh, cột sống trung tính. Hai tay nắm vào gậy, cánh tay rộng bằng vai.",
+    "steps": "Hít vào: chuẩn bị. Thở ra: gập khối ra sau cho phép lò xo kéo giãn. Hít vào: tiếp tục hạ tay. Thở ra: nâng tay lên. Hít vào: nâng người về vị trí ban đầu.",
+    "reps": "10 lần",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Tư thế chuẩn bị",
+        "url": "/images/thigh-stretch/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Gập gối ra sau",
+        "url": "/images/thigh-stretch/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Hạ tay kéo lò xo",
+        "url": "/images/thigh-stretch/3.jpg"
+      }
+    ],
+    "audioUrl": "/audio/thigh-stretch.mp3"
+  },
+  {
+    "id": "ballet-stretch-kneeling",
+    "nameEn": "BALLET STRETCH KNEELING",
+    "nameVi": "Duỗi Ballet Quỳ",
+    "category": "PUSH-THRU BAR: LÒ XO Ở TRÊN",
+    "packId": "push-thru-bar",
+    "prep": "Chống gối trên giường, hướng mặt sang bên, cột sống trung tính. Một chân làm trụ, chân còn lại duỗi thẳng đặt lên push-thru.",
+    "steps": "Hít vào: chuẩn bị. Thở ra: duy trì lưng-hông trung tính, trượt người và thanh sang bên. Hít vào: trượt người và thanh về.",
+    "reps": "10 lần sau đó quay người đổi bên",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Tư thế chuẩn bị",
+        "url": "/images/ballet-stretch-kneeling/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Trượt người sang bên",
+        "url": "/images/ballet-stretch-kneeling/2.jpg"
+      }
+    ],
+    "audioUrl": "/audio/ballet-stretch-kneeling.mp3"
+  },
+  {
+    "id": "scapular-isolation",
+    "nameEn": "SCAPULAR ISOLATION",
+    "nameVi": "Cô lập và vận động xương bả vai",
+    "category": "PUSH-THRU BAR: LÒ XO Ở TRÊN",
+    "packId": "push-thru-bar",
+    "prep": "Nằm ngửa dọc theo giường, đầu hướng về push-thru, lưng-hông trung tính. Tay nắm thanh, cánh tay rộng bằng vai. Gập gối, úp lòng bàn chân trên giường.",
+    "steps": "Hít vào: nâng hai bả vai khỏi giường, kéo dài cánh tay lên. Thở ra: khép hai vai vào nhau, thanh đi xuống. Hít vào: tách hai bả vai. Thở ra: đưa vai về vị trí ban đầu.",
+    "reps": "10 lần",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Tư thế chuẩn bị",
+        "url": "/images/scapular-isolation/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Tách bả vai",
+        "url": "/images/scapular-isolation/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Khép bả vai",
+        "url": "/images/scapular-isolation/3.jpg"
+      }
+    ],
+    "audioUrl": "/audio/scapular-isolation.mp3"
+  },
+  {
+    "id": "push-thru-on-back",
+    "nameEn": "PUSH-THRU ON BACK",
+    "nameVi": "Đẩy thanh khi nằm ngửa",
+    "category": "PUSH-THRU BAR: LÒ XO Ở TRÊN",
+    "packId": "push-thru-bar",
+    "prep": "Nằm ngửa trên giường, đầu hướng về push-thru, cột sống trung tính. Gập gối, úp lòng bàn chân. Hai tay nắm thanh vươn qua đầu.",
+    "steps": "Hít vào: gập khuỷu tay sang hai bên đưa thanh về trước mặt. Thở ra: duỗi thẳng hai tay nâng thanh lên trần nhà. Hít vào: gập khuỷu tay đưa thanh về trước mặt. Thở ra: duỗi khuỷu tay đưa thanh qua đầu.",
+    "reps": "10 lần",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Tư thế chuẩn bị",
+        "url": "/images/push-thru-on-back/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Gập khuỷu tay sang bên",
+        "url": "/images/push-thru-on-back/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Duỗi khuỷu tay",
+        "url": "/images/push-thru-on-back/3.jpg"
+      }
+    ],
+    "audioUrl": "/audio/push-thru-on-back.mp3"
+  },
+  {
+    "id": "push-thru-on-back-with-roll-up",
+    "nameEn": "PUSH-THRU ON BACK WITH ROLL-UP",
+    "nameVi": "Đẩy qua lưng có cuộn lên",
+    "category": "PUSH-THRU BAR: LÒ XO Ở TRÊN",
+    "packId": "push-thru-bar",
+    "prep": "Nằm ngửa trên giường, đầu hướng về push-thru, cột sống trung tính. Gập gối, úp lòng bàn chân. Hai tay nắm thanh vươn qua đầu.",
+    "steps": "Gập khuỷu tay đưa thanh về trước mặt, cuộn từng đốt sống lên vị trí ngồi thẳng lưng, rồi cuộn xuống trở lại.",
+    "reps": "10 lần",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Tư thế chuẩn bị",
+        "url": "/images/push-thru-on-back-with-roll-up/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Gập khuỷu tay sang bên",
+        "url": "/images/push-thru-on-back-with-roll-up/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Cuộn người lên",
+        "url": "/images/push-thru-on-back-with-roll-up/3.jpg"
+      },
+      {
+        "step": 4,
+        "caption": "Ngồi thẳng lưng",
+        "url": "/images/push-thru-on-back-with-roll-up/4.jpg"
+      }
+    ],
+    "audioUrl": "/audio/push-thru-on-back-with-roll-up.mp3"
+  },
+  {
+    "id": "teaser-prep",
+    "nameEn": "TEASER PREP",
+    "nameVi": "Khởi động",
+    "category": "PUSH-THRU BAR: LÒ XO Ở TRÊN",
+    "packId": "push-thru-bar",
+    "prep": "Nằm ngửa trên giường, đầu hướng về push-thru, cột sống trung tính. Hai chân khép sát và duỗi thẳng. Hai tay nắm thanh vươn qua đầu.",
+    "steps": "Gập gối và khuỷu tay đưa thanh về trước mặt, cuộn lên vị trí chữ V với chân duỗi chéo, rồi cuộn xuống trở lại vị trí ban đầu.",
+    "reps": "10 lần",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Tư thế chuẩn bị",
+        "url": "/images/teaser-prep/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Gập gối, gập khuỷu tay",
+        "url": "/images/teaser-prep/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Nâng chân cuộn lưng lên",
+        "url": "/images/teaser-prep/3.jpg"
+      },
+      {
+        "step": 4,
+        "caption": "Thẳng lưng, thẳng chân tạo chữ V",
+        "url": "/images/teaser-prep/4.jpg"
+      }
+    ],
+    "audioUrl": "/audio/teaser-prep.mp3"
+  }
+]

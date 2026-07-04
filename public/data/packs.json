@@ -1,0 +1,27 @@
+[
+  {
+    "id": "roll-down-bar",
+    "name": "Roll-down Bar",
+    "description": "6 động tác với thanh roll-down",
+    "exerciseIds": [
+      "roll-down",
+      "roll-down-with-back-extension",
+      "side-bend",
+      "lat-press",
+      "press-down-with-triceps",
+      "thigh-stretch"
+    ]
+  },
+  {
+    "id": "push-thru-bar",
+    "name": "Push-thru Bar",
+    "description": "5 động tác với thanh push-thru",
+    "exerciseIds": [
+      "ballet-stretch-kneeling",
+      "scapular-isolation",
+      "push-thru-on-back",
+      "push-thru-on-back-with-roll-up",
+      "teaser-prep"
+    ]
+  }
+]
