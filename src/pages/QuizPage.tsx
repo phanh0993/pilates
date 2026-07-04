@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { AnswerFeedback } from "../components/AnswerFeedback";
-import { ImageGallery } from "../components/ImageGallery";
+import { ExercisePeek } from "../components/ExercisePeek";
 import { ListenImageOption } from "../components/ListenImageOption";
 import { QuestionNav } from "../components/QuestionNav";
 import {
@@ -135,6 +135,8 @@ export const QuizPage = ({ exercises }: QuizPageProps) => {
   }
 
   const options = optionCache[currentIndex];
+  const showQuestionPeek =
+    quizMode === "peek-pick-name" || quizMode === "type-name";
 
   return (
     <div className="mx-auto flex min-h-screen max-w-4xl flex-col">
@@ -157,7 +159,18 @@ export const QuizPage = ({ exercises }: QuizPageProps) => {
         </div>
       </header>
 
-      <main className="flex-1 space-y-5 px-4 py-5">
+      {showQuestionPeek && (
+        <ExercisePeek key={currentExercise.id} exercise={currentExercise} fixed />
+      )}
+
+      <main className={`flex-1 space-y-5 px-4 py-5 ${showQuestionPeek ? "pr-24 sm:pr-4" : ""}`}>
+        {showQuestionPeek && !isSubmitted && (
+          <p className="rounded-xl bg-violet-50 px-3 py-2 text-sm text-violet-800">
+            Bấm ô <span className="font-bold">Peek</span> góc phải để xem các bước, rồi chọn
+            đáp án bên dưới.
+          </p>
+        )}
+
         {quizMode === "listen-pick-image" && (
           <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
             <p className="mb-3 text-sm text-slate-600">Nghe tên động tác và chọn hình đúng:</p>
@@ -171,10 +184,6 @@ export const QuizPage = ({ exercises }: QuizPageProps) => {
               🔊 Phát lại
             </button>
           </div>
-        )}
-
-        {quizMode !== "listen-pick-image" && (
-          <ImageGallery exercise={currentExercise} />
         )}
 
         {quizMode === "peek-pick-name" && options && (
