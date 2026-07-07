@@ -26,12 +26,28 @@ export const isTermCorrect = (input: string, concept: AnatomyConcept): boolean =
 
 const BLANK = "_____";
 
+type AnswerKind = "quantity" | "angle" | "term";
+
+const getAnswerKind = (concept: AnatomyConcept): AnswerKind => {
+  if (/°/.test(concept.term) || /°/.test(concept.termVi) || /góc/i.test(concept.definition)) {
+    return "angle";
+  }
+  if (
+    /^\d/.test(concept.term.trim()) ||
+    /^Số |^Tổng cộng có \d+/i.test(concept.definition)
+  ) {
+    return "quantity";
+  }
+  return "term";
+};
+
 const escapeRegex = (value: string): string =>
   value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
 /** Che thuật ngữ đáp án trong câu định nghĩa bằng chỗ trống */
 export const maskDefinition = (concept: AnatomyConcept): string => {
   const text = concept.definition;
+  const kind = getAnswerKind(concept);
   const terms = [concept.term, concept.termVi, ...(concept.aliases ?? [])]
     .filter((t) => t.trim().length >= 2)
     .sort((a, b) => b.length - a.length);
@@ -69,6 +85,10 @@ export const maskDefinition = (concept: AnatomyConcept): string => {
     }
   }
 
+  if (kind === "quantity" || kind === "angle") {
+    return `${text.replace(/\.\s*$/, "")}: ${BLANK}`;
+  }
+
   return `${text}\n\nThuật ngữ cần điền: ${BLANK}`;
 };
 
@@ -94,10 +114,70 @@ const relatedConcepts = (concept: AnatomyConcept, pool: AnatomyConcept[]): Anato
   return [...merged, ...rest];
 };
 
+const sameKindPool = (concept: AnatomyConcept, pool: AnatomyConcept[]): AnatomyConcept[] => {
+  const kind = getAnswerKind(concept);
+  return pool.filter((item) => item.id !== concept.id && getAnswerKind(item) === kind);
+};
+
+const generateQuantityDistractors = (
+  concept: AnatomyConcept,
+  count: number,
+): AnatomyConcept[] => {
+  const termMatch = concept.term.match(/^(\d+)([\s\S]*)$/);
+  if (!termMatch || count <= 0) return [];
+
+  const correct = parseInt(termMatch[1], 10);
+  const suffix = termMatch[2];
+  const viMatch = concept.termVi.match(/^(\d+)([\s\S]*)$/);
+  const viSuffix = viMatch?.[2] ?? "";
+
+  const offsets = shuffle([-30, -20, -12, 12, 18, 24, 35, 50, -8, 8]);
+  const values: number[] = [];
+
+  for (const offset of offsets) {
+    const value = correct + offset;
+    if (value > 0 && value !== correct && !values.includes(value)) {
+      values.push(value);
+    }
+    if (values.length >= count) break;
+  }
+
+  return values.slice(0, count).map((num) => ({
+    ...concept,
+    id: `${concept.id}-d-${num}`,
+    term: `${num}${suffix}`,
+    termVi: viMatch ? `${num}${viSuffix}` : `${num}`,
+    aliases: undefined,
+  }));
+};
+
 export const buildConceptOptions = (
   concept: AnatomyConcept,
   pool: AnatomyConcept[],
 ): AnatomyConcept[] => {
+  const kind = getAnswerKind(concept);
+
+  if (kind === "quantity") {
+    const peers = relatedConcepts(concept, sameKindPool(concept, pool));
+    const distractors: AnatomyConcept[] = shuffle([...peers]).slice(0, 3);
+    if (distractors.length < 3) {
+      distractors.push(...generateQuantityDistractors(concept, 3 - distractors.length));
+    }
+    return shuffle([concept, ...distractors.slice(0, 3)]);
+  }
+
+  if (kind === "angle") {
+    const withDegree = (items: AnatomyConcept[]) =>
+      items.filter((c) => /°/.test(c.term) || /°/.test(c.termVi));
+    let anglePool = withDegree(sameKindPool(concept, pool));
+    if (anglePool.length < 3) {
+      anglePool = withDegree(pool.filter((c) => c.id !== concept.id));
+    }
+    const candidates = relatedConcepts(concept, anglePool);
+    const distractors = shuffle(candidates).slice(0, 3);
+    return shuffle([concept, ...distractors]);
+  }
+
   const candidates = relatedConcepts(concept, pool);
   const distractors = shuffle(candidates).slice(0, 3);
   return shuffle([concept, ...distractors]);
