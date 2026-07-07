@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" role="img" aria-label="S¡ Ó c¡ cánh tay m·t tr°Ûc">
+  <rect width="400" height="520" fill="#f8fafc"/>
+  <ellipse cx="200" cy="70" rx="42" ry="48" fill="#e2e8f0" stroke="#64748b" stroke-width="2"/>
+  <path d="M158 110 Q200 130 242 110 L260 220 Q200 240 140 220 Z" fill="#e2e8f0" stroke="#64748b" stroke-width="2"/>
+  <path d="M140 220 L120 360 Q130 380 150 370 L165 250 Z" fill="#cbd5e1" stroke="#64748b" stroke-width="2"/>
+  <path d="M260 220 L280 360 Q270 380 250 370 L235 250 Z" fill="#cbd5e1" stroke="#64748b" stroke-width="2"/>
+  <path d="M165 250 L175 420 Q200 430 225 420 L235 250 Q200 260 165 250 Z" fill="#94a3b8" stroke="#475569" stroke-width="2"/>
+  <text x="200" y="500" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="#64748b">Arm  anterior view (demo)</text>
+</svg>

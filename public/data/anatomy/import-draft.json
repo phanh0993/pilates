@@ -1,0 +1,638 @@
+{
+  "pages": [
+    {
+      "sourceFile": "IMG_4560.JPG",
+      "pageIndex": 1,
+      "pageType": "diagram",
+      "rawText": "OL OO LLL ee ae\n\nCac cdp dé co thé nguéi\n\n1. Cap G6 héa hoc (nguyén td, phan tt)\nNguyén ti la don vi nhé nhat cia bat ky nguyén t6\nhéa hoc nao. Co thé nguéi dudc cau tao tl 26 nguyén\n\ntt, vi du: C, H, N, O....\n\nPhan tir la su két hop cua mét s6 nguyén tu, vi du:\nnu6éc H20...\n\n=[1)> emma\n\nPILATES & FITNESS\n\n3. Cap do mo\n\n4. Cap a coquan Te bac cetren\nM6 cotren\n\n5. Cap a6 hé coquan\n\n6. Cap do cothe\n\nHOTLINE/ZALO 0393121661\n",
+      "detectedTerms": [],
+      "detectedLabels": [
+        {
+          "number": 1,
+          "text": "Cap G6 héa hoc (nguyén td, phan tt)"
+        },
+        {
+          "number": 3,
+          "text": "Cap do mo"
+        },
+        {
+          "number": 4,
+          "text": "Cap a coquan Te bac cetren"
+        },
+        {
+          "number": 5,
+          "text": "Cap a6 hé coquan"
+        },
+        {
+          "number": 6,
+          "text": "Cap do cothe"
+        }
+      ]
+    },
+    {
+      "sourceFile": "IMG_4561.JPG",
+      "pageIndex": 2,
+      "pageType": "diagram",
+      "rawText": "2. Cap G6 té bao\nDon vi co ban va nén tang cua tat ca cdc thuc thé s6ng.\nCo thé ngudi co hon 10 nghin ty té bao\n\n3. Cap G6 m6\n\n-Biéu mé: phan tach cac co quan va bén ngoai\n-M6 lién két\n\n-M6 co\n\n-Cac mé6 than kinh\n\n",
+      "detectedTerms": [],
+      "detectedLabels": [
+        {
+          "number": 2,
+          "text": "Cap G6 té bao"
+        },
+        {
+          "number": 3,
+          "text": "Cap G6 m6"
+        }
+      ]
+    },
+    {
+      "sourceFile": "IMG_4562.JPG",
+      "pageIndex": 3,
+      "pageType": "mixed",
+      "rawText": "4. Cap d6 co quan\n\nVi du: ndo, tim, phéi, gan, bang quan, thuc quan...\n\n5. Cap G6 hé co quan\nVi du: hé co, hé xucng, hé than kinh, hé hé hap,\nhé tiéu hoa, hé sinh san...\n\n6. Cap G6 co thé\nTao thanh mét co thé s6ng hoan chinh\n\nPILATES & FITNESS\n\n={ij=> emma\n\nHOTLI\n\nINE/ZALO 0393121661\n\n",
+      "detectedTerms": [
+        "Vi du",
+        "Vi du"
+      ],
+      "detectedLabels": [
+        {
+          "number": 4,
+          "text": "Cap d6 co quan"
+        },
+        {
+          "number": 5,
+          "text": "Cap G6 hé co quan"
+        },
+        {
+          "number": 6,
+          "text": "Cap G6 co thé"
+        }
+      ]
+    },
+    {
+      "sourceFile": "IMG_4563.JPG",
+      "pageIndex": 4,
+      "pageType": "unknown",
+      "rawText": "09 3H\n\nSNONX 3H\n\n3H\n\nHN NVHL\n\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4564.JPG",
+      "pageIndex": 5,
+      "pageType": "unknown",
+      "rawText": "Tu thé giai phau\n\nG tu thé gidi phau co thé duing thang trén\nhai ban chan, hai tay buéng xudi, mat va\nlong ban tay huGng vé phia truéc. Cac vi tri\ntuong quan cla cau tric giai phau dudc xac\ndinh theo ba mat phang chinh trong kh6ng\ngian.\n\nalt= emma\n\nPILATES & FITNESS\n\nPhia trudc\n\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4565.JPG",
+      "pageIndex": 6,
+      "pageType": "diagram",
+      "rawText": "Cac\n\n1 MP nam ngang (transverse)\nC6 v6 sé mat phang nim ngang chia co thé\nthanh hai phan trén va phan dudi\n\n2. MP dung ngang (frontal)\nCo v6 sé mat phang ding ngang chia co thé\nthanh hai phan trudc va phan sau\n\n3. MP ding doc (sagittal)\n\nCo v6 s6 mat phang dung doc chia co thé\nthanh hai phén trai va phan phai\n\n=f1j= emma\n\nPILATES & CITNEBS\n\nTransverse\n",
+      "detectedTerms": [],
+      "detectedLabels": [
+        {
+          "number": 2,
+          "text": "MP dung ngang (frontal)"
+        },
+        {
+          "number": 3,
+          "text": "MP ding doc (sagittal)"
+        }
+      ]
+    },
+    {
+      "sourceFile": "IMG_4566.JPG",
+      "pageIndex": 7,
+      "pageType": "unknown",
+      "rawText": "-Chia co thé thanh phn trén va phan du6i zs Bu B | d\n\n-Hanh d6ng: Xoay van\n-Vi du: xoay tay vao trong, xoay tay ra ngoai, van cot Rag\ns6ng, giang/khép vai ngang... : .\n\n™ij> emma =, alti\n\nPILATES & FITNESS\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4567.JPG",
+      "pageIndex": 8,
+      "pageType": "unknown",
+      "rawText": "-Chia co thé thanh phan truéc va phan sau\n-Hanh G6ng: Giang, khép, nghiéng\n-Vi du: giang héng, khép héng, nghiéng céts\n\nOng sang bén\n\n=ftj= emmo\n\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4568.JPG",
+      "pageIndex": 9,
+      "pageType": "unknown",
+      "rawText": "-Chia co thé thanh phan bén trai va bén phai\n-Hanh dong: gap, dudi\n-Vi du: gap cot s6ng, dudi cét s6ng, gap goi\n\nHOTLINE/ZALO 0393121661\n\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4569.JPG",
+      "pageIndex": 10,
+      "pageType": "unknown",
+      "rawText": "4\n\n(9p new Am enya)\n\nGuonx neyd 1e19\n\nOH 3H ‘Ill\n\nat\n\nZz\nG)\na\noO.\nz\na)\n\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4570.JPG",
+      "pageIndex": 11,
+      "pageType": "unknown",
+      "rawText": "1. Cau tao xuong\n\nC6 206 xuong chinh trén co thé dugc chia\nlam hai phan:\n\n-Xuong truc: gom xUGNg SO, xUGNg Cot s6ng,\nxuong sun, xuong Uc\n\n-Xuong treo: la phan con lai (xuong canh\ntay, xuong dui, xuong chau...)\n\nNgoai ra, trén co thé con nhiéu xudng vun\nnim rai rac khong dudc tinh la xudng chinh.\n\nHOTLINE/ZALO 0393121661\n\n",
+      "detectedTerms": [],
+      "detectedLabels": [
+        {
+          "number": 1,
+          "text": "Cau tao xuong"
+        }
+      ]
+    },
+    {
+      "sourceFile": "IMG_4571.JPG",
+      "pageIndex": 12,
+      "pageType": "diagram",
+      "rawText": "Phan loai xuong theoh nh dang\n\na\n\nSh\n=e,\n|\n\n4\n\ni\n\n1.Xuongdai - long bone ¥\n2.XuGngngan — short bone\n\n3.Xuongdet - flat bone\n\n4.Xudngbat dinhhinh — irregular bone\n5.Xudngvling — sesamoid bone\n\n« if\ncot\n\n7\n.\n\n",
+      "detectedTerms": [],
+      "detectedLabels": [
+        {
+          "number": 1,
+          "text": "Xuongdai - long bone ¥"
+        },
+        {
+          "number": 2,
+          "text": "XuGngngan — short bone"
+        },
+        {
+          "number": 3,
+          "text": "Xuongdet - flat bone"
+        },
+        {
+          "number": 4,
+          "text": "Xudngbat dinhhinh — irregular bone"
+        },
+        {
+          "number": 5,
+          "text": "Xudngvling — sesamoid bone"
+        }
+      ]
+    },
+    {
+      "sourceFile": "IMG_4572.JPG",
+      "pageIndex": 13,
+      "pageType": "unknown",
+      "rawText": "-Nang d@, bao ve Co thé: Hé thong xudng bdo vé cac co quan trong co thé:\nnhu la tay song nam trong 6ng sOng, nao bé nam trong hép so, hé tuan hoan\nva ho hap nam trong long nguc.\n\n-van dong: Cac xuong dai ndi vdi co bap bang gan. Do cac co bam vao\nxuong dude coi nhu hé don bay dén ti cdc khép. Dudi tac dong cla he than\nkinh, cd co dudi lam cac xudng hoat dong nén xuong dong vai tro chu dong\nkhi van dong. Cac xuong néi vdi nhau 6 khép bdi day chang.\n\n“San xuat mau: tly d6 cla xuong la ndi san xuat ra héng cau cho mau.\n\n-Du tra: Xuong giéng nhu mot chiéc kho, giuip dy tri lugng phét pho, canxi\nva céc chat khodng thiét yéu dé co thé st dung moi khi can dén.\n\nriLeTEs & FITNESS\n\nwe | emma\n\nACTUNE TALO SESELTISOR\n\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4573.JPG",
+      "pageIndex": 14,
+      "pageType": "unknown",
+      "rawText": "-KhGp la diém két néi\n\ngitfa hai hoadc nhiéy xuong\n-Vi du: Khép c6 tay/cé\n\nchan, khép vai, khép héng, khép g6i,. (sz\n\nS\n\nSs SS)\n\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4574.JPG",
+      "pageIndex": 15,
+      "pageType": "unknown",
+      "rawText": "jai khGp theo tam van\n\nKhép déng Khép ban dong\nCu dong han ché 6\nPhang, hep. Giita hai dau\nxuong cé dia sun\n\nHai dau cé Iép sun tron,\nbéng. O giita cd dich\nkhop va day ching\n\nPILATES & FITNESS\n\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4575.JPG",
+      "pageIndex": 16,
+      "pageType": "unknown",
+      "rawText": "=ft)> emmo\n\nKhép hoat dich la loai khép phé bi\n\nén nhat trong co thé.\nMot d&c diém\n\nau tric quan trong cua khép hoat dich\nkhéng thay 6 khép xo hodc khép sun la su hién dién cua\nkhoang khép.\n\nKhOng gian chita Gay chat long nay la vi trima cdc bé\nmat khép cia xUOng ti€p xtic véi nhau.\n\ngidp cdc xUOng clia khép hoat\nGOng tron tru véi nhau,\ncla khép,\n\nHOTLINE/2a1o 0393121\n\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4576.JPG",
+      "pageIndex": 17,
+      "pageType": "unknown",
+      "rawText": "A\n\n6 loai khép Hoat dich\n\na) Pivot joint: khép truc\nb) Hinge joint: knép ban lé\nc) Saddle joint: Khdp yén ngua\nd) Plan joint: khat phang/khép truot\ne) Condyloid joint: Khop L6i cau\nf) Ball-and-socket joint: Khép 6-cau\n\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4577.JPG",
+      "pageIndex": 18,
+      "pageType": "unknown",
+      "rawText": "a) Khép truc\n\nKhép gitte aét s6ng c61 (C1) va a6t s6ng c6 2 (C2): C1 quay quanh C2\nGE cho ta c6 bién 46 quay dau lén\n\nHOTLINE/ZALO\n\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4578.JPG",
+      "pageIndex": 19,
+      "pageType": "unknown",
+      "rawText": "Khép khuyu\nKhép ban lé chi tao chuyén dong gap va dudi a\nKhép goi\n\nWOTUNE Tce USSR TeeS\n\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4579.JPG",
+      "pageIndex": 20,
+      "pageType": "text",
+      "rawText": "Khép gita ngén Cai va C6 tay\n\nChic nang: Gap-duéi, dang-khép, XOay nhe (nhy caém but),\n\n",
+      "detectedTerms": [
+        "Chic nang"
+      ],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4580.JPG",
+      "pageIndex": 21,
+      "pageType": "unknown",
+      "rawText": "120\n\nKhép gidla dét chan va cac d6t cé tay\n\nBemma\n\nPILATES & FITNESS\n\n9]\n\n4\n\nLeft facet joint\n\nKhép gid cac mom phy cla 2 Ot sOng lién ké: ching trugt\nqua nhau dé tao chuyén dong gap va dudi cot song\n\nHOTLINE/ZALO 0393121661\n\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4581.JPG",
+      "pageIndex": 22,
+      "pageType": "unknown",
+      "rawText": "e) Khép loi cau\n\nmetacarpal metacarpal\nphalanx\n\nCho phép cac chuyén dong lén xuOng va sang hai\nbén, nhung khéng cho phép xoay\n\n=f emmo\n\nHOTLINE/ZaLo 0393:\n\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4582.JPG",
+      "pageIndex": 23,
+      "pageType": "unknown",
+      "rawText": "f) Khép 6-cau\n\nHumeral\nhead (ball)\n\nBall\n\nqua cau\n\nHumerus\n(arm)\n\n| Khop héng Khép 6 chao - canh tay nam 6 vai\n\nfe a) emma HOTLINE/ZALO 0393121661\nPILATES & FITNESS\n\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4583.JPG",
+      "pageIndex": 24,
+      "pageType": "unknown",
+      "rawText": "OWLS eaflal\n\nT99TZTESEO OIWZ/SNITLOH\n\n‘doy nyd dé 1eq uep 14> @] enp ap 2nuw enb Aey ay uey dea Buep\nip uo yun) eA JeOY Yur] YUN emis Zueq ued 291A ‘sayeyg Bury\nuno uey 1913 yuip 22x 2} yuIYy? doyy eND 3udp UeA Wel og\n\nwey 26np Vtg WEYL UD ATH “Bud uENb e) doy 191 9 Yu\ndoyy 1yy ew 293 2) e1y8u Yuip Ionp doyy Sup ueA Wey\n\n-yuip yuyu Sueyd yew JW Suo. Op ualy IAYY doyy yoW end 3ugp UeA sueu ey nyu\n“neyu ey) Sugny neiyu cay) 26np 3ugp ueA\n\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4584.JPG",
+      "pageIndex": 25,
+      "pageType": "text",
+      "rawText": "‘Sugp ny}\n\n3ugp upAny> Kew OW 2EOY Ieyy 19N3u naiyu\n2204 10W 19g doyy oy> Sug Sunp de 26np Suop\nugAny> (WOwd) 3ugp ny Suop ugAny> 1A weug\n‘0.1 OY\n\n1203U ag IN] 92 Sugyy ‘dey 1eq aly 2AYI 1oN3u\n!9q UeO} UBOY UsIY 3AYI JOnp doy end Suop\nugAny> (WOxY) Su9p NY? Sudp ugAny> 1A Weyd\n\nWOUd - 3uop fy\n\nSWS eal tf\n\nWoOwv - Zuep ny>\n\n",
+      "detectedTerms": [
+        "WOUd",
+        "WoOwv"
+      ],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4585.JPG",
+      "pageIndex": 26,
+      "pageType": "unknown",
+      "rawText": "OWWS ow \\ |\n\nSun) yeur EO en Sun) 2ABu ueop '9> Bugs Yop ueop M Nyy ‘Bugs 199 en Bu9p ugAnyp 329 3404} y24u U9} Op 309\n\nOY\n&yY—\n09>\nGe\naA\na)\n\nNOLWLOH TWNidS NOIXT14 TWHALVT TWNldS NOISNSLXTWNIdS = NOIXT\nBUlds JEQUIN] PUL IJIesOY} ‘[ed1AJ99 Ul JUWaAOW jeulds Jo sajHue wnwixey ———\n\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4586.JPG",
+      "pageIndex": 27,
+      "pageType": "unknown",
+      "rawText": "BAIN\n\nOWWS aAtio\n\n02T - OLT\n\n)\n\nNOLLWLOU TWNUSINT / TWNUALXG Noonaay NOLLONGav NOISNIDG\n\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4587.JPG",
+      "pageIndex": 28,
+      "pageType": "unknown",
+      "rawText": "CUS eal th\n\n(elase}) JEW *\n(ageyy1e9) uns «\n(uopuse}) ued «\nQuawesi) 3uey> Ae »\nJaiq ugAny) 19} Ue!) OW\n‘(new) yeyd ugAny> Ue, »\n‘(ow gw) 3udn) 3ueU 113g »\n‘(Zuonx QW ‘QW OW <p IA) BA Oeg *\n“Q4} 09 N41] Ned Op BUEN °\n‘uenb 03/QUW 329 19U 19> ©\n“yusyd sueu INYyD\n\n13 NIT QW 22 ‘AI\n\nmee a Y,\nRe\nse\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4588.JPG",
+      "pageIndex": 29,
+      "pageType": "unknown",
+      "rawText": "e6e0 01¥2/2NITLOH\n\nues uoY 104 UEP ¥ Suey> Aeg ‘onwW end 8u9p uaAnyo IA We\n| 88 ‘dou 229 183 Suonx 10n Suonx yay u\n\n2A waiyu We) ‘(Ip\n© Rungk YD 274 NED 2 291g 2Bp yeyD 491 UN] OW 120) 10Wi EY\n\n‘Bugs 199 on apw pnb uag\n\n6uary6u Bugp ugdAny 349 uby dm6\n‘Bugs op ona 2} ug! BunGu wow 29>\nm6 1ou ‘Gugw ‘oyu 6uny2 Agp 202 2}\n\nSSIOASUBIUE}U] A\n\n|\n|\n|\n}\n|\n\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4589.JPG",
+      "pageIndex": 30,
+      "pageType": "unknown",
+      "rawText": "‘dou 9 3uop ugAnyp eJ 08} 9p 12] 09 14 99.) any ugAni} dniz ued\nSuppx 190 09 10U 43 12A 99 ‘181g IEP 19> Val] QUI 120] OW e} (uopua} :yuy ug) ued\n\nBuanx 19A\n29 Jou UE\n\nBueyo Aeg eA uep\n\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4590.JPG",
+      "pageIndex": 31,
+      "pageType": "unknown",
+      "rawText": ": a O1¥Z/3NITLOH\nj |\n'q\n\nop\n\niq ngu WeYyd yes hyd 194 U2U Uls enb ' SiS adft}e\n\nnes oays\nSuey Aeq\n\n3u01} uaq\nBueyshe\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4591.JPG",
+      "pageIndex": 32,
+      "pageType": "unknown",
+      "rawText": "‘ep ‘ues ‘Suonx nyu ay} 09 Zuo} DeYyy IN4y Ned ed IMA eA NEU 19A 99 Og 322 194 U2\nude2 ueSu ‘yuenb oeg ‘ep Sunyu Sug! ‘81q Ip 194 ua! OW do} OW e] (e/9Se; :yuy 3Ua!}) 99 2eW\n\nsnizedoss “ws\n\nCEU EE ae\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4592.JPG",
+      "pageIndex": 33,
+      "pageType": "unknown",
+      "rawText": "“Suonx o> 10) OBA Nes Sunsy dey ued !Y> UIA ugAn) ueny ‘sajey1d 3u04) 3u9p ueA ap naiy why 1A weyd Zuoiy\n-yueun Sugnn 1onBu gur 62 SUubM 10Yy %OS-Or Suedyy wigiyd \"YeyU oY Yur o> 180] &] Aeq (A na) 8A BUOD Yury VEY\ndy end ualyy NeIp As 1ONP IY Od EA ‘ued enb Suonx oeA Weg ‘IA Ugly YU} 1ONP 4 Sue3u uen 99 99 QW 2] 3u9Nx 9D\n\nups} 99'€\nsuonx 097\nwi 99T\n\n(99 120] € 9D\n\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4593.JPG",
+      "pageIndex": 34,
+      "pageType": "unknown",
+      "rawText": "OWS eat\n\n|\na or Dee eee\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4594.JPG",
+      "pageIndex": 35,
+      "pageType": "unknown",
+      "rawText": "26s Gugnp 925 ugyu 925\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4595.JPG",
+      "pageIndex": 36,
+      "pageType": "unknown",
+      "rawText": "(. lop Bugyy\n<—_\n\nsosny e11eq\n(RUA\n\n1) ugBN\n\nop Aewy 9 rep nary\n\n!eP Op lop\neu Bugyy Bunyu 09 05\n\n1eP 09} iq Bunyu 02 p>\nup6u 3nJ 29 12] 09 95\n\nwaIp 22g\n\n4oI}90.AU09 IAAWIOS]\n\n4oK20AUOD IujUaI0z\n\nwo}}90.U09 ILnWEIUOD\n\nyuy Buag uy\n\nOWS et ife\n\nSupny 6ugp 9307 \"¢\nwex Aj 93 05 2\nwey Buep 93 05 *\n\n92 02 1207\n",
+      "detectedTerms": [],
+      "detectedLabels": [
+        {
+          "number": 1,
+          "text": "ugBN"
+        }
+      ]
+    },
+    {
+      "sourceFile": "IMG_4596.JPG",
+      "pageIndex": 37,
+      "pageType": "unknown",
+      "rawText": "“(hea Sued) Aend Suonx e) Nep iyu 0 end uel Weg “AP IA @\n-you 1onSu weur ex Sugnyy (02 02 1uy uBANY> tp) 09 ND Sudp Ip Weg Walp e7\n- (uonsasu)) ue) Weg “s @\n\nyen Supnx e) nep iyu 03 end AN UANSN ‘AP 1A @\n-upu tonu ueu2 ues Sugny) ‘(02 62 !yy UBANYD 1p 3!) PD END Yuip 92 Weq Walp eT\n(ui3110) AQ ugAn3N yo\n\n“key nAnyy GES Su0.9 nep iy 02 643 QY Ae} YUP? OD “APIA ®\nwou enb néiy “nn uo es UgIp Sudp UBANYD BP UA NY? 09 OY? WEY} O13 QY 9? eT\nQsi31auAs) 27) daly 0D '€ @\n\n‘(eAnyp 1onp) UEA 1p 92 e] NEP We} O < Ae} NAY des IY -AP 1A @\n“Bugp ugAny>\n\nSueg ued en qos we!y nis ‘UeA NY? 99 19A 12) 2On8u Zunp 32} 09 9) 27\n(isluodequy) UeA 19D 9D ‘7 ©\n\n“UeA NYD PD e} Nep iyu 92 < Ae} NANYyy des 1yy :AP IA @\n\"@y} ND De] Sugp 1OW Ua!Y IY} YUY> 09 27\n(jsiuo3¥y) UA NY? 9D ‘T\n\nayosnuy\n\nsyreypesoyyoesq\n40 uu\n\n(Ae, yued\n92 end An ugAn3u)\n\nueA 1op 02 :nep we} OF\n\ny\n\nAe) nAnyy ded :3u0\n\nSS3NLI4 9 S3LvTI4\n\nOWWS\n\nasm\n\n‘sHeIpesoyyoesq\n40 UoTeSU}\n\n(Aeq yue\n92 end ue} weg)\n\nq 03 Ae} yued OD\n\nGA NYy> 02 =nep iyu o>\n\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4597.JPG",
+      "pageIndex": 38,
+      "pageType": "unknown",
+      "rawText": "SS3NLI4 9 S3LvIid\n\nT99TZTESEO OIVZ/SNI NLoO#\nSUS ealal\n\n(1s — d1eIoMoIndeog) ou Bug] — rea eq doy\n\n(Os — sejnorAgjoourers) uop — on dowry\n\n(OW —22IMoIAR[POTWOIOY) wop-Suno doyy\n\n(HD — ereumyous|D) Aer quo — ovyp 9 dows\n\n-doyy uog wio8 dé onyd 94 191m o6np doy 194 Hs eT “Suzyo Aep\n\nga eS ‘09 DED LOA Bund UOp SUONX EA TPA Suonx *£e} yuRO Zuonx :3uonx eq 081 oOnp rondu eA,\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4598.JPG",
+      "pageIndex": 39,
+      "pageType": "unknown",
+      "rawText": "“UO WeU ‘JA BueU ‘Aep Bu0YD ‘Ae} O13 NYU\n8udp Joy ed Bus} 181q Dep ‘uas) 1YD END ep 19}\n1€0y Yul] Op oeA ueYd dos ‘ten doyy e9 end 20y\n99 ue} ugu e] Sunyu 3ugw An} 1eA eg Sugny <=\n\nZ ugp Z ugNs BuONx nj ‘2NZu Zug] nes 1w 9 WEN\nUn iA\n\nSuQW eA 8udi ‘2213 we} YulY ‘13g\n\n:3uep yulH\n\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4599.JPG",
+      "pageIndex": 40,
+      "pageType": "unknown",
+      "rawText": "earrenseg OTWZ/FNTTLOF\n\n‘wain ap ‘Nep ap ‘ya] eP 12h — aoyy Aeox doy? 92 Buoy <\n‘doyy 381) 04D Suoyy ‘1a equuip ugn!s e1yuly> unp 2) 92 Agu 92 229\n\ndo\n‘aq ui 09 eA tes 1ONP 2 4y@3 ugiy 0 ‘YEA 1ONP 09:2] OP rea doyy en 99 F w93 WOUU e] (yynd yoyey0y) Aeox doyd\n\nDONYL LW\n\ngn p ,\n| avs 1yW | eas DO NUL LYW — IVA dOHY\n\nrea Bupnx\n\nye6 ua 9) reatonpp)\nKeox doy en? 9222)\n\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4600.JPG",
+      "pageIndex": 41,
+      "pageType": "unknown",
+      "rawText": "yeyu su, ;\nIngp enb Ae Sugu ap 1en eq 3uonx ton doy ioyd ea)dinbe ti toes\nog s~/e 4 ug!\n\nYuu JOY Yury Yuyy 95 dpyy 21 1A yay\nUO UgAny> dayd oys doyy ‘Sueu any\n\nps yamine\nwwe? se\n\niV\n\ndauy\nteosu Aer Su0 Ai |\nit =\nNotlwioa at sour\noval) C0300) a,\nTNX We\n\ni)\n\nS]UAWAAOU! Japjnoys a1seg\n\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4601.JPG",
+      "pageIndex": 42,
+      "pageType": "unknown",
+      "rawText": "Sunp 1ea eq Aeox eA Yup Ug Ye 304 <\nyuly ayy ‘e304 ‘sareyig der 14x A NYyD ued\n\n‘1eA BUOp UA 3U0I] NBA 3914} Q4}\nlea ugp 1€) Sunyu ‘(doyy yrip ‘doyy uns ‘doy,\noeg 02 3ugy 1A) As 324} doy e] 1eyd Suguy\n\nG2) ugt] QW\n‘93) wa gw do} 3QW enb Sugu} ‘(ugNs SugNx)\nangu 3ug) end nes yuey} eA JeA eq Buonx\nend 29nd} Jew enis Sueu Inyd 39} us!) 19W e7\n\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4602.JPG",
+      "pageIndex": 43,
+      "pageType": "unknown",
+      "rawText": "_ Jeujnosewiny\n\né\n&\ni\n5\nE\n\n| tong\nNOISN31x4\n\nquof\n\n>rnrou oan 3100 (, 2 a) <x\n\n9W jY> ‘end 9] Ueq nyu\n\nnn - Ae} yue> douy, dey\nNOIX314\nsnJowny\nAe} yued Supnx\n\nUL |\ni\nS|\n(en6u - des) fey Bue> eox\nyu Aeox en 1onp - dé6 A oH\n\nAey nfnuy 1gnp - de,\n\n6ugu sny>\n\nows etft}=\n\n(wigu ugia Bugg uen 9cez\nSugmp) As uaq Supys hep yrey «\nful - Aenb Bupnx £28 “dou WIL\n\nAANWY Buon Buna nep {mogys\n$42}]08) Buon Aer nAnyy ue? WRIA ©\n\nnfnyy 102u Buna nep (aogya\nsiuual) ou Ae; n4nyy ue wisi, ©\n. 1983 2uonys Suopys ups\n\n</\n\nGun0f yond) oA (Goujnorpas jounrasd) ug6 Ain - hen doxsy\n\nKeox ug} - a] ueg (Gorpasosaueny) Kenb ~ Kez ques doy\n(ounossum,) fix - key yuxe douy\n\nwo> dows ueyd ques\n\nGuiof abun) a veg\n\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4603.JPG",
+      "pageIndex": 44,
+      "pageType": "unknown",
+      "rawText": "TO9TZTESEO OWVZ/ENIULON\n\n«TZIYD 19p\ndni3 ef'3u ued doyy 92 1A 191g 2ep 122 UOBN\n— a] ueg doyy oyu ughny> ugin Ae} u9ZN\n\n— ned 19] doy oyu yoy Yur] Ae} 95\n\n20W ne\nneue wol @ (saSuejeyd) Aey ug3u Zuonx yT\naqeyde> uingenbitt r )\noogil @ gan ° (sjedieseyaww) Ae} ueq Suonx ¢\nees ® Be pi! i © (sauog jedie3) Ae} 93 BuoNX g\n\n\"yulys WwoYU € YUeYI eIYD\n\nssuog yedues ‘key ueq 19 3u01} SuoNXx ZZ 99 3ug2 sug)\n\nKey 99 Bupnx 22>\n\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4604.JPG",
+      "pageIndex": 45,
+      "pageType": "unknown",
+      "rawText": "OWS eat\n> BuoNx Yop ¢-¢\nXAD509\nWNYdvs\nlun? Suonx yop ¢\nSuh we Bags \\op's\nneys Zupnx guns\n\n19U 12) ‘UpY Yuip Ug Yyus} ZueW {ND ZupMx ‘und SuoNy-\n(tony doyy) Sueyd doyy 160 2\n\nBugs 1op end doyy De9 143 3s doyy 120) e] Z-T9 nul\n(92 3ugyy Suns\n\nyd 3upnx ‘Bund 3upnx ed ea Wap eID 99 ZudYy Z9-1D\nenig) wap elp €z 3uonp Zugn} “Bugs yop 7z wos ‘Suop\nUeA 3U0J} YUIYyD UBOD € NYU 103 IONp ue Nep ueop ¢-\n(yuty 3u013 nyu) ueop ¢ 93 Sugs 10D-\n\n9NQS LOD SNONX OVL NYD\n\nDISVYOHL\nSu Bugs 10p ZT\n\n5 TVDIAW3D\n92 3u0s 10p £\n\nBus 302 8uNNX\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4605.JPG",
+      "pageIndex": 46,
+      "pageType": "text",
+      "rawText": "OWS eat\n\nopny oop Sugyo Avg\ndowpy ovq Suzyo Sed\n\n-— nes 20p Sugys Ava\nSpnun 26p Sugy> Aeq\nSugs 1op uel8 via\n\nnes oop Sugyo seq\n\nSun] gy) Bugs yop URL\npn 2p Sugy> deg eS\n(upyd iow pw) veg douy Suedu neu Suey Req\nwigs doy ero doyy oeg\n\ntonp doyy wow\n\n> BUOS 109 9 BuBYy> Ae\n\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4606.JPG",
+      "pageIndex": 47,
+      "pageType": "unknown",
+      "rawText": "UENY> 2fu3 aA ayy p> 099 ns Ce Kep AYU 1QY VED Bugy> keg\n6ugs Guo yuenb 0eg ,UeO} ue Aep, nyu on Jen 6uog\ngO} Ue UeY 1916 BuoR 3604 Yul} Bugs 300 dayd oud\n\n2pul enb 1onp - dé6 ‘oda 3Ony Bugs 19p ug6y\n\nROW\n\nyup Bung ain my stud 101\nUupj uEtA 24 — Bugs Xn3 6a opg “¢\neo} ue Budp ua{ny> 6n on Z\n\nBugs 169 ann neo yuip uo p15 +1\n\nyup Burp sey\n\nBues 36> yuenb 6uey> Aep Guow dy Bueu ony? Bue,\n\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4607.JPG",
+      "pageIndex": 48,
+      "pageType": "unknown",
+      "rawText": "“Buon suns yuly vey} 94\n\n20 en- Sugs doy ‘Wap eID oY SuoW UsU = SUOS 10P 10W\n~8uQp\n\nues JOP WoW — 9A 0eG 10D Sund — 3A) Niyd JOP UeUL, <=\n\nsueq\nSuey) n13 ‘Suop no dniB Sugy> Aep—9> weg Ipu eT +\nSuQp ueA OYD 3BYD Suna Zunyu yeoy yur IN OBL °\nBugs An) 9A 08g *\nay} p> 3upn) 3u0.3 Op Sugyd °\n:BuQs JOp OW end ay) Sug} Sugu INYD r }\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4608.JPG",
+      "pageIndex": 49,
+      "pageType": "unknown",
+      "rawText": "Suu 2eu Buoy Key 93 “Ke6 ten neg\nfqeow weyu gp ‘ueyD ue] — Buow neg\n\nBupa eur 2816 wes ‘Bun; ey neg\n\nAeox 3y2 wey 7 we nep ‘99/Bun] 6unD\n\nwa 1es ip Buep ‘Suo2 Bugs 369 ‘1 y987\nSuo> Bun; Sun) em6 nep ‘uo te,\n\nSudp wer stp uey ‘ueYy>/Ae 21 ue] Neg\n= 486 Bupma udty naig\n\nan\nAy Hes 19Bu ves 106 Bunp roy usip n>\n\n6uow\n62 ugi6 nai ‘uend in nes 1A ne] 196N)\n\n396u\n49 enbu ind ‘1p ny 1es Bugu 38h Buen,\n\n204 08] TEP O94 247.1 1es “BuO UeAy\n\nuaXnx\nSuonin ueq | en Buew “y>3) 196N\n\n20/3 2h Op tea “ne| NED IND\nnaiyu de6 in ‘943 ny 1es 981A WeI/1Q6N\n\n‘yuyy ueyu UaknBy\n\nAe6 yea 09 Buny> 164\n\n6\n\n20} Yup UeW - a] yuIY p>\nBugs r9p ony,\n\nBugs 162 eoy troy,\n\nBugs 199 034 Guo\nuni 25\n\nwep eyp ja yeouy\nAy yudg\n\nIVS N4ND IOHL Od ONOQS LOD ATHN3S Lyl WOL 5\n\nS3UQS 399 A] yusg 22D\n\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4609.JPG",
+      "pageIndex": 50,
+      "pageType": "text",
+      "rawText": "sess\n\na OWWS aft\n\noo 8 8\n\n8 GAS\n\nyorqugwosiayeoy inzeou; wep eipyurud —equieold\n\nuBap 1219) ueop 1219 ueop 1219 ugop 1219 ugox Bugye nu enb udp ugknyp vey 1916 dmb 16s BuQA Gus 12 quip up >\nW3G VIG iA LYOHLHN3 VNO NZL N3IL uaua iq 6uote enb sp yurt ueus — pu ddu Ua OI ID yop 292 enI6 wer Bupowy in Ang\nyew waus Buaiy6u ‘Aeox onp ‘de6 Buos 202 dgyd oud Budp uzhnip — oy YET Z\n\nAequ ‘Aeyp Gunp 1a ugy> werd — AI Aus dey Agyu UeuN: 29s Gugy> — 20x WEI T\n\ndB up6u yyy 1215 qu Sugu 274\n\ndG WIG WN ONYN 2NHD ©\n\nCOO ——— TC\n\ni}\n",
+      "detectedTerms": [
+        "COO"
+      ],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4610.JPG",
+      "pageIndex": 51,
+      "pageType": "unknown",
+      "rawText": "SUOp ueA ayD uey BAnep hed Opn ve\n4} De0y yur\n\nus Any 3é0y Gury Yeu 31 oen da yay Ae3 ‘IDs Suon\n{4d “yD8} iq Wap eID Su0y ag Aeqit\n\neyu 3uen yun ey Qsip Palelussy}) wep exp in reouy\n\n(Suesu 39 sur oom Urqu) Suonx vay 2 oT\n\nMPT 1s aeotp iq tp exp ea Suonm qq wp eq\n\n> 02q9 iq «\nqury uetp Aeq\n\nqury upg) Agp dp ueyo\nAgs Ulsp eIp fa POUL\n\n—\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4611.JPG",
+      "pageIndex": 52,
+      "pageType": "unknown",
+      "rawText": "T99TZTESEO OWWZ\n\n“213 Qh doyy Zuonx Ay yuag u- ep u-\nSuop Suegu 3ugs 3Ond oY? Bue} UQN = yuew 2ouy Bugs 102 10W\n\nayy my ow Buon 34} 92 Og ue0} 37] NiyD\nyuip ug en 7204 YUH] Suop ugAny> oel\n3uon Suns yur UeY By 2 O88 *\nSueg ue? — 24} muyAng «\n+3u02} JOYD Us} Q1} !2A Suop ON\n“Bugs ns eA e183 wed ‘Bugp UeA Ug! NIP we} Suny — 3ugs\nAny uep 3ug 2] Ug? ew ‘g4) 99 OD Sugy? IN} 2) 14> Suogyy Sugs 10D\n:Bugs 309 end Suoy uenb wel @\n\naaa a\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4612.JPG",
+      "pageIndex": 53,
+      "pageType": "unknown",
+      "rawText": "nes in Jou) 2] Nau Yury UeY}\nOBA W8y} UsY> ‘Wap eID end nes ueyd oer da we) aq :op Aq °\nyeny} Ay !es We) Neu Suiwwims ‘arig uems ‘APIA ©\n(uo!suayx3 4equIN] 2) 331g JEP — Uo!sue}xe1edAH}) UN enb ayy NLS\n\"yDeD IBS Bugs 09 ue! Ody Ae3 ap\n‘e0y} NP SUOYY 19) NBU Sun] Jy} eA 3uNq 99 ug} 12) Suey :op A] +\n“UBUD 12Y SB]IIID 327 ‘YyI}28135 327 a}qGnoq :Ap IA\n(syji] 329 @)gn0q) epSu weu 14x In] Bund ueY 1eYy BUEN \"y\n-upy 3ueu wep elp 304}\np An3u Sue) we] ap ‘Ieyu weaiy Anzu doy 194 As e] Aeq:op Ay +\n“ugip 92 senbijgo ‘sso1D-ssiu> APIA ©\n(pauiquioD uo12}0y + UOIXe]4) 194} Bug Aeox — deo *€\n\nSUIS eal\n\n‘da uayp ig yury vey 94 YIU\nYo!y BA Wap ep ua] 49] IM) de 08} gyi 9D Nes Aeoy ‘op A] +\n“MA1ISHIOD ‘MES ‘IsIM| BuIds ‘AD IA ©\n(uoneyoy yeuids) yuew enb 3ugs 199 Aeox 7\n‘(d23 Sugnyy ia yeoy3 1ou — TS-Sq ‘S1-77) Sun} yeur\n3unA 9 191g Dep ‘wap ep Ua] IM) de 3ue} We} Nes deg :op Aq +\n(UgIp 92) pespUNH ay ‘1as2a| “13AQ WY ‘GN TO\" APIA +\n_ (nes enb uorxa}4) Jnw enb Zugs 199 deg T\n2Bud.} ue2 J20y Yyues} UgU\nBuop ugdny> ¢ e} Aep long “3unj 1242 Suna 2] I9Ig 2ep “Sugs 192\nug) 2f) de Bue} yued Wweyu ‘yUIYy> NgIp 2oy S42 UeY Ue? SeI2lId\n3u01) Sup uaAny) Qs OW 9d ‘Wap ep iA Je0U} iq Suey yeu, !4yy\n\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4613.JPG",
+      "pageIndex": 54,
+      "pageType": "unknown",
+      "rawText": "T99IZTESEO OIVZ/SNLOK\n\nseasonp O11 gu “hey nfnupy 199g\nrea\n\n86 02 ou ‘Ker Bug> enbu nin dep\n\nyuiy> Suop yueH\n\nAun Bupnx n{nuyp] WOW\n\n(Gsoreqn,\nyerpes) Aenb Bupnx 09 197\n\n(Qisosaqny piousp)\nfey yur Bupnx up| Budp NeW\nue) weg\n\nAe, yuerx :eDj NED Z\nrea Bupnx step neg\n\nenb wow :ug6u\nneg ‘ogy g Hep NEG\nrea 126 “1eA\n\nBun> wow ‘up Buonx\nAn ugAn3N\n\n(nypoug sda2ui1)\nfey yuer nep we} 9 “E\n\n(nyonug sdacg)\n\nAey yue> nep jy 92 Z\n\n(proyag) SUPP 9D “Lb\no2 ual\n\ncoe\n\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4614.JPG",
+      "pageIndex": 55,
+      "pageType": "unknown",
+      "rawText": "‘Ae, yued\n= : e (sua\nnfnuy d25 6.2 oy ‘Ae, Bug des Aenb Suonx eobu yeu en) x Buo13 ng 19) van WOW 401DU0i¢) uon, des 0-9\n\nuy Buonx\n\nAe Bug en6n Aenb 6upnx 1eo6u yy A 1e06u ng 19) WoW Goreurdns) enéu 05°\n\n(asorqm (sronc01g)\n\n(ep iuu e> upy yuews) Ae, nfnyy dég 4eujn) fay Buonx woYy> 19) Aey yue> Bupnx ionp 2/1 29NR Ae Yue 09 ~p\nyusy> Zuop yueH ug) weg An ugAn3y so ual\n\nug} IY) 0D\n\n/@ ————————————— poe er We a TA\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4615.JPG",
+      "pageIndex": 56,
+      "pageType": "unknown",
+      "rawText": "T99TZTESEO OTVZ/ENILOH\n\naS\n\nuons\n(hey yugo » up! Buop new OR. uns on x ‘ugp Buonx\n\nWheyueg Suorcugn rob n> 191 UA WIEN\n\n1 peau oN Bu0.3 Ng 19) UBER WOW Kenb Key 92 de6 99 °L\nAn ugAn3N soul\n\nug) weg\n\nToe a eee eT i)\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4616.JPG",
+      "pageIndex": 57,
+      "pageType": "text",
+      "rawText": "Aey yeo6u Keox\n\n(.S1-0) Aex Buep nep 22g\n\nGuo Aeox ‘Ke; dayy “Aey tong\nyury> Sup yueH\n\nug} Bugp ney\n\nAe} yug> Bupnx ug] Gudp ney\n\nAe} yue> Buonx no ver yugy\nug) weg\n\neB 1onp oH\n\n{tea eq x) 186 ua 4\n\nneyo oew Bury\nEUR - ABU Bugs 305\nAn uaAn3y\n\n(smourdsaudns)\n1e6 van 05 14\n\n(sup snunss207)\nGud. Bury p> “OL\n\n92 ual\n\nUB} IY) OD\n\n",
+      "detectedTerms": [
+        "EUR"
+      ],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4617.JPG",
+      "pageIndex": 58,
+      "pageType": "unknown",
+      "rawText": "OU.\n\nTestztEsse OTWZ/SNTU\n\nKey dau ten de Ae, yue> Bupnx ue en! enb WoW fey yues — énb 99 \"Sb\n\nGea 2g (sug}ndzasqns)\n\nfe, Buon Keo ‘Key yue> Bupnx qu 6udp NE “2972 BW) 1A IONP OH FRA 1ONP 2D “Fi\n\n(our\n\nSuu Ke; dauy ‘Key reobu Keox ug} Bude new rea eq Buonx 1g06u 2g sasai) 9q YER OD EL\n\nyury> udp yueH ue) weg An ughn3N ae\n\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4618.JPG",
+      "pageIndex": 59,
+      "pageType": "unknown",
+      "rawText": ": “BUQS 199\nUSIUT 122 — pyr 10y ros wan} — aya Mm YUIYD NaIp ap Sue ugu e] +\n2 : “Buon,\n2U WP 3N — Dex yuu — ue} ue Budp UaANyd IBD OYD NID\n“AQ USA Sugp Woy uey> Ke; oyd 2] ugANI} We} Buns) e7 +\nSa}e}Ig Su0y ueyy ueYd end 013 1eA\n\n‘ueyy uo}\n®02 Suop usAny> — Sueg Suey: — ay2 m usiyy naip wey Sunn e} he.\n“neyo ues\n92 “yueOY 99 Sugw p> Sun) pd “Sung > -yuenb Bunx 99 ay e> «\nneyd — 3unq Qe\n(Qn + ugns Bupnx) 3A3u Bug] +\n(7292s — sequin) — 3192J0y} — 1291N189) Bugs 19D «\n:Wu93 oeq\n‘TONP 149 @A 9? Epis weu gy} 09 Suna e] (yuns}) uey} ueyd\n\n29n43 ew\n\nOWLS eat\n\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4619.JPG",
+      "pageIndex": 60,
+      "pageType": "unknown",
+      "rawText": "gus uy yueus Bung\nda ‘2102 — Bugs 162 yuip ug “Burg 1215\n\naroun\nu ‘Bung da ag Gun uews Suai46u — Keox\n\n6urg da ug\nSuno usin Gualy6u ‘uag 2An6u ueLR KeoX\n\nyuew eur 1 Bung,\nda ney Gunyy yuip ug “ienBu ueyy deo\n\nyup Bugu 24>\n\nueyy 39M\n\nyew\n\nagyu ngs ‘02 yuenb SueGu WEN\n(Anup Buony) eo6u es Buon m3 224)\nenbu A\n\n‘Qyp) Buon Gugnx eo6u m pay WEN\n\n{unui 9, nu 083) Bung eni6 20p 24D\n\n92 18s Bugny — 13 1A\n\n(sunwopgn snssansunst)\nGung Gue6u 99°»\n\n(anbngo\njowsazu}) Guan 0942 0 “E\n\n(enbnqo\njousazxg) wou 0949 9) Z\n\n(sunwopqo\nsmoay) Sung Bugyy > “L\n\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4620.JPG",
+      "pageIndex": 61,
+      "pageType": "unknown",
+      "rawText": "Ae, £eox iy} yuip ug 16 ‘Buon ofa 12 eq Buonx cay\n1eA eq Bupnx Aeox en Buey\n\nnes 9a Ke} 084 ‘Ae} yuo Buon Keox ‘day “rong\n\nup U9 1A — 99 ni6 1en eq Bupnx Aeox ‘ey ‘Buen\n\nyurys Bueu 2ny>\n\n(spioquioys) oyu/ug} wen 05\n(ee;ndeos sojen2)) pea Gueu 95 -¢\n(siop snunsspe}) Suds Suny 05 -Z\n\n(snzeden) Suewp 05 +1\n\n92 uay\n\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4621.JPG",
+      "pageIndex": 62,
+      "pageType": "unknown",
+      "rawText": "2am\n\nugiq we> ‘2nw enb\nAeox Bugy? ‘bugs\nyop Gum yuip ud\n\noyu\n\nAeox en Buary6u\n‘Bugs 102 Bugyr\nm6 Bun] ong\n\nney — Sun} 32u3\nSuna Bugg Sueyr\nni6 ‘ueyz BugySN\n\n(Gury 1243 Guna\n\n9 yuyu ugut 1eud)\nuaq e1yd Bugs\nJop 220 6 wow\n— 6ueGu wow ny\n\nés ugu\n— Buns Suprx m\nBugs 360 usq 730g\n\nnéyp cew\n\n®A ZL uns Buonx\ntou ‘Suny 723\nBugs 199 uagq eH\n\nGsnpuninn.)\nyueyu ep 2D ‘2\n\n(.a2uids s0psi3,)\nBugs Bunp 29 ‘9\n\n(,wruoquin]\nsmeupend) Sun}\n393 Buona 09 °¢\n\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4622.JPG",
+      "pageIndex": 63,
+      "pageType": "unknown",
+      "rawText": "‘IyU fey) OYD e4 3ugnp e) ‘pu YUIS\nYD Sunyy end pnp 0a eA ugs} OF oO\nDu Q) ues yuls 61) OHS\n‘(~d3yy ‘Buep ‘heox ‘dé3) uey> end\nIDA (uIO! diy) Suey doyy yuey) 08] o\n‘3UuQp ueA O41) 9y ea doyy yuey ob Ly\nO4 RA Yul UeY) YUip ug dng ‘ney> ues\n*BuoW 99 ;nYu up) 92 Woyu Naiyu end weg Ipu e7 ©\n=3ugyd Aep eA 09 190 19x UeD'E\nyond\nueud 160w ea Suen sy ‘uenb 3ueq “Ap yuls uenb p> 222 8A oq eA 30g 0eg o\nN€yd Sunn Sue} 1Ou sa ofg'z\n198u 4p “Supp 149 1919 2ep ‘pnp 1y> 1ey Bugnx\n39s 102.21 3upm) Suon 1) UgAn4j Bp 2eY> Suna Suey ugu e} neyd Supnx o\n124} 9) 3upn) 3ud1) op BugYD T\nney? Junyy end yusys 3ueu snyD\n\n4uer end 4\n£n® Suon 3u6n uenb 013 1ea Suop n\n\n20u yun Suop n> d3yd oy> inp Suonx\n\nTEMP 143 Sudp uer\n93 A tonp Sunq o> “IND 9D Beas\n\nNW ONONX acer\n\nz 199NA —— ina sNonx\n\nIOON AVS\n\nNZuLO3\n\n——— 9NOH SNONX\ny\nses\nNYHO OVW\n\nONND SNONX\n\nNVHO SNONX\n\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4623.JPG",
+      "pageIndex": 64,
+      "pageType": "unknown",
+      "rawText": "i\n\nowwe\n\nwere tees ST INTEC\n\nom 10y eA tonp Gugnx U3n M89 WS\n\nup6u yu ngu 29\ngBu neyo Suny p> AnBu ea Sunp ay 6uony anp Suonx 9 seosg 194 fy oy TRY quso Guag yu 39] Swe (s0eg @ Ss sess)\nwap vend uae 18 i Sunp wAy ney BuNLpy — eA wee\nBugs 299 ulp up 216 {uon@y diy) Bugy deo, Sunrex oes weg eA neyp wonp Suge Aéup Suny ipa Suos 369 MI SESE opp — Samy PR 9D Z\nqui UELA 191 YUllp UD eA dey sited) 5 eT\nYOR OY URN NEA ep IOs WED, (GueD WA spobu es Guan my ea nes ex 2ong m Suany 59 Ss oe cael\n‘Bund my ‘Guend Buea) ney> Guta gp Buen PEL YUE Ug Z EA IMD Buon ex Mus BupAK m weg TED Kep SEN OE TSS AEP SPIT\n\nyuyyp Suey 2uD 92 36s Guang — sm ja\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4624.JPG",
+      "pageIndex": 65,
+      "pageType": "unknown",
+      "rawText": "| \\ Egaeeey S1VZ/aNNLoy\n\nUBD he\nSuee, eh APOx Heys Sun\n\nuy\n~ “MRU dw uan Sudp\n\nuadnys\n\n438g y23) ney> Sunyy\n\n20p 3unp ua) Bud; Any\n3ue3u Sunp gw ven Sugp ugAny> B pipiens ee\n\nneyo 3unyy 9 Bu6p ugAny> de>\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    },
+    {
+      "sourceFile": "IMG_4625.JPG",
+      "pageIndex": 66,
+      "pageType": "unknown",
+      "rawText": "OWLS eal\n\nGugy 2204 6ugs 100 Keox ep} uaq I9A os nes/20N3\n\nSun) vag 20w 92 Gug> Xe6 Sugnys ony ypal “lenGu ueu ugox AeQ, 21 Aeox neup Suonx ug 10 (uonpjas 2vjaq) neyp Gunyy Aeox\n© 2A y>dy \"UBL 12) woo wag\nSuep ueo} 193 :99 tea 198 nep nep 2 — Buoy uaq rey Bugg ue> 22 upy 02 ney> Buanx wag 10;\nne, Sugya onw enb Bugwi en Aj quis Buca Bugnp yews\n\nSunp ou Buoy roy yuy WEI Gung 92.3n1 02 ug Sun| Buoy ——_—Buny nes 2a Guaiy6u ney> Guomx\n\ntonp Bung 7 Sugui p> nek yuga Buow anu enb ugn ienp Gun}\n‘Buoy de6 92 6ug> pnp Buri neq \"21 193 Bung ‘Bun| yeu uon Bug, ‘PoNA ga Guary6u ney Guonx\n\ndé6 Bugnyy ary neia 241 Mm uap Bueny yuy\n",
+      "detectedTerms": [],
+      "detectedLabels": []
+    }
+  ],
+  "summary": {
+    "totalPages": 66,
+    "uniqueTerms": [
+      "COO",
+      "Chic nang",
+      "EUR",
+      "Vi du",
+      "WOUd",
+      "WoOwv"
+    ]
+  }
+}

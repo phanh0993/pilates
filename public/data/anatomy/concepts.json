@@ -1,0 +1,2690 @@
+[
+  {
+    "id": "cap-hoa-hoc",
+    "term": "Cấp độ hóa học",
+    "termVi": "Chemical level",
+    "definition": "Cấp thấp nhất: nguyên tử và phân tử.",
+    "category": "Các cấp độ cơ thể",
+    "packId": "ch01-tong-quan",
+    "section": "Các cấp độ cơ thể",
+    "pageRef": 1
+  },
+  {
+    "id": "nguyen-tu",
+    "term": "Nguyên tử",
+    "termVi": "Atom",
+    "definition": "Đơn vị nhỏ nhất của nguyên tố hóa học. Cơ thể người gồm 26 nguyên tố (C, H, N, O…).",
+    "category": "Các cấp độ cơ thể",
+    "packId": "ch01-tong-quan",
+    "section": "Các cấp độ cơ thể",
+    "aliases": [
+      "atom"
+    ],
+    "pageRef": 1
+  },
+  {
+    "id": "phan-tu",
+    "term": "Phân tử",
+    "termVi": "Molecule",
+    "definition": "Kết hợp nhiều nguyên tử, ví dụ H₂O, ADN.",
+    "category": "Các cấp độ cơ thể",
+    "packId": "ch01-tong-quan",
+    "section": "Các cấp độ cơ thể",
+    "aliases": [
+      "molecule",
+      "adn",
+      "dna"
+    ],
+    "pageRef": 1
+  },
+  {
+    "id": "cap-te-bao",
+    "term": "Cấp độ tế bào",
+    "termVi": "Cellular level",
+    "definition": "Đơn vị cơ bản và nền tảng của mọi thực thể sống.",
+    "category": "Các cấp độ cơ thể",
+    "packId": "ch01-tong-quan",
+    "section": "Các cấp độ cơ thể",
+    "pageRef": 2
+  },
+  {
+    "id": "te-bao",
+    "term": "Tế bào",
+    "termVi": "Cell",
+    "definition": "Cơ thể người có hơn 10 nghìn tỷ tế bào.",
+    "category": "Các cấp độ cơ thể",
+    "packId": "ch01-tong-quan",
+    "section": "Các cấp độ cơ thể",
+    "aliases": [
+      "cell"
+    ],
+    "pageRef": 2
+  },
+  {
+    "id": "te-bao-hong-cau",
+    "term": "Tế bào hồng cầu",
+    "termVi": "Red blood cell",
+    "definition": "Vận chuyển oxy trong máu.",
+    "category": "Các cấp độ cơ thể",
+    "packId": "ch01-tong-quan",
+    "section": "Các cấp độ cơ thể",
+    "pageRef": 2
+  },
+  {
+    "id": "te-bao-than-kinh",
+    "term": "Tế bào thần kinh",
+    "termVi": "Neuron",
+    "definition": "Tế bào truyền tín hiệu thần kinh.",
+    "category": "Các cấp độ cơ thể",
+    "packId": "ch01-tong-quan",
+    "section": "Các cấp độ cơ thể",
+    "aliases": [
+      "neuron"
+    ],
+    "pageRef": 2
+  },
+  {
+    "id": "te-bao-bieu-mo",
+    "term": "Tế bào biểu mô",
+    "termVi": "Epithelial cell",
+    "definition": "Lớp tế bào phủ bề mặt và tuyến.",
+    "category": "Các cấp độ cơ thể",
+    "packId": "ch01-tong-quan",
+    "section": "Các cấp độ cơ thể",
+    "pageRef": 2
+  },
+  {
+    "id": "te-bao-co-tron",
+    "term": "Tế bào cơ trơn",
+    "termVi": "Smooth muscle cell",
+    "definition": "Tế bào cơ không ý thức kiểm soát được.",
+    "category": "Các cấp độ cơ thể",
+    "packId": "ch01-tong-quan",
+    "section": "Các cấp độ cơ thể",
+    "pageRef": 2
+  },
+  {
+    "id": "cap-mo",
+    "term": "Cấp độ mô",
+    "termVi": "Tissue level",
+    "definition": "Nhiều tế bào cùng loại tạo thành mô.",
+    "category": "Các cấp độ cơ thể",
+    "packId": "ch01-tong-quan",
+    "section": "Các cấp độ cơ thể",
+    "pageRef": 2
+  },
+  {
+    "id": "mo-bieu-mo",
+    "term": "Biểu mô",
+    "termVi": "Epithelium",
+    "definition": "Mô phân tách cơ quan và môi trường bên ngoài.",
+    "category": "Các cấp độ cơ thể",
+    "packId": "ch01-tong-quan",
+    "section": "Các cấp độ cơ thể",
+    "pageRef": 2
+  },
+  {
+    "id": "mo-lien-ket",
+    "term": "Mô liên kết",
+    "termVi": "Connective tissue",
+    "definition": "Mô nối, bao bọc, hỗ trợ các cấu trúc.",
+    "category": "Các cấp độ cơ thể",
+    "packId": "ch01-tong-quan",
+    "section": "Các cấp độ cơ thể",
+    "pageRef": 2
+  },
+  {
+    "id": "mo-co",
+    "term": "Mô cơ",
+    "termVi": "Muscle tissue",
+    "definition": "Mô tạo lực co và vận động.",
+    "category": "Các cấp độ cơ thể",
+    "packId": "ch01-tong-quan",
+    "section": "Các cấp độ cơ thể",
+    "pageRef": 2
+  },
+  {
+    "id": "mo-than-kinh",
+    "term": "Mô thần kinh",
+    "termVi": "Nervous tissue",
+    "definition": "Mô truyền và xử lý tín hiệu.",
+    "category": "Các cấp độ cơ thể",
+    "packId": "ch01-tong-quan",
+    "section": "Các cấp độ cơ thể",
+    "pageRef": 2
+  },
+  {
+    "id": "co-quan",
+    "term": "Cơ quan",
+    "termVi": "Organ",
+    "definition": "Nhiều mô phối hợp: tim, phổi, gan, não, thực quản…",
+    "category": "Các cấp độ cơ thể",
+    "packId": "ch01-tong-quan",
+    "section": "Các cấp độ cơ thể",
+    "aliases": [
+      "organ"
+    ],
+    "pageRef": 3
+  },
+  {
+    "id": "he-co-quan",
+    "term": "Hệ cơ quan",
+    "termVi": "Organ system",
+    "definition": "Nhiều cơ quan cùng chức năng: hệ cơ, xương, thần kinh, hô hấp, tiêu hóa…",
+    "category": "Các cấp độ cơ thể",
+    "packId": "ch01-tong-quan",
+    "section": "Các cấp độ cơ thể",
+    "pageRef": 3
+  },
+  {
+    "id": "co-the",
+    "term": "Cơ thể",
+    "termVi": "Organism",
+    "definition": "Toàn bộ cơ thể sống hoàn chỉnh.",
+    "category": "Các cấp độ cơ thể",
+    "packId": "ch01-tong-quan",
+    "section": "Các cấp độ cơ thể",
+    "pageRef": 3
+  },
+  {
+    "id": "tu-the-giai-phau",
+    "term": "Tư thế giải phẫu",
+    "termVi": "Anatomical position",
+    "definition": "Đứng thẳng, hai chân, tay buông xuôi, mắt và lòng bàn tay hướng trước.",
+    "category": "Tư thế & hướng giải phẫu",
+    "packId": "ch01-tong-quan",
+    "section": "Tư thế & hướng giải phẫu",
+    "aliases": [
+      "anatomical position"
+    ],
+    "pageRef": 5
+  },
+  {
+    "id": "phia-tren",
+    "term": "Phía trên",
+    "termVi": "Superior",
+    "definition": "Hướng về phía đầu.",
+    "category": "Tư thế & hướng giải phẫu",
+    "packId": "ch01-tong-quan",
+    "section": "Tư thế & hướng giải phẫu",
+    "aliases": [
+      "superior"
+    ],
+    "pageRef": 5
+  },
+  {
+    "id": "phia-duoi",
+    "term": "Phía dưới",
+    "termVi": "Inferior",
+    "definition": "Hướng về phía bàn chân.",
+    "category": "Tư thế & hướng giải phẫu",
+    "packId": "ch01-tong-quan",
+    "section": "Tư thế & hướng giải phẫu",
+    "aliases": [
+      "inferior"
+    ],
+    "pageRef": 5
+  },
+  {
+    "id": "phia-truoc",
+    "term": "Phía trước",
+    "termVi": "Anterior",
+    "definition": "Mặt trước cơ thể.",
+    "category": "Tư thế & hướng giải phẫu",
+    "packId": "ch01-tong-quan",
+    "section": "Tư thế & hướng giải phẫu",
+    "aliases": [
+      "anterior"
+    ],
+    "pageRef": 5
+  },
+  {
+    "id": "phia-sau",
+    "term": "Phía sau",
+    "termVi": "Posterior",
+    "definition": "Mặt sau cơ thể.",
+    "category": "Tư thế & hướng giải phẫu",
+    "packId": "ch01-tong-quan",
+    "section": "Tư thế & hướng giải phẫu",
+    "aliases": [
+      "posterior"
+    ],
+    "pageRef": 5
+  },
+  {
+    "id": "ben-trai",
+    "term": "Trái",
+    "termVi": "Left",
+    "definition": "Phía trái của cơ thể.",
+    "category": "Tư thế & hướng giải phẫu",
+    "packId": "ch01-tong-quan",
+    "section": "Tư thế & hướng giải phẫu",
+    "aliases": [
+      "left"
+    ],
+    "pageRef": 5
+  },
+  {
+    "id": "ben-phai",
+    "term": "Phải",
+    "termVi": "Right",
+    "definition": "Phía phải của cơ thể.",
+    "category": "Tư thế & hướng giải phẫu",
+    "packId": "ch01-tong-quan",
+    "section": "Tư thế & hướng giải phẫu",
+    "aliases": [
+      "right"
+    ],
+    "pageRef": 5
+  },
+  {
+    "id": "mp-nam-ngang",
+    "term": "Mặt phẳng nằm ngang",
+    "termVi": "Transverse plane",
+    "definition": "Chia cơ thể thành phần trên và dưới. Hành động: xoay vặn.",
+    "category": "Mặt phẳng giải phẫu",
+    "packId": "ch01-tong-quan",
+    "section": "Mặt phẳng giải phẫu",
+    "aliases": [
+      "transverse"
+    ],
+    "pageRef": 6
+  },
+  {
+    "id": "hanh-dong-xoay",
+    "term": "Xoay vặn",
+    "termVi": "Rotation",
+    "definition": "Hành động trên mặt phẳng nằm ngang: xoay tay trong/ngoài, vặn cột sống, giang/khép vai ngang.",
+    "category": "Mặt phẳng giải phẫu",
+    "packId": "ch01-tong-quan",
+    "section": "Mặt phẳng giải phẫu",
+    "pageRef": 7
+  },
+  {
+    "id": "mp-dung-ngang",
+    "term": "Mặt phẳng đứng ngang",
+    "termVi": "Frontal plane",
+    "definition": "Chia cơ thể thành phần trước và sau. Hành động: giang, khép, nghiêng.",
+    "category": "Mặt phẳng giải phẫu",
+    "packId": "ch01-tong-quan",
+    "section": "Mặt phẳng giải phẫu",
+    "aliases": [
+      "frontal",
+      "coronal"
+    ],
+    "pageRef": 6
+  },
+  {
+    "id": "hanh-dong-giang",
+    "term": "Giang",
+    "termVi": "Abduction",
+    "definition": "Di chuyển ra xa đường giữa cơ thể (mặt phẳng đứng ngang).",
+    "category": "Mặt phẳng giải phẫu",
+    "packId": "ch01-tong-quan",
+    "section": "Mặt phẳng giải phẫu",
+    "aliases": [
+      "abduction"
+    ],
+    "pageRef": 8
+  },
+  {
+    "id": "hanh-dong-khep",
+    "term": "Khép",
+    "termVi": "Adduction",
+    "definition": "Di chuyển về gần đường giữa cơ thể (mặt phẳng đứng ngang).",
+    "category": "Mặt phẳng giải phẫu",
+    "packId": "ch01-tong-quan",
+    "section": "Mặt phẳng giải phẫu",
+    "aliases": [
+      "adduction"
+    ],
+    "pageRef": 8
+  },
+  {
+    "id": "hanh-dong-nghieng",
+    "term": "Nghiêng",
+    "termVi": "Lateral flexion",
+    "definition": "Nghiêng cột sống hoặc thân sang một bên.",
+    "category": "Mặt phẳng giải phẫu",
+    "packId": "ch01-tong-quan",
+    "section": "Mặt phẳng giải phẫu",
+    "aliases": [
+      "lateral flexion"
+    ],
+    "pageRef": 8
+  },
+  {
+    "id": "mp-dung-doc",
+    "term": "Mặt phẳng đứng dọc",
+    "termVi": "Sagittal plane",
+    "definition": "Chia cơ thể thành trái và phải. Hành động: gập, duỗi.",
+    "category": "Mặt phẳng giải phẫu",
+    "packId": "ch01-tong-quan",
+    "section": "Mặt phẳng giải phẫu",
+    "aliases": [
+      "sagittal"
+    ],
+    "pageRef": 6
+  },
+  {
+    "id": "hanh-dong-gap",
+    "term": "Gập",
+    "termVi": "Flexion",
+    "definition": "Giảm góc giữa hai phần cơ thể (mặt phẳng đứng dọc).",
+    "category": "Mặt phẳng giải phẫu",
+    "packId": "ch01-tong-quan",
+    "section": "Mặt phẳng giải phẫu",
+    "aliases": [
+      "flexion"
+    ],
+    "pageRef": 9
+  },
+  {
+    "id": "hanh-dong-duoi",
+    "term": "Duỗi",
+    "termVi": "Extension",
+    "definition": "Tăng góc giữa hai phần cơ thể (mặt phẳng đứng dọc).",
+    "category": "Mặt phẳng giải phẫu",
+    "packId": "ch01-tong-quan",
+    "section": "Mặt phẳng giải phẫu",
+    "aliases": [
+      "extension"
+    ],
+    "pageRef": 9
+  },
+  {
+    "id": "206-xuong",
+    "term": "206 xương chính",
+    "termVi": "206 main bones",
+    "definition": "Số xương chính cơ thể người trưởng thành.",
+    "category": "Cấu tạo xương",
+    "packId": "ch02-xuong",
+    "section": "Cấu tạo xương",
+    "aliases": [
+      "206"
+    ],
+    "pageRef": 11
+  },
+  {
+    "id": "xuong-truc",
+    "term": "Xương trục",
+    "termVi": "Axial skeleton",
+    "definition": "Xương sọ, cột sống, sườn, ức.",
+    "category": "Cấu tạo xương",
+    "packId": "ch02-xuong",
+    "section": "Cấu tạo xương",
+    "aliases": [
+      "axial"
+    ],
+    "pageRef": 11
+  },
+  {
+    "id": "xuong-treo",
+    "term": "Xương treo",
+    "termVi": "Appendicular skeleton",
+    "definition": "Chi trên, chi dưới, xương chậu.",
+    "category": "Cấu tạo xương",
+    "packId": "ch02-xuong",
+    "section": "Cấu tạo xương",
+    "aliases": [
+      "appendicular"
+    ],
+    "pageRef": 11
+  },
+  {
+    "id": "xuong-vun",
+    "term": "Xương vụn",
+    "termVi": "Sesamoid/small bones",
+    "definition": "Nhiều xương vụn rải rác, không tính vào 206 xương chính.",
+    "category": "Cấu tạo xương",
+    "packId": "ch02-xuong",
+    "section": "Cấu tạo xương",
+    "pageRef": 11
+  },
+  {
+    "id": "xuong-dai",
+    "term": "Xương dài",
+    "termVi": "Long bone",
+    "definition": "Ví dụ xương đùi (femur).",
+    "category": "Phân loại xương",
+    "packId": "ch02-xuong",
+    "section": "Phân loại xương",
+    "aliases": [
+      "long bone",
+      "femur"
+    ],
+    "pageRef": 12
+  },
+  {
+    "id": "xuong-ngan",
+    "term": "Xương ngắn",
+    "termVi": "Short bone",
+    "definition": "Ví dụ các xương cổ chân (tarsals).",
+    "category": "Phân loại xương",
+    "packId": "ch02-xuong",
+    "section": "Phân loại xương",
+    "aliases": [
+      "short bone"
+    ],
+    "pageRef": 12
+  },
+  {
+    "id": "xuong-det",
+    "term": "Xương dẹt",
+    "termVi": "Flat bone",
+    "definition": "Ví dụ xương ức (sternum).",
+    "category": "Phân loại xương",
+    "packId": "ch02-xuong",
+    "section": "Phân loại xương",
+    "aliases": [
+      "flat bone",
+      "sternum"
+    ],
+    "pageRef": 12
+  },
+  {
+    "id": "xuong-bat-dinh",
+    "term": "Xương bất định hình",
+    "termVi": "Irregular bone",
+    "definition": "Ví dụ đốt sống (vertebra).",
+    "category": "Phân loại xương",
+    "packId": "ch02-xuong",
+    "section": "Phân loại xương",
+    "aliases": [
+      "irregular bone"
+    ],
+    "pageRef": 12
+  },
+  {
+    "id": "xuong-vung",
+    "term": "Xương vừng",
+    "termVi": "Sesamoid bone",
+    "definition": "Ví dụ bánh chè (patella).",
+    "category": "Phân loại xương",
+    "packId": "ch02-xuong",
+    "section": "Phân loại xương",
+    "aliases": [
+      "sesamoid",
+      "patella"
+    ],
+    "pageRef": 12
+  },
+  {
+    "id": "xn-nang-do",
+    "term": "Nâng đỡ, bảo vệ",
+    "termVi": "Support & protection",
+    "definition": "Xương bảo vệ tủy sống, não, tim-phổi trong lồng ngực.",
+    "category": "Chức năng xương",
+    "packId": "ch02-xuong",
+    "section": "Chức năng xương",
+    "pageRef": 13
+  },
+  {
+    "id": "xn-van-dong",
+    "term": "Vận động (xương)",
+    "termVi": "Movement",
+    "definition": "Xương nối cơ qua gân, hoạt động như đòn bẩy tại khớp; nối nhau bằng dây chằng.",
+    "category": "Chức năng xương",
+    "packId": "ch02-xuong",
+    "section": "Chức năng xương",
+    "pageRef": 13
+  },
+  {
+    "id": "xn-san-xuat-mau",
+    "term": "Sản xuất máu",
+    "termVi": "Blood production",
+    "definition": "Tủy đỏ xương sản xuất hồng cầu.",
+    "category": "Chức năng xương",
+    "packId": "ch02-xuong",
+    "section": "Chức năng xương",
+    "pageRef": 13
+  },
+  {
+    "id": "xn-du-tru",
+    "term": "Dự trữ khoáng chất",
+    "termVi": "Mineral storage",
+    "definition": "Xương dự trữ canxi, phốt pho và khoáng chất thiết yếu.",
+    "category": "Chức năng xương",
+    "packId": "ch02-xuong",
+    "section": "Chức năng xương",
+    "pageRef": 13
+  },
+  {
+    "id": "xuong-so",
+    "term": "Skull",
+    "termVi": "Xương sọ",
+    "definition": "Bảo vệ não bộ.",
+    "category": "Xương chính trên cơ thể",
+    "packId": "ch02-xuong",
+    "section": "Xương chính trên cơ thể",
+    "aliases": [
+      "xương sọ"
+    ],
+    "pageRef": 13
+  },
+  {
+    "id": "xuong-ham-duoi",
+    "term": "Mandible",
+    "termVi": "Xương hàm dưới",
+    "definition": "Xương hàm dưới.",
+    "category": "Xương chính trên cơ thể",
+    "packId": "ch02-xuong",
+    "section": "Xương chính trên cơ thể",
+    "aliases": [
+      "xương hàm dưới"
+    ],
+    "pageRef": 13
+  },
+  {
+    "id": "cot-song",
+    "term": "Spine",
+    "termVi": "Cột sống",
+    "definition": "Trục chính của cơ thể.",
+    "category": "Xương chính trên cơ thể",
+    "packId": "ch02-xuong",
+    "section": "Xương chính trên cơ thể",
+    "aliases": [
+      "cột sống"
+    ],
+    "pageRef": 13
+  },
+  {
+    "id": "dot-song-co",
+    "term": "Cervical vertebrae",
+    "termVi": "Đốt sống cổ C1–C7",
+    "definition": "7 đốt sống cổ.",
+    "category": "Xương chính trên cơ thể",
+    "packId": "ch02-xuong",
+    "section": "Xương chính trên cơ thể",
+    "aliases": [
+      "đốt sống cổ c1–c7"
+    ],
+    "pageRef": 13
+  },
+  {
+    "id": "dot-song-nguc",
+    "term": "Thoracic vertebrae",
+    "termVi": "Đốt sống ngực T1–T12",
+    "definition": "12 đốt sống ngực.",
+    "category": "Xương chính trên cơ thể",
+    "packId": "ch02-xuong",
+    "section": "Xương chính trên cơ thể",
+    "aliases": [
+      "đốt sống ngực t1–t12"
+    ],
+    "pageRef": 13
+  },
+  {
+    "id": "dot-song-lung",
+    "term": "Lumbar vertebrae",
+    "termVi": "Đốt sống lưng L1–L5",
+    "definition": "5 đốt sống thắt lưng.",
+    "category": "Xương chính trên cơ thể",
+    "packId": "ch02-xuong",
+    "section": "Xương chính trên cơ thể",
+    "aliases": [
+      "đốt sống lưng l1–l5"
+    ],
+    "pageRef": 13
+  },
+  {
+    "id": "xuong-cung",
+    "term": "Sacrum",
+    "termVi": "Xương cùng",
+    "definition": "Nối cột sống với xương chậu.",
+    "category": "Xương chính trên cơ thể",
+    "packId": "ch02-xuong",
+    "section": "Xương chính trên cơ thể",
+    "aliases": [
+      "xương cùng"
+    ],
+    "pageRef": 13
+  },
+  {
+    "id": "xuong-cut",
+    "term": "Coccyx",
+    "termVi": "Xương cụt",
+    "definition": "Đuôi cột sống.",
+    "category": "Xương chính trên cơ thể",
+    "packId": "ch02-xuong",
+    "section": "Xương chính trên cơ thể",
+    "aliases": [
+      "xương cụt"
+    ],
+    "pageRef": 13
+  },
+  {
+    "id": "xuong-do",
+    "term": "Clavicle",
+    "termVi": "Xương đòn",
+    "definition": "Nối vai với thân.",
+    "category": "Xương chính trên cơ thể",
+    "packId": "ch02-xuong",
+    "section": "Xương chính trên cơ thể",
+    "aliases": [
+      "xương đòn"
+    ],
+    "pageRef": 13
+  },
+  {
+    "id": "xuong-uc",
+    "term": "Sternum",
+    "termVi": "Xương ức",
+    "definition": "Xương giữa ngực.",
+    "category": "Xương chính trên cơ thể",
+    "packId": "ch02-xuong",
+    "section": "Xương chính trên cơ thể",
+    "aliases": [
+      "xương ức"
+    ],
+    "pageRef": 13
+  },
+  {
+    "id": "xuong-suon",
+    "term": "Ribs",
+    "termVi": "Xương sườn",
+    "definition": "Tạo lồng ngực.",
+    "category": "Xương chính trên cơ thể",
+    "packId": "ch02-xuong",
+    "section": "Xương chính trên cơ thể",
+    "aliases": [
+      "xương sườn"
+    ],
+    "pageRef": 13
+  },
+  {
+    "id": "xuong-bai-vai",
+    "term": "Scapula",
+    "termVi": "Xương bả vai",
+    "definition": "Xương vai phía sau.",
+    "category": "Xương chính trên cơ thể",
+    "packId": "ch02-xuong",
+    "section": "Xương chính trên cơ thể",
+    "aliases": [
+      "xương bả vai"
+    ],
+    "pageRef": 13
+  },
+  {
+    "id": "xuong-canh-tay",
+    "term": "Humerus",
+    "termVi": "Xương cánh tay",
+    "definition": "Xương cánh tay trên.",
+    "category": "Xương chính trên cơ thể",
+    "packId": "ch02-xuong",
+    "section": "Xương chính trên cơ thể",
+    "aliases": [
+      "xương cánh tay"
+    ],
+    "pageRef": 13
+  },
+  {
+    "id": "xuong-quay",
+    "term": "Radius",
+    "termVi": "Xương quay",
+    "definition": "Xương cẳng tay bên ngón cái.",
+    "category": "Xương chính trên cơ thể",
+    "packId": "ch02-xuong",
+    "section": "Xương chính trên cơ thể",
+    "aliases": [
+      "xương quay"
+    ],
+    "pageRef": 13
+  },
+  {
+    "id": "xuong-tru",
+    "term": "Ulna",
+    "termVi": "Xương trụ",
+    "definition": "Xương cẳng tay bên ngón út.",
+    "category": "Xương chính trên cơ thể",
+    "packId": "ch02-xuong",
+    "section": "Xương chính trên cơ thể",
+    "aliases": [
+      "xương trụ"
+    ],
+    "pageRef": 13
+  },
+  {
+    "id": "xuong-chau",
+    "term": "Pelvis",
+    "termVi": "Xương chậu",
+    "definition": "Khung chậu nối cột sống với chi dưới.",
+    "category": "Xương chính trên cơ thể",
+    "packId": "ch02-xuong",
+    "section": "Xương chính trên cơ thể",
+    "aliases": [
+      "xương chậu"
+    ],
+    "pageRef": 13
+  },
+  {
+    "id": "xuong-dui",
+    "term": "Femur",
+    "termVi": "Xương đùi",
+    "definition": "Xương dài nhất cơ thể.",
+    "category": "Xương chính trên cơ thể",
+    "packId": "ch02-xuong",
+    "section": "Xương chính trên cơ thể",
+    "aliases": [
+      "xương đùi"
+    ],
+    "pageRef": 13
+  },
+  {
+    "id": "xuong-banh-che",
+    "term": "Patella",
+    "termVi": "Xương bánh chè",
+    "definition": "Xương vừng bảo vệ khớp gối.",
+    "category": "Xương chính trên cơ thể",
+    "packId": "ch02-xuong",
+    "section": "Xương chính trên cơ thể",
+    "aliases": [
+      "xương bánh chè"
+    ],
+    "pageRef": 13
+  },
+  {
+    "id": "xuong-chay",
+    "term": "Tibia",
+    "termVi": "Xương chày",
+    "definition": "Xương cẳng chân trong.",
+    "category": "Xương chính trên cơ thể",
+    "packId": "ch02-xuong",
+    "section": "Xương chính trên cơ thể",
+    "aliases": [
+      "xương chày"
+    ],
+    "pageRef": 13
+  },
+  {
+    "id": "xuong-mac",
+    "term": "Fibula",
+    "termVi": "Xương mác",
+    "definition": "Xương cẳng chân ngoài.",
+    "category": "Xương chính trên cơ thể",
+    "packId": "ch02-xuong",
+    "section": "Xương chính trên cơ thể",
+    "aliases": [
+      "xương mác"
+    ],
+    "pageRef": 13
+  },
+  {
+    "id": "khop-dinh-nghia",
+    "term": "Khớp",
+    "termVi": "Joint",
+    "definition": "Điểm kết nối giữa hai hoặc nhiều xương. Ví dụ: cổ tay, vai, hông, gối.",
+    "category": "Hệ thống khớp",
+    "packId": "ch03-khop",
+    "section": "Hệ thống khớp",
+    "pageRef": 14
+  },
+  {
+    "id": "khop-dong",
+    "term": "Khớp động",
+    "termVi": "Synovial joint",
+    "definition": "Cử động dễ dàng; hai đầu có sụn trơn, dịch khớp và dây chằng.",
+    "category": "Phân loại theo tầm vận động",
+    "packId": "ch03-khop",
+    "section": "Phân loại theo tầm vận động",
+    "aliases": [
+      "khớp hoạt dịch"
+    ],
+    "pageRef": 15
+  },
+  {
+    "id": "khop-ban-dong",
+    "term": "Khớp bán động",
+    "termVi": "Cartilaginous joint",
+    "definition": "Cử động hạn chế; giữa hai đầu xương có đĩa sụn. Ví dụ: đốt sống.",
+    "category": "Phân loại theo tầm vận động",
+    "packId": "ch03-khop",
+    "section": "Phân loại theo tầm vận động",
+    "pageRef": 15
+  },
+  {
+    "id": "khop-bat-dong",
+    "term": "Khớp bất động",
+    "termVi": "Fibrous joint",
+    "definition": "Không cử động; nối xương bằng đường răng cưa sít nhau. Ví dụ: hộp sọ.",
+    "category": "Phân loại theo tầm vận động",
+    "packId": "ch03-khop",
+    "section": "Phân loại theo tầm vận động",
+    "pageRef": 15
+  },
+  {
+    "id": "khop-hoat-dich",
+    "term": "Khớp hoạt dịch",
+    "termVi": "Synovial joint structure",
+    "definition": "Loại khớp phổ biến nhất; có khoang khớp chứa dịch khớp.",
+    "category": "Cấu tạo khớp hoạt dịch",
+    "packId": "ch03-khop",
+    "section": "Cấu tạo khớp hoạt dịch",
+    "pageRef": 16
+  },
+  {
+    "id": "sun-khop",
+    "term": "Sụn khớp",
+    "termVi": "Articular cartilage",
+    "definition": "Lớp sụn trơn bao phủ đầu xương.",
+    "category": "Cấu tạo khớp hoạt dịch",
+    "packId": "ch03-khop",
+    "section": "Cấu tạo khớp hoạt dịch",
+    "pageRef": 16
+  },
+  {
+    "id": "day-chang",
+    "term": "Dây chằng",
+    "termVi": "Ligament",
+    "definition": "Sợi liên kết bao quanh và ổn định khớp.",
+    "category": "Cấu tạo khớp hoạt dịch",
+    "packId": "ch03-khop",
+    "section": "Cấu tạo khớp hoạt dịch",
+    "pageRef": 16
+  },
+  {
+    "id": "mang-hoat-dich",
+    "term": "Màng hoạt dịch",
+    "termVi": "Synovial membrane",
+    "definition": "Lớp màng lót bên trong bao khớp.",
+    "category": "Cấu tạo khớp hoạt dịch",
+    "packId": "ch03-khop",
+    "section": "Cấu tạo khớp hoạt dịch",
+    "pageRef": 16
+  },
+  {
+    "id": "khoang-hoat-dich",
+    "term": "Khoang hoạt dịch",
+    "termVi": "Synovial cavity",
+    "definition": "Khoang chứa dịch khớp giữa hai mặt khớp.",
+    "category": "Cấu tạo khớp hoạt dịch",
+    "packId": "ch03-khop",
+    "section": "Cấu tạo khớp hoạt dịch",
+    "pageRef": 16
+  },
+  {
+    "id": "dich-khop",
+    "term": "Dịch khớp",
+    "termVi": "Synovial fluid",
+    "definition": "Chất lỏng trong khoang khớp, bôi trơn chuyển động.",
+    "category": "Cấu tạo khớp hoạt dịch",
+    "packId": "ch03-khop",
+    "section": "Cấu tạo khớp hoạt dịch",
+    "pageRef": 16
+  },
+  {
+    "id": "khop-truc",
+    "term": "Khớp trục",
+    "termVi": "Pivot joint",
+    "definition": "Xoay quanh một trục. Ví dụ: C1–C2, khớp quay–trụ.",
+    "category": "6 loại khớp hoạt dịch",
+    "packId": "ch03-khop",
+    "section": "6 loại khớp hoạt dịch",
+    "aliases": [
+      "pivot joint"
+    ],
+    "pageRef": 17
+  },
+  {
+    "id": "khop-ban-le",
+    "term": "Khớp bản lề",
+    "termVi": "Hinge joint",
+    "definition": "Chỉ gập và duỗi. Ví dụ: khuỷu, gối.",
+    "category": "6 loại khớp hoạt dịch",
+    "packId": "ch03-khop",
+    "section": "6 loại khớp hoạt dịch",
+    "aliases": [
+      "hinge joint"
+    ],
+    "pageRef": 17
+  },
+  {
+    "id": "khop-yen-ngua",
+    "term": "Khớp yên ngựa",
+    "termVi": "Saddle joint",
+    "definition": "Gập-duỗi, dạng-khép, xoay nhẹ. Ví dụ: khớp ngón cái–cổ tay.",
+    "category": "6 loại khớp hoạt dịch",
+    "packId": "ch03-khop",
+    "section": "6 loại khớp hoạt dịch",
+    "aliases": [
+      "saddle joint"
+    ],
+    "pageRef": 17
+  },
+  {
+    "id": "khop-truot",
+    "term": "Khớp trượt",
+    "termVi": "Plane/Gliding joint",
+    "definition": "Mặt phẳng trượt qua nhau. Ví dụ: đốt chân, mặt lồi đốt sống.",
+    "category": "6 loại khớp hoạt dịch",
+    "packId": "ch03-khop",
+    "section": "6 loại khớp hoạt dịch",
+    "aliases": [
+      "plane joint",
+      "gliding joint"
+    ],
+    "pageRef": 17
+  },
+  {
+    "id": "khop-loi-cau",
+    "term": "Khớp lồi cầu",
+    "termVi": "Condyloid joint",
+    "definition": "Lên-xuống và sang hai bên, không xoay. Ví dụ: cổ tay.",
+    "category": "6 loại khớp hoạt dịch",
+    "packId": "ch03-khop",
+    "section": "6 loại khớp hoạt dịch",
+    "aliases": [
+      "condyloid joint"
+    ],
+    "pageRef": 17
+  },
+  {
+    "id": "khop-o-cau",
+    "term": "Khớp ổ-cầu",
+    "termVi": "Ball-and-socket joint",
+    "definition": "Phạm vi chuyển động rộng nhất. Ví dụ: hông, vai.",
+    "category": "6 loại khớp hoạt dịch",
+    "packId": "ch03-khop",
+    "section": "6 loại khớp hoạt dịch",
+    "aliases": [
+      "ball and socket"
+    ],
+    "pageRef": 17
+  },
+  {
+    "id": "c1-atlas",
+    "term": "Đốt cổ C1 (Atlas)",
+    "termVi": "Atlas (C1)",
+    "definition": "Đốt sống cổ 1; quay quanh C2 để xoay đầu.",
+    "category": "Ví dụ khớp trục",
+    "packId": "ch03-khop",
+    "section": "Ví dụ khớp trục",
+    "aliases": [
+      "atlas"
+    ],
+    "pageRef": 18
+  },
+  {
+    "id": "c2-axis",
+    "term": "Đốt cổ C2 (Axis)",
+    "termVi": "Axis (C2)",
+    "definition": "Đốt sống cổ 2; trục xoay cho C1.",
+    "category": "Ví dụ khớp trục",
+    "packId": "ch03-khop",
+    "section": "Ví dụ khớp trục",
+    "aliases": [
+      "axis"
+    ],
+    "pageRef": 18
+  },
+  {
+    "id": "khop-quay-tru",
+    "term": "Khớp quay–trụ",
+    "termVi": "Radioulnar joint",
+    "definition": "Xương quay xoay quanh xương trụ để sấp/ngửa bàn tay.",
+    "category": "Ví dụ khớp trục",
+    "packId": "ch03-khop",
+    "section": "Ví dụ khớp trục",
+    "pageRef": 18
+  },
+  {
+    "id": "khop-khuyu",
+    "term": "Khớp khuỷu",
+    "termVi": "Elbow joint",
+    "definition": "Khớp bản lề: chỉ gập và duỗi.",
+    "category": "Ví dụ khớp bản lề",
+    "packId": "ch03-khop",
+    "section": "Ví dụ khớp bản lề",
+    "pageRef": 19
+  },
+  {
+    "id": "khop-goi",
+    "term": "Khớp gối",
+    "termVi": "Knee joint",
+    "definition": "Khớp bản lề lớn nhất cơ thể.",
+    "category": "Ví dụ khớp bản lề",
+    "packId": "ch03-khop",
+    "section": "Ví dụ khớp bản lề",
+    "pageRef": 19
+  },
+  {
+    "id": "khop-ngon-cai",
+    "term": "Khớp ngón cái–cổ tay",
+    "termVi": "CMC thumb joint",
+    "definition": "Khớp yên ngựa: gập-duỗi, dạng-khép, xoay nhẹ (cầm bút).",
+    "category": "Ví dụ khớp yên ngựa",
+    "packId": "ch03-khop",
+    "section": "Ví dụ khớp yên ngựa",
+    "pageRef": 20
+  },
+  {
+    "id": "facet-joint",
+    "term": "Khớp mặt lồi",
+    "termVi": "Facet joint",
+    "definition": "Giữa mỏm phụ hai đốt sống liền kề; trượt để gập/duỗi cột sống.",
+    "category": "Ví dụ khớp trượt",
+    "packId": "ch03-khop",
+    "section": "Ví dụ khớp trượt",
+    "aliases": [
+      "facet"
+    ],
+    "pageRef": 21
+  },
+  {
+    "id": "khop-co-tay",
+    "term": "Khớp lồi cầu cổ tay",
+    "termVi": "Wrist condyloid",
+    "definition": "Cho phép lên-xuống và sang hai bên, không xoay.",
+    "category": "Ví dụ khớp lồi cầu",
+    "packId": "ch03-khop",
+    "section": "Ví dụ khớp lồi cầu",
+    "pageRef": 22
+  },
+  {
+    "id": "khop-hong",
+    "term": "Khớp hông",
+    "termVi": "Hip joint",
+    "definition": "Khớp ổ-cầu: xương đùi (quả cầu) + xương chậu (ổ cắm).",
+    "category": "Ví dụ khớp ổ-cầu",
+    "packId": "ch03-khop",
+    "section": "Ví dụ khớp ổ-cầu",
+    "pageRef": 23
+  },
+  {
+    "id": "khop-vai",
+    "term": "Khớp vai",
+    "termVi": "Shoulder joint",
+    "definition": "Khớp ổ chảo–cánh tay (glenohumeral); phạm vi ROM rộng.",
+    "category": "Ví dụ khớp ổ-cầu",
+    "packId": "ch03-khop",
+    "section": "Ví dụ khớp ổ-cầu",
+    "pageRef": 23
+  },
+  {
+    "id": "rom-dinh-nghia",
+    "term": "ROM",
+    "termVi": "Range of Motion",
+    "definition": "Góc độ khớp có thể di chuyển theo các hướng; quan trọng trong Pilates.",
+    "category": "ROM khớp",
+    "packId": "ch03-khop",
+    "section": "ROM khớp",
+    "aliases": [
+      "tầm vận động"
+    ],
+    "pageRef": 24
+  },
+  {
+    "id": "rom-vai-gap",
+    "term": "Gập vai 180°",
+    "termVi": "Shoulder flexion 180°",
+    "definition": "Góc gập vai tối đa trong mặt phẳng đứng dọc.",
+    "category": "ROM khớp",
+    "packId": "ch03-khop",
+    "section": "ROM khớp",
+    "pageRef": 24
+  },
+  {
+    "id": "rom-vai-duoi",
+    "term": "Duỗi vai 50°",
+    "termVi": "Shoulder extension 50°",
+    "definition": "Góc duỗi vai tối đa phía sau.",
+    "category": "ROM khớp",
+    "packId": "ch03-khop",
+    "section": "ROM khớp",
+    "pageRef": 24
+  },
+  {
+    "id": "rom-cot-gap",
+    "term": "Gập cột sống 75°",
+    "termVi": "Spinal flexion 75°",
+    "definition": "Góc gập cột sống tối đa (mặt phẳng đứng dọc).",
+    "category": "ROM khớp",
+    "packId": "ch03-khop",
+    "section": "ROM khớp",
+    "pageRef": 24
+  },
+  {
+    "id": "rom-cot-duoi",
+    "term": "Duỗi cột sống 30°",
+    "termVi": "Spinal extension 30°",
+    "definition": "Góc duỗi cột sống tối đa.",
+    "category": "ROM khớp",
+    "packId": "ch03-khop",
+    "section": "ROM khớp",
+    "pageRef": 24
+  },
+  {
+    "id": "rom-cot-nghieng",
+    "term": "Nghiêng cột sống 35°",
+    "termVi": "Lateral flexion 35°",
+    "definition": "Góc nghiêng cột sống sang bên tối đa.",
+    "category": "ROM khớp",
+    "packId": "ch03-khop",
+    "section": "ROM khớp",
+    "pageRef": 24
+  },
+  {
+    "id": "rom-goi-gap",
+    "term": "Gập gối 140°",
+    "termVi": "Knee flexion 140°",
+    "definition": "Góc gập gối tối đa khi nằm ngửa.",
+    "category": "ROM khớp",
+    "packId": "ch03-khop",
+    "section": "ROM khớp",
+    "pageRef": 24
+  },
+  {
+    "id": "arom",
+    "term": "AROM",
+    "termVi": "Active ROM",
+    "definition": "Chuyển động chủ động — người tập tự thực hiện, không lực ngoài.",
+    "category": "AROM & PROM",
+    "packId": "ch04-van-dong",
+    "section": "AROM & PROM",
+    "aliases": [
+      "phạm vi chuyển động chủ động"
+    ],
+    "pageRef": 25
+  },
+  {
+    "id": "prom",
+    "term": "PROM",
+    "termVi": "Passive ROM",
+    "definition": "Chuyển động thụ động — do người khác hoặc máy tác động.",
+    "category": "AROM & PROM",
+    "packId": "ch04-van-dong",
+    "section": "AROM & PROM",
+    "aliases": [
+      "phạm vi chuyển động thụ động"
+    ],
+    "pageRef": 25
+  },
+  {
+    "id": "rom-linh-hoat",
+    "term": "Tính linh hoạt",
+    "termVi": "Flexibility",
+    "definition": "ROM liên quan đến độ linh hoạt của khớp và cơ.",
+    "category": "Ứng dụng Pilates",
+    "packId": "ch04-van-dong",
+    "section": "Ứng dụng Pilates",
+    "pageRef": 24
+  },
+  {
+    "id": "rom-on-dinh",
+    "term": "Tính ổn định",
+    "termVi": "Stability",
+    "definition": "Cân bằng giữa linh hoạt và ổn định khi tập Pilates.",
+    "category": "Ứng dụng Pilates",
+    "packId": "ch04-van-dong",
+    "section": "Ứng dụng Pilates",
+    "pageRef": 24
+  },
+  {
+    "id": "rom-cs-gap-co",
+    "term": "Gập cột sống cổ 60°",
+    "termVi": "Cervical flexion 60°",
+    "definition": "Góc gập tối đa đoạn cổ.",
+    "category": "ROM cột sống theo đoạn",
+    "packId": "ch04-van-dong",
+    "section": "ROM cột sống theo đoạn",
+    "aliases": [
+      "cervical flexion 60°"
+    ],
+    "pageRef": 26
+  },
+  {
+    "id": "rom-cs-gap-nguc",
+    "term": "Gập cột sống ngực 45°",
+    "termVi": "Thoracic flexion 45°",
+    "definition": "Góc gập tối đa đoạn ngực.",
+    "category": "ROM cột sống theo đoạn",
+    "packId": "ch04-van-dong",
+    "section": "ROM cột sống theo đoạn",
+    "aliases": [
+      "thoracic flexion 45°"
+    ],
+    "pageRef": 26
+  },
+  {
+    "id": "rom-cs-gap-lung",
+    "term": "Gập cột sống thắt lưng 40°",
+    "termVi": "Lumbar flexion 40°",
+    "definition": "Góc gập tối đa đoạn thắt lưng.",
+    "category": "ROM cột sống theo đoạn",
+    "packId": "ch04-van-dong",
+    "section": "ROM cột sống theo đoạn",
+    "aliases": [
+      "lumbar flexion 40°"
+    ],
+    "pageRef": 26
+  },
+  {
+    "id": "rom-cs-duoi-co",
+    "term": "Duỗi cột sống cổ 75°",
+    "termVi": "Cervical extension 75°",
+    "definition": "Góc duỗi tối đa đoạn cổ.",
+    "category": "ROM cột sống theo đoạn",
+    "packId": "ch04-van-dong",
+    "section": "ROM cột sống theo đoạn",
+    "aliases": [
+      "cervical extension 75°"
+    ],
+    "pageRef": 26
+  },
+  {
+    "id": "rom-cs-duoi-nguc",
+    "term": "Duỗi cột sống ngực 25°",
+    "termVi": "Thoracic extension 25°",
+    "definition": "Góc duỗi tối đa đoạn ngực.",
+    "category": "ROM cột sống theo đoạn",
+    "packId": "ch04-van-dong",
+    "section": "ROM cột sống theo đoạn",
+    "aliases": [
+      "thoracic extension 25°"
+    ],
+    "pageRef": 26
+  },
+  {
+    "id": "rom-cs-duoi-lung",
+    "term": "Duỗi cột sống thắt lưng 35°",
+    "termVi": "Lumbar extension 35°",
+    "definition": "Góc duỗi tối đa đoạn thắt lưng.",
+    "category": "ROM cột sống theo đoạn",
+    "packId": "ch04-van-dong",
+    "section": "ROM cột sống theo đoạn",
+    "aliases": [
+      "lumbar extension 35°"
+    ],
+    "pageRef": 26
+  },
+  {
+    "id": "rom-cs-nghieng-co",
+    "term": "Nghiêng cột sống cổ 45°",
+    "termVi": "Cervical lateral flexion 45°",
+    "definition": "Góc nghiêng tối đa đoạn cổ.",
+    "category": "ROM cột sống theo đoạn",
+    "packId": "ch04-van-dong",
+    "section": "ROM cột sống theo đoạn",
+    "aliases": [
+      "cervical lateral flexion 45°"
+    ],
+    "pageRef": 26
+  },
+  {
+    "id": "rom-cs-nghieng-nguc",
+    "term": "Nghiêng cột sống ngực 20°",
+    "termVi": "Thoracic lateral flexion 20°",
+    "definition": "Góc nghiêng tối đa đoạn ngực.",
+    "category": "ROM cột sống theo đoạn",
+    "packId": "ch04-van-dong",
+    "section": "ROM cột sống theo đoạn",
+    "aliases": [
+      "thoracic lateral flexion 20°"
+    ],
+    "pageRef": 26
+  },
+  {
+    "id": "rom-cs-nghieng-lung",
+    "term": "Nghiêng cột sống thắt lưng 20°",
+    "termVi": "Lumbar lateral flexion 20°",
+    "definition": "Góc nghiêng tối đa đoạn thắt lưng.",
+    "category": "ROM cột sống theo đoạn",
+    "packId": "ch04-van-dong",
+    "section": "ROM cột sống theo đoạn",
+    "aliases": [
+      "lumbar lateral flexion 20°"
+    ],
+    "pageRef": 26
+  },
+  {
+    "id": "rom-cs-xoay-co",
+    "term": "Xoay cột sống cổ 50°",
+    "termVi": "Cervical rotation 50°",
+    "definition": "Góc xoay tối đa đoạn cổ.",
+    "category": "ROM cột sống theo đoạn",
+    "packId": "ch04-van-dong",
+    "section": "ROM cột sống theo đoạn",
+    "aliases": [
+      "cervical rotation 50°"
+    ],
+    "pageRef": 26
+  },
+  {
+    "id": "rom-cs-xoay-nguc",
+    "term": "Xoay cột sống ngực 35°",
+    "termVi": "Thoracic rotation 35°",
+    "definition": "Góc xoay tối đa đoạn ngực.",
+    "category": "ROM cột sống theo đoạn",
+    "packId": "ch04-van-dong",
+    "section": "ROM cột sống theo đoạn",
+    "aliases": [
+      "thoracic rotation 35°"
+    ],
+    "pageRef": 26
+  },
+  {
+    "id": "rom-cs-xoay-lung",
+    "term": "Xoay cột sống thắt lưng 5°",
+    "termVi": "Lumbar rotation 5°",
+    "definition": "Góc xoay tối đa đoạn thắt lưng — rất hạn chế.",
+    "category": "ROM cột sống theo đoạn",
+    "packId": "ch04-van-dong",
+    "section": "ROM cột sống theo đoạn",
+    "aliases": [
+      "lumbar rotation 5°"
+    ],
+    "pageRef": 26
+  },
+  {
+    "id": "mac-co",
+    "term": "Mạc cơ",
+    "termVi": "Fascia",
+    "definition": "Lớp mô liên kết mỏng dai bao quanh, ngăn cách và liên kết các bó cơ với xương, gân, da.",
+    "category": "Mạc cơ",
+    "packId": "ch05-mac-co",
+    "section": "Mạc cơ",
+    "aliases": [
+      "fascia"
+    ],
+    "pageRef": 32
+  },
+  {
+    "id": "mac-nguc-that-lung",
+    "term": "Mạc ngực-thắt lưng",
+    "termVi": "Thoracolumbar fascia",
+    "definition": "Mạc sâu vùng lưng dưới; ổn định cột sống, truyền lực cơ học.",
+    "category": "Mạc cơ",
+    "packId": "ch05-mac-co",
+    "section": "Mạc cơ",
+    "aliases": [
+      "thoracolumbar fascia"
+    ],
+    "pageRef": 32
+  },
+  {
+    "id": "rotator-cuff",
+    "term": "Rotator cuff",
+    "termVi": "Chóp xoay",
+    "definition": "Nhóm 4 cơ vai giữ ổn định khớp vai, tránh trật khớp.",
+    "category": "Chóp xoay",
+    "packId": "ch05-mac-co",
+    "section": "Chóp xoay",
+    "aliases": [
+      "chóp xoay"
+    ],
+    "pageRef": 40
+  },
+  {
+    "id": "co-duoi-vai",
+    "term": "Cơ dưới vai",
+    "termVi": "Subscapularis",
+    "definition": "Chóp xoay — mặt trước xương bả vai, xoay trong.",
+    "category": "Chóp xoay",
+    "packId": "ch05-mac-co",
+    "section": "Chóp xoay",
+    "pageRef": 40
+  },
+  {
+    "id": "co-tren-gai",
+    "term": "Cơ trên gai",
+    "termVi": "Supraspinatus",
+    "definition": "Chóp xoay — hố trên gai; bắt đầu dạng tay 0–15°.",
+    "category": "Chóp xoay",
+    "packId": "ch05-mac-co",
+    "section": "Chóp xoay",
+    "pageRef": 40
+  },
+  {
+    "id": "co-duoi-gai",
+    "term": "Cơ dưới gai",
+    "termVi": "Infraspinatus",
+    "definition": "Chóp xoay — hố dưới gai; xoay ngoài.",
+    "category": "Chóp xoay",
+    "packId": "ch05-mac-co",
+    "section": "Chóp xoay",
+    "pageRef": 40
+  },
+  {
+    "id": "co-tron-be",
+    "term": "Cơ tròn bé",
+    "termVi": "Teres minor",
+    "definition": "Chóp xoay — xoay ngoài, khép tay nhẹ.",
+    "category": "Chóp xoay",
+    "packId": "ch05-mac-co",
+    "section": "Chóp xoay",
+    "pageRef": 40
+  },
+  {
+    "id": "chop-xoay-y-nghia",
+    "term": "Vai trò chóp xoay",
+    "termVi": "Rotator cuff function",
+    "definition": "Nếu yếu → vai dễ lệch, đau, viêm.",
+    "category": "Chóp xoay",
+    "packId": "ch05-mac-co",
+    "section": "Chóp xoay",
+    "pageRef": 40
+  },
+  {
+    "id": "dia-dem",
+    "term": "Đĩa đệm",
+    "termVi": "Intervertebral disc",
+    "definition": "Đệm giữa các đốt sống, hấp thụ chấn động.",
+    "category": "Bệnh lý cột sống",
+    "packId": "ch06-dia-dem",
+    "section": "Bệnh lý cột sống",
+    "pageRef": 51
+  },
+  {
+    "id": "nhan-nhay",
+    "term": "Nhân nhầy",
+    "termVi": "Nucleus pulposus",
+    "definition": "Phần gel bên trong đĩa đệm.",
+    "category": "Bệnh lý cột sống",
+    "packId": "ch06-dia-dem",
+    "section": "Bệnh lý cột sống",
+    "pageRef": 51
+  },
+  {
+    "id": "vong-soi",
+    "term": "Vòng sợi",
+    "termVi": "Annulus fibrosus",
+    "definition": "Bao xơ bao quanh nhân nhầy.",
+    "category": "Bệnh lý cột sống",
+    "packId": "ch06-dia-dem",
+    "section": "Bệnh lý cột sống",
+    "aliases": [
+      "bao xơ"
+    ],
+    "pageRef": 51
+  },
+  {
+    "id": "thoat-vi-dia-dem",
+    "term": "Thoát vị đĩa đệm",
+    "termVi": "Herniated disc",
+    "definition": "Nhân nhầy lệch/phình ra ngoài vòng sợi, chèn rễ thần kinh hoặc tủy sống.",
+    "category": "Bệnh lý cột sống",
+    "packId": "ch06-dia-dem",
+    "section": "Bệnh lý cột sống",
+    "aliases": [
+      "herniated disc"
+    ],
+    "pageRef": 51
+  },
+  {
+    "id": "dia-dem-binh-thuong",
+    "term": "Đĩa đệm bình thường",
+    "termVi": "Normal disc",
+    "definition": "Nhân nhầy nằm gọn trong vòng sợi, không chèn ép dây thần kinh.",
+    "category": "Bệnh lý cột sống",
+    "packId": "ch06-dia-dem",
+    "section": "Bệnh lý cột sống",
+    "pageRef": 51
+  },
+  {
+    "id": "khoi-thoat-vi",
+    "term": "Khối thoát vị",
+    "termVi": "Herniated mass",
+    "definition": "Phần nhân nhầy tràn ra ngoài vòng sợi.",
+    "category": "Bệnh lý cột sống",
+    "packId": "ch06-dia-dem",
+    "section": "Bệnh lý cột sống",
+    "pageRef": 51
+  },
+  {
+    "id": "tranh-gap-sau",
+    "term": "Gập cột sống quá mức",
+    "termVi": "Excessive flexion",
+    "definition": "Tránh Roll Up, Roll Over, Teaser, The Hundred khi thoát vị.",
+    "category": "Pilates & thoát vị",
+    "packId": "ch06-dia-dem",
+    "section": "Pilates & thoát vị",
+    "pageRef": 53
+  },
+  {
+    "id": "tranh-xoay",
+    "term": "Xoay cột sống quá mạnh",
+    "termVi": "Excessive rotation",
+    "definition": "Tránh Spine Twist, Saw, Corkscrew.",
+    "category": "Pilates & thoát vị",
+    "packId": "ch06-dia-dem",
+    "section": "Pilates & thoát vị",
+    "pageRef": 53
+  },
+  {
+    "id": "tranh-gap-xoay",
+    "term": "Gập + xoay đồng thời",
+    "termVi": "Flexion + rotation",
+    "definition": "Tránh Criss-Cross, Obliques classic — nguy hiểm nhất.",
+    "category": "Pilates & thoát vị",
+    "packId": "ch06-dia-dem",
+    "section": "Pilates & thoát vị",
+    "pageRef": 53
+  },
+  {
+    "id": "tranh-nang-2-chan",
+    "term": "Nâng hai chân cùng lúc",
+    "termVi": "Double leg lifts",
+    "definition": "Tránh Double Leg Stretch, Leg Circles 2 chân khi lõi yếu.",
+    "category": "Pilates & thoát vị",
+    "packId": "ch06-dia-dem",
+    "section": "Pilates & thoát vị",
+    "pageRef": 53
+  },
+  {
+    "id": "tranh-uan-qua",
+    "term": "Tư thế ưỡn quá mức",
+    "termVi": "Hyperextension",
+    "definition": "Tránh Swan Dive, Swimming sai kỹ thuật.",
+    "category": "Pilates & thoát vị",
+    "packId": "ch06-dia-dem",
+    "section": "Pilates & thoát vị",
+    "pageRef": 53
+  },
+  {
+    "id": "co-delta",
+    "term": "Deltoid",
+    "termVi": "Cơ delta",
+    "definition": "Nguyên ủy: X. đòn, mỏm cùng vai, gai vai. Bám tận: Mấu động lớn x. cánh tay. Hành động: Dạng, gấp, duỗi, xoay tay",
+    "category": "Bảng cơ chi trên",
+    "packId": "ch07-chi-tren",
+    "section": "Bảng cơ chi trên",
+    "aliases": [
+      "cơ delta",
+      "deltoid"
+    ],
+    "pageRef": 54
+  },
+  {
+    "id": "co-nhi-dau",
+    "term": "Biceps brachii",
+    "termVi": "Cơ nhị đầu cánh tay",
+    "definition": "Nguyên ủy: Đầu dài: ổ chảo; đầu ngắn: mỏm quạ. Bám tận: Lồi củ x. quay. Hành động: Gập khuỷu, ngửa cẳng, hỗ trợ gập vai",
+    "category": "Bảng cơ chi trên",
+    "packId": "ch07-chi-tren",
+    "section": "Bảng cơ chi trên",
+    "aliases": [
+      "cơ nhị đầu cánh tay",
+      "biceps brachii"
+    ],
+    "pageRef": 54
+  },
+  {
+    "id": "co-tam-dau",
+    "term": "Triceps brachii",
+    "termVi": "Cơ tam đầu cánh tay",
+    "definition": "Nguyên ủy: Đầu dài: x. vai; 2 đầu: x. cánh tay. Bám tận: Mỏm khuỷu x. trụ. Hành động: Duỗi khuỷu, hỗ trợ duỗi vai",
+    "category": "Bảng cơ chi trên",
+    "packId": "ch07-chi-tren",
+    "section": "Bảng cơ chi trên",
+    "aliases": [
+      "cơ tam đầu cánh tay",
+      "triceps brachii"
+    ],
+    "pageRef": 54
+  },
+  {
+    "id": "co-canh-tay-truoc",
+    "term": "Brachialis",
+    "termVi": "Cơ cánh tay trước",
+    "definition": "Nguyên ủy: 1/2 dưới x. cánh tay. Bám tận: Mỏm chỏm x. trụ. Hành động: Gập khuỷu (mạnh hơn nhị đầu)",
+    "category": "Bảng cơ chi trên",
+    "packId": "ch07-chi-tren",
+    "section": "Bảng cơ chi trên",
+    "aliases": [
+      "cơ cánh tay trước",
+      "brachialis"
+    ],
+    "pageRef": 55
+  },
+  {
+    "id": "co-ngua",
+    "term": "Supinator",
+    "termVi": "Cơ ngửa",
+    "definition": "Nguyên ủy: Mỏm lồi cầu ngoài và x. trụ. Bám tận: Mặt ngoài x. quay. Hành động: Ngửa cẳng tay",
+    "category": "Bảng cơ chi trên",
+    "packId": "ch07-chi-tren",
+    "section": "Bảng cơ chi trên",
+    "aliases": [
+      "cơ ngửa",
+      "supinator"
+    ],
+    "pageRef": 55
+  },
+  {
+    "id": "co-sap-tron",
+    "term": "Pronator teres",
+    "termVi": "Cơ sấp tròn",
+    "definition": "Nguyên ủy: Mỏm trên lồi cầu trong. Bám tận: Giữa mặt ngoài x. quay. Hành động: Sấp cẳng tay, hỗ trợ gập khuỷu",
+    "category": "Bảng cơ chi trên",
+    "packId": "ch07-chi-tren",
+    "section": "Bảng cơ chi trên",
+    "aliases": [
+      "cơ sấp tròn",
+      "pronator teres"
+    ],
+    "pageRef": 55
+  },
+  {
+    "id": "co-gap-co-quay",
+    "term": "Flexor carpi radialis",
+    "termVi": "Cơ gấp cổ tay quay",
+    "definition": "Nguyên ủy: Mỏm trên lồi cầu trong. Bám tận: Nền x. bàn tay II. Hành động: Gập cổ tay, dạng cổ tay",
+    "category": "Bảng cơ chi trên",
+    "packId": "ch07-chi-tren",
+    "section": "Bảng cơ chi trên",
+    "aliases": [
+      "cơ gấp cổ tay quay",
+      "flexor carpi radialis"
+    ],
+    "pageRef": 56
+  },
+  {
+    "id": "co-duoi-co-quay",
+    "term": "Extensor carpi radialis longus",
+    "termVi": "Cơ duỗi cổ tay quay dài",
+    "definition": "Nguyên ủy: Mỏm trên lồi cầu ngoài. Bám tận: Nền x. bàn tay II. Hành động: Duỗi cổ tay, dạng cổ tay",
+    "category": "Bảng cơ chi trên",
+    "packId": "ch07-chi-tren",
+    "section": "Bảng cơ chi trên",
+    "aliases": [
+      "cơ duỗi cổ tay quay dài",
+      "extensor carpi radialis longus"
+    ],
+    "pageRef": 56
+  },
+  {
+    "id": "co-nguc-lon",
+    "term": "Pectoralis major",
+    "termVi": "Cơ ngực lớn",
+    "definition": "Nguyên ủy: X. đòn, x. ức, sụn sườn. Bám tận: Mào mấu động lớn. Hành động: Khép tay, xoay trong, gập vai",
+    "category": "Bảng cơ chi trên",
+    "packId": "ch07-chi-tren",
+    "section": "Bảng cơ chi trên",
+    "aliases": [
+      "cơ ngực lớn",
+      "pectoralis major"
+    ],
+    "pageRef": 56
+  },
+  {
+    "id": "co-lung-rong",
+    "term": "Latissimus dorsi",
+    "termVi": "Cơ lưng rộng",
+    "definition": "Nguyên ủy: Cột sống ngực–thắt lưng, mào chậu. Bám tận: Rãnh gian củ x. cánh tay. Hành động: Duỗi, khép, xoay trong tay",
+    "category": "Bảng cơ chi trên",
+    "packId": "ch07-chi-tren",
+    "section": "Bảng cơ chi trên",
+    "aliases": [
+      "cơ lưng rộng",
+      "latissimus dorsi"
+    ],
+    "pageRef": 57
+  },
+  {
+    "id": "co-tren-gai-ct",
+    "term": "Supraspinatus",
+    "termVi": "Cơ trên gai",
+    "definition": "Nguyên ủy: Hố trên gai x. bả vai. Bám tận: Mấu động lớn. Hành động: Bắt đầu dạng tay 0–15°",
+    "category": "Bảng cơ chi trên",
+    "packId": "ch07-chi-tren",
+    "section": "Bảng cơ chi trên",
+    "aliases": [
+      "cơ trên gai",
+      "supraspinatus"
+    ],
+    "pageRef": 57
+  },
+  {
+    "id": "co-duoi-gai-ct",
+    "term": "Infraspinatus",
+    "termVi": "Cơ dưới gai",
+    "definition": "Nguyên ủy: Hố dưới gai. Bám tận: Mấu động lớn. Hành động: Xoay ngoài tay",
+    "category": "Bảng cơ chi trên",
+    "packId": "ch07-chi-tren",
+    "section": "Bảng cơ chi trên",
+    "aliases": [
+      "cơ dưới gai",
+      "infraspinatus"
+    ],
+    "pageRef": 57
+  },
+  {
+    "id": "co-tron-be-ct",
+    "term": "Teres minor",
+    "termVi": "Cơ tròn bé",
+    "definition": "Nguyên ủy: Bờ ngoài x. bả vai. Bám tận: Mấu động lớn. Hành động: Xoay ngoài, khép tay nhẹ",
+    "category": "Bảng cơ chi trên",
+    "packId": "ch07-chi-tren",
+    "section": "Bảng cơ chi trên",
+    "aliases": [
+      "cơ tròn bé",
+      "teres minor"
+    ],
+    "pageRef": 58
+  },
+  {
+    "id": "co-duoi-vai-ct",
+    "term": "Subscapularis",
+    "termVi": "Cơ dưới vai",
+    "definition": "Nguyên ủy: Hố dưới vai (mặt trước x. bả vai). Bám tận: Mấu động nhỏ. Hành động: Xoay trong tay",
+    "category": "Bảng cơ chi trên",
+    "packId": "ch07-chi-tren",
+    "section": "Bảng cơ chi trên",
+    "aliases": [
+      "cơ dưới vai",
+      "subscapularis"
+    ],
+    "pageRef": 58
+  },
+  {
+    "id": "co-qua-canh-tay",
+    "term": "Coracobrachialis",
+    "termVi": "Cơ quạ – cánh tay",
+    "definition": "Nguyên ủy: Mỏm quạ. Bám tận: Giữa thân x. cánh tay. Hành động: Gập vai, khép tay",
+    "category": "Bảng cơ chi trên",
+    "packId": "ch07-chi-tren",
+    "section": "Bảng cơ chi trên",
+    "aliases": [
+      "cơ quạ – cánh tay",
+      "coracobrachialis"
+    ],
+    "pageRef": 58
+  },
+  {
+    "id": "phan-than",
+    "term": "Phần thân (Trunk)",
+    "termVi": "Trunk",
+    "definition": "Vùng giữa cổ và chi dưới: cột sống, lồng ngực, ổ bụng–chậu, cơ xung quanh.",
+    "category": "Phần thân",
+    "packId": "ch08-phan-than",
+    "section": "Phần thân",
+    "pageRef": 59
+  },
+  {
+    "id": "long-nguc",
+    "term": "Lồng ngực",
+    "termVi": "Rib cage",
+    "definition": "Xương sườn + xương ức.",
+    "category": "Phần thân",
+    "packId": "ch08-phan-than",
+    "section": "Phần thân",
+    "pageRef": 59
+  },
+  {
+    "id": "o-bung-chau",
+    "term": "Ổ bụng – chậu",
+    "termVi": "Abdominopelvic cavity",
+    "definition": "Khoang bụng và vùng chậu.",
+    "category": "Phần thân",
+    "packId": "ch08-phan-than",
+    "section": "Phần thân",
+    "pageRef": 59
+  },
+  {
+    "id": "trung-tam-tu-the",
+    "term": "Trung tâm tư thế",
+    "termVi": "Postural center",
+    "definition": "Phần thân là trung tâm điều khiển tư thế, thăng bằng, chuyển động toàn thân.",
+    "category": "Vai trò trong Pilates",
+    "packId": "ch08-phan-than",
+    "section": "Vai trò trong Pilates",
+    "pageRef": 59
+  },
+  {
+    "id": "truyen-luc-phan-than",
+    "term": "Truyền lực từ thân",
+    "termVi": "Force transmission",
+    "definition": "Phần thân truyền lực cho tay chân hoạt động trơn tru.",
+    "category": "Vai trò trong Pilates",
+    "packId": "ch08-phan-than",
+    "section": "Vai trò trong Pilates",
+    "pageRef": 59
+  },
+  {
+    "id": "co-thang-bung",
+    "term": "Rectus abdominis",
+    "termVi": "Cơ thẳng bụng",
+    "definition": "Vị trí: Chạy dọc giữa bụng (6 múi). Chức năng: Gập thân, ổn định khung chậu, ép bụng khi thở mạnh",
+    "category": "Nhóm cơ bụng",
+    "packId": "ch08-phan-than",
+    "section": "Nhóm cơ bụng",
+    "aliases": [
+      "cơ thẳng bụng"
+    ],
+    "pageRef": 60
+  },
+  {
+    "id": "co-cheo-ngoai",
+    "term": "External oblique",
+    "termVi": "Cơ chéo ngoài",
+    "definition": "Vị trí: Chéo từ ngoài xuống trong (chữ V ngược). Chức năng: Xoay thân ngược bên, nghiêng cùng bên, ép bụng",
+    "category": "Nhóm cơ bụng",
+    "packId": "ch08-phan-than",
+    "section": "Nhóm cơ bụng",
+    "aliases": [
+      "cơ chéo ngoài"
+    ],
+    "pageRef": 60
+  },
+  {
+    "id": "co-cheo-trong",
+    "term": "Internal oblique",
+    "termVi": "Cơ chéo trong",
+    "definition": "Vị trí: Chéo từ trong ra ngoài (chữ V). Chức năng: Xoay/nghiêng cùng bên, ép bụng, hỗ trợ thở ra",
+    "category": "Nhóm cơ bụng",
+    "packId": "ch08-phan-than",
+    "section": "Nhóm cơ bụng",
+    "aliases": [
+      "cơ chéo trong"
+    ],
+    "pageRef": 60
+  },
+  {
+    "id": "co-ngang-bung",
+    "term": "Transversus abdominis",
+    "termVi": "Cơ ngang bụng",
+    "definition": "Vị trí: Nằm ngang quanh eo, sâu nhất. Chức năng: Siết bụng, ổn định cột sống–core, ép bụng mạnh",
+    "category": "Nhóm cơ bụng",
+    "packId": "ch08-phan-than",
+    "section": "Nhóm cơ bụng",
+    "aliases": [
+      "cơ ngang bụng"
+    ],
+    "pageRef": 60
+  },
+  {
+    "id": "co-thang",
+    "term": "Trapezius",
+    "termVi": "Cơ thang",
+    "definition": "Chức năng: Nâng, hạ, xoay xương bả vai; giữ cổ–vai ổn định",
+    "category": "Nhóm cơ lưng (mặt sau)",
+    "packId": "ch08-phan-than",
+    "section": "Nhóm cơ lưng (mặt sau)",
+    "aliases": [
+      "cơ thang"
+    ],
+    "pageRef": 61
+  },
+  {
+    "id": "co-lung-rong-pt",
+    "term": "Latissimus dorsi",
+    "termVi": "Cơ lưng rộng",
+    "definition": "Chức năng: Duỗi, khép, xoay trong cánh tay; kéo tay về sau",
+    "category": "Nhóm cơ lưng (mặt sau)",
+    "packId": "ch08-phan-than",
+    "section": "Nhóm cơ lưng (mặt sau)",
+    "aliases": [
+      "cơ lưng rộng"
+    ],
+    "pageRef": 61
+  },
+  {
+    "id": "co-nang-vai",
+    "term": "Levator scapulae",
+    "termVi": "Cơ nâng vai",
+    "definition": "Chức năng: Nâng và xoay xương bả vai",
+    "category": "Nhóm cơ lưng (mặt sau)",
+    "packId": "ch08-phan-than",
+    "section": "Nhóm cơ lưng (mặt sau)",
+    "aliases": [
+      "cơ nâng vai"
+    ],
+    "pageRef": 61
+  },
+  {
+    "id": "co-tram",
+    "term": "Rhomboids",
+    "termVi": "Cơ trám lớn/nhỏ",
+    "definition": "Chức năng: Kéo xương bả vai vào trong, ổn định khi xoay tay",
+    "category": "Nhóm cơ lưng (mặt sau)",
+    "packId": "ch08-phan-than",
+    "section": "Nhóm cơ lưng (mặt sau)",
+    "aliases": [
+      "cơ trám lớn/nhỏ"
+    ],
+    "pageRef": 61
+  },
+  {
+    "id": "co-vuong-that-lung",
+    "term": "Quadratus lumborum",
+    "termVi": "Cơ vuông thắt lưng",
+    "definition": "Vị trí: Hai bên cột sống thắt lưng, nối sườn 12 và mào chậu. Chức năng: Nghiêng thân, giữ thăng bằng thắt lưng–chậu",
+    "category": "Cơ lưng lớp sâu",
+    "packId": "ch08-phan-than",
+    "section": "Cơ lưng lớp sâu",
+    "aliases": [
+      "cơ vuông thắt lưng"
+    ],
+    "pageRef": 62
+  },
+  {
+    "id": "co-dung-song",
+    "term": "Erector spinae",
+    "termVi": "Cơ dựng sống",
+    "definition": "Vị trí: Dọc 2 bên cột sống từ cùng đến nền sọ. Chức năng: Duỗi lưng, giữ thẳng cột sống, nghiêng và xoay nhẹ",
+    "category": "Cơ lưng lớp sâu",
+    "packId": "ch08-phan-than",
+    "section": "Cơ lưng lớp sâu",
+    "aliases": [
+      "cơ dựng sống"
+    ],
+    "pageRef": 62
+  },
+  {
+    "id": "co-da-nhanh",
+    "term": "Multifidus",
+    "termVi": "Cơ đa nhánh",
+    "definition": "Vị trí: Từ mỏm ngang/mỏm gai đốt sống phía trên. Chức năng: Ổn định từng đốt sống, chống xoay quá mức",
+    "category": "Cơ lưng lớp sâu",
+    "packId": "ch08-phan-than",
+    "section": "Cơ lưng lớp sâu",
+    "aliases": [
+      "cơ đa nhánh"
+    ],
+    "pageRef": 62
+  },
+  {
+    "id": "khung-chau",
+    "term": "Khung chậu",
+    "termVi": "Pelvic girdle",
+    "definition": "Xương chậu nối cột sống với chi dưới.",
+    "category": "Cấu trúc khung chậu",
+    "packId": "ch09-khung-chau",
+    "section": "Cấu trúc khung chậu",
+    "pageRef": 63
+  },
+  {
+    "id": "mao-chau",
+    "term": "Mào chậu",
+    "termVi": "Iliac crest",
+    "definition": "Cạnh cong trên cùng xương chậu.",
+    "category": "Cấu trúc khung chậu",
+    "packId": "ch09-khung-chau",
+    "section": "Cấu trúc khung chậu",
+    "pageRef": 63
+  },
+  {
+    "id": "eo-tren",
+    "term": "Eo trên",
+    "termVi": "Pelvic inlet",
+    "definition": "Lỗ mở phía trên khung chậu.",
+    "category": "Cấu trúc khung chậu",
+    "packId": "ch09-khung-chau",
+    "section": "Cấu trúc khung chậu",
+    "pageRef": 63
+  },
+  {
+    "id": "khop-hong-kc",
+    "term": "Khớp hông",
+    "termVi": "Hip joint",
+    "definition": "Khớp giữa xương đùi và xương chậu.",
+    "category": "Cấu trúc khung chậu",
+    "packId": "ch09-khung-chau",
+    "section": "Cấu trúc khung chậu",
+    "pageRef": 63
+  },
+  {
+    "id": "gai-lu-ngoi",
+    "term": "Gai lụ ngồi",
+    "termVi": "Ischial spine",
+    "definition": "Mỏm xương phía sau khung chậu.",
+    "category": "Cấu trúc khung chậu",
+    "packId": "ch09-khung-chau",
+    "section": "Cấu trúc khung chậu",
+    "pageRef": 63
+  },
+  {
+    "id": "u-ngoi",
+    "term": "Ụ ngồi",
+    "termVi": "Ischial tuberosity",
+    "definition": "Xương ngồi — điểm bám khi ngồi.",
+    "category": "Cấu trúc khung chậu",
+    "packId": "ch09-khung-chau",
+    "section": "Cấu trúc khung chậu",
+    "pageRef": 63
+  },
+  {
+    "id": "xuong-mu",
+    "term": "Xương mu",
+    "termVi": "Pubis",
+    "definition": "Phần trước khung chậu.",
+    "category": "Cấu trúc khung chậu",
+    "packId": "ch09-khung-chau",
+    "section": "Cấu trúc khung chậu",
+    "pageRef": 63
+  },
+  {
+    "id": "khop-mu",
+    "term": "Khớp mu",
+    "termVi": "Pubic symphysis",
+    "definition": "Khớp nối hai nửa xương mu phía trước.",
+    "category": "Cấu trúc khung chậu",
+    "packId": "ch09-khung-chau",
+    "section": "Cấu trúc khung chậu",
+    "pageRef": 63
+  },
+  {
+    "id": "chong-do-trong-luong",
+    "term": "Chống đỡ trọng lượng",
+    "termVi": "Weight bearing",
+    "definition": "Khung chậu truyền tải trọng lượng từ cột sống xuống chi dưới.",
+    "category": "Chức năng khung chậu",
+    "packId": "ch09-khung-chau",
+    "section": "Chức năng khung chậu",
+    "pageRef": 63
+  },
+  {
+    "id": "bao-ve-noi-tang",
+    "term": "Bảo vệ nội tạng chậu",
+    "termVi": "Organ protection",
+    "definition": "Bao bọc bàng quang, tử cung, trực tràng.",
+    "category": "Chức năng khung chậu",
+    "packId": "ch09-khung-chau",
+    "section": "Chức năng khung chậu",
+    "pageRef": 63
+  },
+  {
+    "id": "gam-co-chau",
+    "term": "Gắn kết cơ và dây chằng",
+    "termVi": "Muscle attachment",
+    "definition": "Bám cơ mông, đùi, bụng dưới, sàn chậu.",
+    "category": "Chức năng khung chậu",
+    "packId": "ch09-khung-chau",
+    "section": "Chức năng khung chậu",
+    "pageRef": 63
+  },
+  {
+    "id": "co-san-chau",
+    "term": "Cơ sàn chậu",
+    "termVi": "Pelvic floor",
+    "definition": "Levator ani & Coccygeus — đáy chậu, nâng đỡ tạng, kiểm soát đại tiểu tiện.",
+    "category": "Cơ khung chậu",
+    "packId": "ch09-khung-chau",
+    "section": "Cơ khung chậu",
+    "pageRef": 64
+  },
+  {
+    "id": "co-that-lung-chau",
+    "term": "Cơ thắt lưng–chậu",
+    "termVi": "Iliopsoas",
+    "definition": "Psoas (cột sống) + Iliacus (cánh chậu) → x. đùi nhỏ; gập hông.",
+    "category": "Cơ khung chậu",
+    "packId": "ch09-khung-chau",
+    "section": "Cơ khung chậu",
+    "aliases": [
+      "iliopsoas"
+    ],
+    "pageRef": 64
+  },
+  {
+    "id": "asis",
+    "term": "Gai chậu trước trên (ASIS)",
+    "termVi": "Anterior superior iliac spine",
+    "definition": "Điểm mốc phía trước trên xương chậu.",
+    "category": "Chuyển động khung chậu",
+    "packId": "ch09-khung-chau",
+    "section": "Chuyển động khung chậu",
+    "aliases": [
+      "asis"
+    ],
+    "pageRef": 65
+  },
+  {
+    "id": "kc-trung-tinh",
+    "term": "Khung chậu trung tính",
+    "termVi": "Neutral pelvis",
+    "definition": "Tư thế cân bằng trên mặt phẳng đứng dọc.",
+    "category": "Chuyển động khung chậu",
+    "packId": "ch09-khung-chau",
+    "section": "Chuyển động khung chậu",
+    "pageRef": 65
+  },
+  {
+    "id": "kc-nga-truoc",
+    "term": "Khung chậu ngả trước",
+    "termVi": "Anterior pelvic tilt",
+    "definition": "Xương chậu nghiêng về trước, lưng dưới ưỡn.",
+    "category": "Chuyển động khung chậu",
+    "packId": "ch09-khung-chau",
+    "section": "Chuyển động khung chậu",
+    "pageRef": 65
+  },
+  {
+    "id": "kc-nga-sau",
+    "term": "Khung chậu ngả sau",
+    "termVi": "Posterior pelvic tilt",
+    "definition": "Xương chậu nghiêng về sau, mất đường cong sinh lý.",
+    "category": "Chuyển động khung chậu",
+    "packId": "ch09-khung-chau",
+    "section": "Chuyển động khung chậu",
+    "pageRef": 65
+  },
+  {
+    "id": "kc-lech-ben",
+    "term": "Khung chậu lệch bên",
+    "termVi": "Lateral pelvic tilt",
+    "definition": "Một bên chậu cao hơn bên kia (mặt phẳng đứng ngang).",
+    "category": "Chuyển động khung chậu",
+    "packId": "ch09-khung-chau",
+    "section": "Chuyển động khung chậu",
+    "pageRef": 65
+  },
+  {
+    "id": "kc-xoay-van",
+    "term": "Khung chậu xoay vặn",
+    "termVi": "Pelvic rotation",
+    "definition": "Một bên chậu xoay ra trước/sau (mặt phẳng nằm ngang).",
+    "category": "Chuyển động khung chậu",
+    "packId": "ch09-khung-chau",
+    "section": "Chuyển động khung chậu",
+    "pageRef": 65
+  },
+  {
+    "id": "sl-nga-truoc",
+    "term": "Ngả trước — biểu hiện",
+    "termVi": "APT symptoms",
+    "definition": "Tăng ưỡn thắt lưng, bụng trồi, mông vểnh; đau lưng dưới, căng gập hông.",
+    "category": "Sai lệch khung chậu",
+    "packId": "ch09-khung-chau",
+    "section": "Sai lệch khung chậu",
+    "pageRef": 66
+  },
+  {
+    "id": "sl-nga-sau",
+    "term": "Ngả sau — biểu hiện",
+    "termVi": "PPT symptoms",
+    "definition": "Cong lưng tròn, co cơ bụng/mông; giảm linh hoạt hông.",
+    "category": "Sai lệch khung chậu",
+    "packId": "ch09-khung-chau",
+    "section": "Sai lệch khung chậu",
+    "pageRef": 66
+  },
+  {
+    "id": "sl-lech-ben",
+    "term": "Lệch bên — biểu hiện",
+    "termVi": "Lateral tilt symptoms",
+    "definition": "Mất cân bằng hông–chân, lệch vai; đau gối, vai, cổ.",
+    "category": "Sai lệch khung chậu",
+    "packId": "ch09-khung-chau",
+    "section": "Sai lệch khung chậu",
+    "pageRef": 66
+  },
+  {
+    "id": "sl-xoay",
+    "term": "Xoay khung chậu — biểu hiện",
+    "termVi": "Rotation symptoms",
+    "definition": "Xoắn thân, lệch trục cột sống; căng một bên lưng/hông.",
+    "category": "Sai lệch khung chậu",
+    "packId": "ch09-khung-chau",
+    "section": "Sai lệch khung chậu",
+    "pageRef": 66
+  },
+  {
+    "id": "rom-hong-gap",
+    "term": "Gập hông 110–120°",
+    "termVi": "Hip flexion 110-120°",
+    "definition": "Góc gập hông tối đa.",
+    "category": "ROM khớp hông",
+    "packId": "ch04-van-dong",
+    "section": "ROM khớp hông",
+    "pageRef": 27
+  },
+  {
+    "id": "rom-hong-duoi",
+    "term": "Duỗi hông 10–15°",
+    "termVi": "Hip extension 10-15°",
+    "definition": "Góc duỗi hông tối đa.",
+    "category": "ROM khớp hông",
+    "packId": "ch04-van-dong",
+    "section": "ROM khớp hông",
+    "pageRef": 27
+  },
+  {
+    "id": "rom-hong-dang",
+    "term": "Dạng hông 45°",
+    "termVi": "Hip abduction 45°",
+    "definition": "Góc dạng hông tối đa.",
+    "category": "ROM khớp hông",
+    "packId": "ch04-van-dong",
+    "section": "ROM khớp hông",
+    "pageRef": 27
+  },
+  {
+    "id": "rom-hong-khep",
+    "term": "Khép hông 15–25°",
+    "termVi": "Hip adduction 15-25°",
+    "definition": "Góc khép hông tối đa.",
+    "category": "ROM khớp hông",
+    "packId": "ch04-van-dong",
+    "section": "ROM khớp hông",
+    "pageRef": 27
+  },
+  {
+    "id": "rom-hong-xoay-ngoai",
+    "term": "Xoay ngoài hông 40–60°",
+    "termVi": "Hip external rotation 40-60°",
+    "definition": "Góc xoay ngoài hông tối đa.",
+    "category": "ROM khớp hông",
+    "packId": "ch04-van-dong",
+    "section": "ROM khớp hông",
+    "pageRef": 27
+  },
+  {
+    "id": "rom-hong-xoay-trong",
+    "term": "Xoay trong hông 30–45°",
+    "termVi": "Hip internal rotation 30-45°",
+    "definition": "Góc xoay trong hông tối đa.",
+    "category": "ROM khớp hông",
+    "packId": "ch04-van-dong",
+    "section": "ROM khớp hông",
+    "pageRef": 27
+  },
+  {
+    "id": "gan",
+    "term": "Gân",
+    "termVi": "Tendon",
+    "definition": "Mô liên kết chuyên biệt — nối cơ với xương.",
+    "category": "Mô liên kết chuyên biệt",
+    "packId": "ch01-tong-quan",
+    "section": "Mô liên kết chuyên biệt",
+    "pageRef": 28
+  },
+  {
+    "id": "sun",
+    "term": "Sụn",
+    "termVi": "Cartilage",
+    "definition": "Mô liên kết chuyên biệt — bao phủ mặt khớp.",
+    "category": "Mô liên kết chuyên biệt",
+    "packId": "ch01-tong-quan",
+    "section": "Mô liên kết chuyên biệt",
+    "pageRef": 28
+  },
+  {
+    "id": "mo-mo",
+    "term": "Mô mỡ",
+    "termVi": "Adipose tissue",
+    "definition": "Mô liên kết — dự trữ năng lượng, bảo vệ.",
+    "category": "Mô liên kết chuyên biệt",
+    "packId": "ch01-tong-quan",
+    "section": "Mô liên kết chuyên biệt",
+    "pageRef": 28
+  },
+  {
+    "id": "co-tim",
+    "term": "Cơ tim",
+    "termVi": "Cardiac muscle",
+    "definition": "Cơ có vân, co bất thường, không ý thức kiểm soát.",
+    "category": "Phân loại cơ",
+    "packId": "ch05-mac-co",
+    "section": "Phân loại cơ",
+    "pageRef": 33
+  },
+  {
+    "id": "co-xuong",
+    "term": "Cơ xương",
+    "termVi": "Skeletal muscle",
+    "definition": "Có vân, bám xương qua gân, điều khiển tự ý; chiếm 40–50% khối lượng cơ thể.",
+    "category": "Phân loại cơ",
+    "packId": "ch05-mac-co",
+    "section": "Phân loại cơ",
+    "aliases": [
+      "cơ vân"
+    ],
+    "pageRef": 33
+  },
+  {
+    "id": "co-tron",
+    "term": "Cơ trơn",
+    "termVi": "Smooth muscle",
+    "definition": "Không vân, ở ruột, mạch máu; không ý thức kiểm soát.",
+    "category": "Phân loại cơ",
+    "packId": "ch05-mac-co",
+    "section": "Phân loại cơ",
+    "pageRef": 33
+  },
+  {
+    "id": "khop-canh-tay-tru",
+    "term": "Khớp cánh tay–trụ",
+    "termVi": "Humeroulnar joint",
+    "definition": "Khớp bản lề — gập/duỗi khuỷu.",
+    "category": "Khớp khuỷu tay",
+    "packId": "ch03-khop",
+    "section": "Khớp khuỷu tay",
+    "pageRef": 43
+  },
+  {
+    "id": "khop-canh-tay-quay",
+    "term": "Khớp cánh tay–quay",
+    "termVi": "Humeroradial joint",
+    "definition": "Hỗ trợ gập/duỗi và xoay nhẹ.",
+    "category": "Khớp khuỷu tay",
+    "packId": "ch03-khop",
+    "section": "Khớp khuỷu tay",
+    "pageRef": 43
+  },
+  {
+    "id": "khop-quay-tru-gan",
+    "term": "Khớp quay–trụ gần",
+    "termVi": "Proximal radioulnar joint",
+    "definition": "Khớp trục — sấp/ngửa cẳng tay.",
+    "category": "Khớp khuỷu tay",
+    "packId": "ch03-khop",
+    "section": "Khớp khuỷu tay",
+    "pageRef": 43
+  },
+  {
+    "id": "tennis-elbow",
+    "term": "Viêm gân khuỷu ngoài",
+    "termVi": "Tennis elbow",
+    "definition": "Đau vùng ngoài khuỷu (lateral epicondylitis).",
+    "category": "Tổn thương khuỷu",
+    "packId": "ch03-khop",
+    "section": "Tổn thương khuỷu",
+    "pageRef": 43
+  },
+  {
+    "id": "golfer-elbow",
+    "term": "Viêm gân khuỷu trong",
+    "termVi": "Golfer's elbow",
+    "definition": "Đau vùng trong khuỷu (medial epicondylitis).",
+    "category": "Tổn thương khuỷu",
+    "packId": "ch03-khop",
+    "section": "Tổn thương khuỷu",
+    "pageRef": 43
+  },
+  {
+    "id": "than-dot-song",
+    "term": "Thân đốt sống",
+    "termVi": "Vertebral body",
+    "definition": "Phần chịu lực nén của đốt sống.",
+    "category": "Cấu tạo đốt sống",
+    "packId": "ch02-xuong",
+    "section": "Cấu tạo đốt sống",
+    "pageRef": 48
+  },
+  {
+    "id": "cung-dot-song",
+    "term": "Cung đốt sống",
+    "termVi": "Vertebral arch",
+    "definition": "Bao quanh lỗ sống, bảo vệ tủy.",
+    "category": "Cấu tạo đốt sống",
+    "packId": "ch02-xuong",
+    "section": "Cấu tạo đốt sống",
+    "pageRef": 48
+  },
+  {
+    "id": "mom-gai",
+    "term": "Mỏm gai",
+    "termVi": "Spinous process",
+    "definition": "Mỏm nhô ra sau — điểm bám cơ.",
+    "category": "Cấu tạo đốt sống",
+    "packId": "ch02-xuong",
+    "section": "Cấu tạo đốt sống",
+    "pageRef": 48
+  },
+  {
+    "id": "mom-ngang",
+    "term": "Mỏm ngang",
+    "termVi": "Transverse process",
+    "definition": "Mỏm nhô ra hai bên.",
+    "category": "Cấu tạo đốt sống",
+    "packId": "ch02-xuong",
+    "section": "Cấu tạo đốt sống",
+    "pageRef": 48
+  },
+  {
+    "id": "lo-song",
+    "term": "Lỗ sống",
+    "termVi": "Vertebral foramen",
+    "definition": "Lỗ chứa tủy sống.",
+    "category": "Cấu tạo đốt sống",
+    "packId": "ch02-xuong",
+    "section": "Cấu tạo đốt sống",
+    "pageRef": 48
+  },
+  {
+    "id": "chuc-nang-dot-song",
+    "term": "Chức năng đốt sống",
+    "termVi": "Vertebra function",
+    "definition": "Chống đỡ, bảo vệ tủy, trục vận động, bám cơ–dây chằng.",
+    "category": "Cấu tạo đốt sống",
+    "packId": "ch02-xuong",
+    "section": "Cấu tạo đốt sống",
+    "pageRef": 48
+  },
+  {
+    "id": "thoai-hoa-dia-dem",
+    "term": "Thoái hóa đĩa đệm",
+    "termVi": "Disc degeneration",
+    "definition": "Đĩa đệm mỏng, mất nước, giảm đệm.",
+    "category": "Bệnh lý cột sống",
+    "packId": "ch06-dia-dem",
+    "section": "Bệnh lý cột sống",
+    "pageRef": 52
+  },
+  {
+    "id": "loi-dia-dem",
+    "term": "Lồi đĩa đệm",
+    "termVi": "Bulging disc",
+    "definition": "Vòng sợi phình ra nhưng nhân nhầy chưa vỡ.",
+    "category": "Bệnh lý cột sống",
+    "packId": "ch06-dia-dem",
+    "section": "Bệnh lý cột sống",
+    "pageRef": 52
+  },
+  {
+    "id": "hep-dia-dem",
+    "term": "Hẹp đĩa đệm",
+    "termVi": "Disc narrowing",
+    "definition": "Khoảng cách giữa đốt sống bị nén.",
+    "category": "Bệnh lý cột sống",
+    "packId": "ch06-dia-dem",
+    "section": "Bệnh lý cột sống",
+    "pageRef": 52
+  },
+  {
+    "id": "gai-xuong",
+    "term": "Gai xương",
+    "termVi": "Bone spur",
+    "definition": "Thoái hóa kèm gai xương (osteophyte).",
+    "category": "Bệnh lý cột sống",
+    "packId": "ch06-dia-dem",
+    "section": "Bệnh lý cột sống",
+    "pageRef": 52
+  },
+  {
+    "id": "cot-song-quan-trong",
+    "term": "Tầm quan trọng cột sống",
+    "termVi": "Spine importance",
+    "definition": "Trục chống đỡ, bảo vệ tủy sống, duy trì tư thế và chuyển động.",
+    "category": "Bệnh lý cột sống",
+    "packId": "ch06-dia-dem",
+    "section": "Bệnh lý cột sống",
+    "pageRef": 52
+  },
+  {
+    "id": "day-chang-dinh-nghia",
+    "term": "Dây chằng",
+    "termVi": "Ligament",
+    "definition": "Mô liên kết collagen nối xương–xương, ổn định khớp, hạn chế ROM quá mức.",
+    "category": "Dây chằng",
+    "packId": "ch03-khop",
+    "section": "Dây chằng",
+    "aliases": [
+      "ligament"
+    ],
+    "pageRef": 29
+  },
+  {
+    "id": "day-chang-vs-gan",
+    "term": "Dây chằng vs Gân",
+    "termVi": "Ligament vs tendon",
+    "definition": "Dây chằng ít đàn hồi hơn gân.",
+    "category": "Dây chằng",
+    "packId": "ch03-khop",
+    "section": "Dây chằng",
+    "pageRef": 29
+  },
+  {
+    "id": "acl",
+    "term": "Dây chằng chéo trước",
+    "termVi": "ACL",
+    "definition": "Anterior cruciate ligament — ổn định khớp gối.",
+    "category": "Dây chằng",
+    "packId": "ch03-khop",
+    "section": "Dây chằng",
+    "pageRef": 29
+  },
+  {
+    "id": "lcl",
+    "term": "Dây chằng bên ngoài",
+    "termVi": "LCL",
+    "definition": "Lateral collateral ligament — bên ngoài khớp gối.",
+    "category": "Dây chằng",
+    "packId": "ch03-khop",
+    "section": "Dây chằng",
+    "pageRef": 29
+  },
+  {
+    "id": "day-chang-mom-ngang",
+    "term": "Dây chằng mỏm ngang",
+    "termVi": "Intertransverse ligament",
+    "definition": "Nối mỏm ngang hai đốt sống liền kề; hạn chế nghiêng bên.",
+    "category": "Dây chằng",
+    "packId": "ch03-khop",
+    "section": "Dây chằng",
+    "pageRef": 29
+  },
+  {
+    "id": "co-dong-tam",
+    "term": "Co cơ đồng tâm",
+    "termVi": "Concentric contraction",
+    "definition": "Cơ co và rút ngắn.",
+    "category": "Hình thức co cơ",
+    "packId": "ch05-mac-co",
+    "section": "Hình thức co cơ",
+    "aliases": [
+      "concentric"
+    ],
+    "pageRef": 36
+  },
+  {
+    "id": "co-ly-tam",
+    "term": "Co cơ ly tâm",
+    "termVi": "Eccentric contraction",
+    "definition": "Cơ co nhưng bị kéo dài.",
+    "category": "Hình thức co cơ",
+    "packId": "ch05-mac-co",
+    "section": "Hình thức co cơ",
+    "aliases": [
+      "eccentric"
+    ],
+    "pageRef": 36
+  },
+  {
+    "id": "co-dang-truong",
+    "term": "Co cơ đẳng trường",
+    "termVi": "Isometric contraction",
+    "definition": "Cơ co nhưng chiều dài không đổi.",
+    "category": "Hình thức co cơ",
+    "packId": "ch05-mac-co",
+    "section": "Hình thức co cơ",
+    "aliases": [
+      "isometric"
+    ],
+    "pageRef": 36
+  },
+  {
+    "id": "27-xuong-ban-tay",
+    "term": "27 xương bàn tay",
+    "termVi": "27 hand bones",
+    "definition": "Mỗi bàn tay: 8 cổ tay + 5 bàn + 14 đốt ngón.",
+    "category": "Bàn tay & cổ tay",
+    "packId": "ch02-xuong",
+    "section": "Bàn tay & cổ tay",
+    "pageRef": 44
+  },
+  {
+    "id": "xuong-co-tay",
+    "term": "Xương cổ tay",
+    "termVi": "Carpal bones",
+    "definition": "8 xương tạo khớp lồi cầu cổ tay.",
+    "category": "Bàn tay & cổ tay",
+    "packId": "ch02-xuong",
+    "section": "Bàn tay & cổ tay",
+    "pageRef": 44
+  },
+  {
+    "id": "xuong-ban-tay",
+    "term": "Xương bàn tay",
+    "termVi": "Metacarpals",
+    "definition": "5 xương bàn tay.",
+    "category": "Bàn tay & cổ tay",
+    "packId": "ch02-xuong",
+    "section": "Bàn tay & cổ tay",
+    "pageRef": 44
+  },
+  {
+    "id": "xuong-doi-ngon",
+    "term": "Xương đốt ngón",
+    "termVi": "Phalanges",
+    "definition": "14 xương đốt ngón (3 mỗi ngón, 2 ở ngón cái).",
+    "category": "Bàn tay & cổ tay",
+    "packId": "ch02-xuong",
+    "section": "Bàn tay & cổ tay",
+    "pageRef": 44
+  },
+  {
+    "id": "gu-lung",
+    "term": "Gù lưng",
+    "termVi": "Kyphosis",
+    "definition": "Vai tròn, lưng cong — do cúi đầu lâu.",
+    "category": "Bệnh lý cột sống",
+    "packId": "ch06-dia-dem",
+    "section": "Bệnh lý cột sống",
+    "pageRef": 49
+  },
+  {
+    "id": "cong-veo",
+    "term": "Cong vẹo cột sống",
+    "termVi": "Scoliosis",
+    "definition": "Cột sống cong sang bên; lệch vai, hông.",
+    "category": "Bệnh lý cột sống",
+    "packId": "ch06-dia-dem",
+    "section": "Bệnh lý cột sống",
+    "aliases": [
+      "scoliosis"
+    ],
+    "pageRef": 49
+  },
+  {
+    "id": "truot-dot-song",
+    "term": "Trượt đốt sống",
+    "termVi": "Spondylolisthesis",
+    "definition": "Đốt sống trượt về phía trước.",
+    "category": "Bệnh lý cột sống",
+    "packId": "ch06-dia-dem",
+    "section": "Bệnh lý cột sống",
+    "pageRef": 49
+  },
+  {
+    "id": "piriformis",
+    "term": "Hội chứng cơ hình lê",
+    "termVi": "Piriformis syndrome",
+    "definition": "Đau mông lan chân; dễ nhầm thoát vị.",
+    "category": "Bệnh lý cột sống",
+    "packId": "ch06-dia-dem",
+    "section": "Bệnh lý cột sống",
+    "pageRef": 49
+  },
+  {
+    "id": "co-vai-gay",
+    "term": "Hội chứng cổ vai gáy",
+    "termVi": "Neck-shoulder syndrome",
+    "definition": "Đau vai gáy, tê tay — do cúi điện thoại, ngồi sai.",
+    "category": "Bệnh lý cột sống",
+    "packId": "ch06-dia-dem",
+    "section": "Bệnh lý cột sống",
+    "pageRef": 49
+  }
+]

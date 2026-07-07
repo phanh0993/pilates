@@ -8,7 +8,9 @@
     "build": "tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "import:pdf": ".venv/bin/python scripts/import_pdf.py"
+    "import:pdf": ".venv/bin/python scripts/import_pdf.py",
+    "import:anatomy": ".venv/bin/python scripts/import_anatomy_photos.py",
+    "copy:anatomy": ".venv/bin/python scripts/copy_anatomy_photos.py"
   },
   "dependencies": {
     "framer-motion": "^12.42.2",
