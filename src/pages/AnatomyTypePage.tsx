@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { QuestionNav } from "../components/QuestionNav";
 import { getPackConcepts, isTermCorrect, maskDefinition } from "../lib/anatomy";
+import { shuffle } from "../lib/shuffle";
 import type { AnatomyConcept } from "../types/anatomy";
 import type { QuestionStatus, QuizAnswer } from "../types";
 
@@ -12,14 +13,21 @@ type AnatomyTypePageProps = {
 export const AnatomyTypePage = ({ concepts }: AnatomyTypePageProps) => {
   const { packId = "" } = useParams<{ packId: string }>();
 
-  const packConcepts = useMemo(() => {
-    const ids = concepts.filter((c) => c.packId === packId).map((c) => c.id);
-    return getPackConcepts(ids, concepts);
-  }, [concepts, packId]);
+  const conceptIds = useMemo(
+    () => concepts.filter((c) => c.packId === packId).map((c) => c.id),
+    [concepts, packId],
+  );
 
+  const [packConcepts, setPackConcepts] = useState<AnatomyConcept[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState<Record<number, QuizAnswer>>({});
   const [typedValue, setTypedValue] = useState("");
+
+  useEffect(() => {
+    setPackConcepts(shuffle(getPackConcepts(conceptIds, concepts)));
+    setCurrentIndex(0);
+    setAnswers({});
+  }, [conceptIds, concepts, packId]);
 
   const currentConcept = packConcepts[currentIndex];
   const currentAnswer = answers[currentIndex];

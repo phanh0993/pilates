@@ -32,14 +32,18 @@ export const AnatomyMixedExamPage = ({ concepts, packs }: AnatomyMixedExamPagePr
     return concepts.filter((c) => c.packId === packId);
   }, [concepts, isAll, packId]);
 
-  const [examQuestions] = useState<MixedExamQuestion[]>(() =>
-    buildMixedExam(poolConcepts, isAll ? EXAM_ALL_SIZE : undefined),
-  );
-
+  const [examQuestions, setExamQuestions] = useState<MixedExamQuestion[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState<Record<number, QuizAnswer>>({});
   const [optionCache, setOptionCache] = useState<OptionCache>({});
   const [typedValue, setTypedValue] = useState("");
+
+  useEffect(() => {
+    setExamQuestions(buildMixedExam(poolConcepts, isAll ? EXAM_ALL_SIZE : undefined));
+    setCurrentIndex(0);
+    setAnswers({});
+    setOptionCache({});
+  }, [isAll, packId, poolConcepts]);
 
   const current = examQuestions[currentIndex];
   const currentAnswer = answers[currentIndex];
@@ -51,15 +55,15 @@ export const AnatomyMixedExamPage = ({ concepts, packs }: AnatomyMixedExamPagePr
   }, [currentIndex]);
 
   useEffect(() => {
-    setOptionCache((prev) => {
-      const next = { ...prev };
-      examQuestions.forEach((q, index) => {
-        if (q.mode === "mcq" && !next[index]) {
-          next[index] = buildConceptOptions(q.concept, poolConcepts);
-        }
-      });
-      return next;
+    if (examQuestions.length === 0) return;
+
+    const next: OptionCache = {};
+    examQuestions.forEach((q, index) => {
+      if (q.mode === "mcq") {
+        next[index] = buildConceptOptions(q.concept, poolConcepts);
+      }
     });
+    setOptionCache(next);
   }, [examQuestions, poolConcepts]);
 
   const statuses: QuestionStatus[] = examQuestions.map((_, index) => {
