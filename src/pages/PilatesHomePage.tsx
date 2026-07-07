@@ -16,7 +16,9 @@ export const PilatesHomePage = ({ packs }: PilatesHomePageProps) => (
 
     <div className="mt-4 rounded-3xl bg-gradient-to-br from-violet-600 to-indigo-700 p-8 text-white shadow-lg">
       <h1 className="text-3xl font-black tracking-tight">Pilates</h1>
-      <p className="mt-2 text-violet-100">11 động tác mẫu — Emma Pilates Academy.</p>
+      <p className="mt-2 text-violet-100">
+        Reformer, Push-thru Bar & Mat — Emma Pilates Academy.
+      </p>
     </div>
 
     <div className="mt-8 space-y-6">

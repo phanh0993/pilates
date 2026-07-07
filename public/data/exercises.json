@@ -316,5 +316,1802 @@
       }
     ],
     "audioUrl": "/audio/teaser-prep.mp3"
+  },
+  {
+    "id": "mat-breathing",
+    "nameEn": "BREATHING",
+    "nameVi": "Hít thở",
+    "category": "MAT (Thảm) — Khởi động",
+    "packId": "mat-warmup",
+    "prep": "Ngồi khoanh chân, lưng-hông trung tính. Một tay trên ngực, một tay trên khung sườn.",
+    "steps": "Hít: mở căng lồng ngực ra bốn phía, cảm nhận khung sườn mở rộng. Thở: đóng lồng ngực, thu khung sườn lại.",
+    "reps": "5–10 lần",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Hơi thở về phía trước và sang hai bên",
+        "url": "/images/mat-breathing/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Tư thế chuẩn bị cho hình 3",
+        "url": "/images/mat-breathing/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Hơi thở ở phía sau",
+        "url": "/images/mat-breathing/3.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-breathing.mp3"
+  },
+  {
+    "id": "mat-leg-lift",
+    "nameEn": "LEG LIFT",
+    "nameVi": "Nâng chân",
+    "category": "MAT (Thảm) — Khởi động",
+    "packId": "mat-warmup",
+    "prep": "Nằm ngửa, lưng-hông trung tính.",
+    "steps": "Thở: siết bụng, nâng một chân lên table-top. Hít: hạ chân. Thở: đổi chân.",
+    "reps": "5–10 lần",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Vị trí chuẩn bị",
+        "url": "/images/mat-leg-lift/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Nâng một chân lên",
+        "url": "/images/mat-leg-lift/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Hạ chân để đổi bên",
+        "url": "/images/mat-leg-lift/3.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-leg-lift.mp3"
+  },
+  {
+    "id": "mat-leg-slide",
+    "nameEn": "LEG SLIDE",
+    "nameVi": "Trượt chân",
+    "category": "MAT (Thảm) — Khởi động",
+    "packId": "mat-warmup",
+    "prep": "Nằm ngửa, lưng-hông trung tính. Hai tay cạnh thân, lòng bàn tay úp. Gập gối, chân mở bằng hông. Siết bụng, bả vai ổn định.",
+    "steps": "Hít: thả lỏng khớp hông, mở một chân sang bên, duỗi gối trượt má chân ra xa mông. Thở: xoay chân về neutral, gập gối trượt lòng bàn chân về.",
+    "reps": "3 lần mỗi chân",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Tư thế chuẩn bị",
+        "url": "/images/mat-leg-slide/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Bắt đầu nâng 1 chân",
+        "url": "/images/mat-leg-slide/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Trượt gót chân ra xa xương ngồi",
+        "url": "/images/mat-leg-slide/3.jpg"
+      },
+      {
+        "step": 4,
+        "caption": "Trượt gót về",
+        "url": "/images/mat-leg-slide/4.jpg"
+      },
+      {
+        "step": 5,
+        "caption": "Đưa chân về vị trí ban đầu",
+        "url": "/images/mat-leg-slide/5.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-leg-slide.mp3"
+  },
+  {
+    "id": "mat-spinal-rotation",
+    "nameEn": "SPINAL ROTATION",
+    "nameVi": "Xoay cột sống",
+    "category": "MAT (Thảm) — Khởi động",
+    "packId": "mat-warmup",
+    "prep": "Nằm nghiêng, gối co xếp chồng, tay duỗi phía trước ngực.",
+    "steps": "Thở: xoay người ra sau, mở ngực hướng trần, tay mở ra sau. Hít: duy trì. Thở: xoay về, khép tay.",
+    "reps": "6–8 lần mỗi bên",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Tư thế chuẩn bị",
+        "url": "/images/mat-spinal-rotation/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Nâng 1 tay lên",
+        "url": "/images/mat-spinal-rotation/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Xoay người mở tay ra sau",
+        "url": "/images/mat-spinal-rotation/3.jpg"
+      },
+      {
+        "step": 4,
+        "caption": "Trở về",
+        "url": "/images/mat-spinal-rotation/4.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-spinal-rotation.mp3"
+  },
+  {
+    "id": "mat-hip-rolls",
+    "nameEn": "HIP ROLLS",
+    "nameVi": "Cuộn hông",
+    "category": "MAT (Thảm) — Khởi động",
+    "packId": "mat-warmup",
+    "prep": "Nằm ngửa, gối co, chân úp sàn.",
+    "steps": "Hít: mở căng lồng ngực. Thở: cuộn tuần tự từ mông lên ngực qua imprint lên cây cầu. Hít: duy trì, mở khung sườn. Thở: cuộn từ ngực xuống, lưng-hông trung tính.",
+    "reps": "5–8 lần",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Vị trí ban đầu",
+        "url": "/images/mat-hip-rolls/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Cuộn lưng qua imprint lên cây cầu",
+        "url": "/images/mat-hip-rolls/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Cuộn trở về",
+        "url": "/images/mat-hip-rolls/3.jpg"
+      },
+      {
+        "step": 4,
+        "caption": "Cuộn trở về",
+        "url": "/images/mat-hip-rolls/4.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-hip-rolls.mp3"
+  },
+  {
+    "id": "mat-arm-circle",
+    "nameEn": "ARM CIRCLE",
+    "nameVi": "Xoay vòng cánh tay",
+    "category": "MAT (Thảm) — Khởi động",
+    "packId": "mat-warmup",
+    "prep": "Nằm ngửa, lưng-hông trung tính. Hai tay nâng vuông góc lên trần, mở rộng bằng vai.",
+    "steps": "Hít: đưa tay qua đầu, giữ kết nối cơ bụng, bả vai ổn định trên thảm. Thở: mở tay sang hai bên, vẽ vòng tròn qua hông, nâng lên trần. Vẽ ngược lại.",
+    "reps": "5–8 lần mỗi bên",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Vị trí chuẩn bị",
+        "url": "/images/mat-arm-circle/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Tay qua đầu",
+        "url": "/images/mat-arm-circle/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Vẽ vòng tròn",
+        "url": "/images/mat-arm-circle/3.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-arm-circle.mp3"
+  },
+  {
+    "id": "mat-twist",
+    "nameEn": "TWIST",
+    "nameVi": "Xoay người",
+    "category": "MAT (Thảm) — Khởi động",
+    "packId": "mat-warmup",
+    "prep": "Ngồi khoanh chân, lưng-hông trung tính. Khuỷu tay chéo trước ngực.",
+    "steps": "Thở: xoay người sang một bên. Hít: xoay về giữa. Thở: xoay bên còn lại.",
+    "reps": "6–8 lần",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Vị trí bắt đầu",
+        "url": "/images/mat-twist/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Xoay một bên",
+        "url": "/images/mat-twist/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Xoay về giữa",
+        "url": "/images/mat-twist/3.jpg"
+      },
+      {
+        "step": 4,
+        "caption": "Xoay bên còn lại",
+        "url": "/images/mat-twist/4.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-twist.mp3"
+  },
+  {
+    "id": "mat-side-bend-sitting",
+    "nameEn": "SIDE BEND SITTING",
+    "nameVi": "Ngồi gập bên",
+    "category": "MAT (Thảm) — Khởi động",
+    "packId": "mat-warmup",
+    "prep": "Ngồi khoanh chân, lưng-hông trung tính. Hai tay duỗi cạnh thân.",
+    "steps": "Hít: nâng một tay lên trần. Thở: nghiêng bên đối diện tay nâng. Hít: trở về. Thở: hạ tay. Đổi bên.",
+    "reps": "6–8 lần",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Vị trí bắt đầu",
+        "url": "/images/mat-side-bend-sitting/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Nâng một tay lên trần",
+        "url": "/images/mat-side-bend-sitting/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Nghiêng bên",
+        "url": "/images/mat-side-bend-sitting/3.jpg"
+      },
+      {
+        "step": 4,
+        "caption": "Trở về",
+        "url": "/images/mat-side-bend-sitting/4.jpg"
+      },
+      {
+        "step": 5,
+        "caption": "Hạ tay",
+        "url": "/images/mat-side-bend-sitting/5.jpg"
+      },
+      {
+        "step": 6,
+        "caption": "Nâng đối tay",
+        "url": "/images/mat-side-bend-sitting/6.jpg"
+      },
+      {
+        "step": 7,
+        "caption": "Nghiêng bên còn lại",
+        "url": "/images/mat-side-bend-sitting/7.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-side-bend-sitting.mp3"
+  },
+  {
+    "id": "mat-scapula-isolation",
+    "nameEn": "SCAPULA ISOLATION",
+    "nameVi": "Cử động cô lập bả vai",
+    "category": "MAT (Thảm) — Khởi động",
+    "packId": "mat-warmup",
+    "prep": "Ngồi khoanh chân, hai tay duỗi thẳng phía trước ngực.",
+    "steps": "Thở: ép bả vai xuống. Hít: đưa bả vai về trung lập. Thở: tách hai bả vai xa nhau.",
+    "reps": "6–8 lần",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Vị trí chuẩn bị",
+        "url": "/images/mat-scapula-isolation/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Ép bả vai",
+        "url": "/images/mat-scapula-isolation/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Đưa bả vai về trung lập",
+        "url": "/images/mat-scapula-isolation/3.jpg"
+      },
+      {
+        "step": 4,
+        "caption": "Tách hai bả vai xa nhau",
+        "url": "/images/mat-scapula-isolation/4.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-scapula-isolation.mp3"
+  },
+  {
+    "id": "mat-half-roll-back",
+    "nameEn": "HALF ROLL BACK",
+    "nameVi": "Cuộn nửa người về sau",
+    "category": "MAT (Thảm) — Khởi động",
+    "packId": "mat-warmup",
+    "prep": "Ngồi khoanh chân, lưng-hông trung tính, tay ôm đầu gối.",
+    "steps": "Hít: chuẩn bị. Thở: cuộn cong lưng ra sau. Hít: giữ C, mở ngực. Thở: úp về chân. Hít: cuộn dựng lên.",
+    "reps": "6–8 lần",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Vị trí chuẩn bị",
+        "url": "/images/mat-half-roll-back/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Cuộn cong lưng ra sau",
+        "url": "/images/mat-half-roll-back/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Cong lưng về trước chân",
+        "url": "/images/mat-half-roll-back/3.jpg"
+      },
+      {
+        "step": 4,
+        "caption": "Cuộn thẳng lưng về vị trí ban đầu",
+        "url": "/images/mat-half-roll-back/4.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-half-roll-back.mp3"
+  },
+  {
+    "id": "mat-cat-stretch",
+    "nameEn": "CAT STRETCH",
+    "nameVi": "Tư thế con mèo",
+    "category": "MAT (Thảm) — Khởi động",
+    "packId": "mat-warmup",
+    "prep": "Tư thế bốn điểm, cột sống trung tính.",
+    "steps": "Thở: cuộn cong lưng lên trần (cat). Hít: cuộn lưng về neutral. Thở: cuộn duỗi lưng (cow).",
+    "reps": "5–8 lần",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Vị trí chuẩn bị",
+        "url": "/images/mat-cat-stretch/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Cuộn cong lưng lên trần",
+        "url": "/images/mat-cat-stretch/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Cuộn lưng về neutral",
+        "url": "/images/mat-cat-stretch/3.jpg"
+      },
+      {
+        "step": 4,
+        "caption": "Tư thế bốn điểm",
+        "url": "/images/mat-cat-stretch/4.jpg"
+      },
+      {
+        "step": 5,
+        "caption": "Cuộn cong lên",
+        "url": "/images/mat-cat-stretch/5.jpg"
+      },
+      {
+        "step": 6,
+        "caption": "Cuộn duỗi lưng (cow)",
+        "url": "/images/mat-cat-stretch/6.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-cat-stretch.mp3"
+  },
+  {
+    "id": "mat-chest-lift",
+    "nameEn": "CHEST LIFT",
+    "nameVi": "Nâng ngực",
+    "category": "MAT (Thảm) — Bài chính",
+    "packId": "mat-main",
+    "prep": "Nằm ngửa, tay sau đầu, gối co, chân table-top hoặc úp sàn.",
+    "steps": "Thở: siết bụng, nâng ngực lên. Hít: hạ xuống.",
+    "reps": "5–10 lần",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Vị trí bắt đầu",
+        "url": "/images/mat-chest-lift/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Nâng ngực lên",
+        "url": "/images/mat-chest-lift/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Biến thể: chân table-top",
+        "url": "/images/mat-chest-lift/3.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-chest-lift.mp3"
+  },
+  {
+    "id": "mat-obliques",
+    "nameEn": "OBLIQUES",
+    "nameVi": "Cơ chéo bụng",
+    "category": "MAT (Thảm) — Bài chính",
+    "packId": "mat-main",
+    "prep": "Tư thế chest lift, tay sau đầu.",
+    "steps": "Thở: xoay người sang một bên. Hít: về giữa. Thở: xoay đối bên.",
+    "reps": "8–10 lần",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Vị trí bắt đầu",
+        "url": "/images/mat-obliques/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Xoay bên",
+        "url": "/images/mat-obliques/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Xoay về giữa",
+        "url": "/images/mat-obliques/3.jpg"
+      },
+      {
+        "step": 4,
+        "caption": "Đối bên",
+        "url": "/images/mat-obliques/4.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-obliques.mp3"
+  },
+  {
+    "id": "mat-obliques-variation",
+    "nameEn": "OBLIQUES VARIATION",
+    "nameVi": "Cơ chéo bụng — Biến thể",
+    "category": "MAT (Thảm) — Bài chính",
+    "packId": "mat-main",
+    "prep": "Chest lift, chân table-top.",
+    "steps": "Hít: chân table-top. Thở: xoay trái, duỗi chân phải. Hít: trở về. Thở: xoay phải, duỗi chân trái.",
+    "reps": "8–10 lần",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Chân table-top",
+        "url": "/images/mat-obliques-variation/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Xoay trái, duỗi chân phải",
+        "url": "/images/mat-obliques-variation/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Trở về",
+        "url": "/images/mat-obliques-variation/3.jpg"
+      },
+      {
+        "step": 4,
+        "caption": "Xoay phải, duỗi chân trái",
+        "url": "/images/mat-obliques-variation/4.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-obliques-variation.mp3"
+  },
+  {
+    "id": "mat-hundred",
+    "nameEn": "THE HUNDRED",
+    "nameVi": "Trăm nhịp",
+    "category": "MAT (Thảm) — Bài chính",
+    "packId": "mat-main",
+    "prep": "Nằm ngửa, gối co table-top, tay dọc thân.",
+    "steps": "Thở: nâng ngực, duỗi chân đường chéo. Đập tay: hít 5 nhịp, thở 5 nhịp.",
+    "reps": "10 lần (100 nhịp)",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Vị trí chuẩn bị",
+        "url": "/images/mat-hundred/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Nâng người, duỗi chân đường chéo",
+        "url": "/images/mat-hundred/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Hít thở kết hợp đập tay",
+        "url": "/images/mat-hundred/3.jpg"
+      },
+      {
+        "step": 4,
+        "caption": "Hít thở kết hợp đập tay",
+        "url": "/images/mat-hundred/4.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-hundred.mp3"
+  },
+  {
+    "id": "mat-hundred-easy",
+    "nameEn": "THE HUNDRED — EASY VARIATION",
+    "nameVi": "Trăm nhịp — Biến thể dễ",
+    "category": "MAT (Thảm) — Bài chính",
+    "packId": "mat-main",
+    "prep": "Nằm ngửa, giữ chân table-top.",
+    "steps": "Giữ chân table-top khi thực hiện hundred.",
+    "reps": "10 lần",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Biến thể dễ",
+        "url": "/images/mat-hundred-easy/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Giữ chân table-top",
+        "url": "/images/mat-hundred-easy/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Đập tay",
+        "url": "/images/mat-hundred-easy/3.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-hundred-easy.mp3"
+  },
+  {
+    "id": "mat-roll-up",
+    "nameEn": "ROLL UP",
+    "nameVi": "Cuộn người lên",
+    "category": "MAT (Thảm) — Bài chính",
+    "packId": "mat-main",
+    "prep": "Nằm ngửa, chân duỗi, tay qua đầu, lưng-hông trung tính.",
+    "steps": "Hít: nâng tay lên trần. Thở: cuộn cột sống lên, úp lưng về trước. Hít: chuẩn bị cuộn xuống. Thở: cuộn lưng nằm xuống.",
+    "reps": "5–8 lần",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Vị trí chuẩn bị",
+        "url": "/images/mat-roll-up/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Nâng tay lên trần nhà",
+        "url": "/images/mat-roll-up/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Cuộn cột sống lên",
+        "url": "/images/mat-roll-up/3.jpg"
+      },
+      {
+        "step": 4,
+        "caption": "Úp lưng về trước",
+        "url": "/images/mat-roll-up/4.jpg"
+      },
+      {
+        "step": 5,
+        "caption": "Cuộn lưng nằm xuống",
+        "url": "/images/mat-roll-up/5.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-roll-up.mp3"
+  },
+  {
+    "id": "mat-one-leg-circle",
+    "nameEn": "ONE LEG CIRCLE",
+    "nameVi": "Vẽ vòng tròn một chân",
+    "category": "MAT (Thảm) — Bài chính",
+    "packId": "mat-main",
+    "prep": "Nằm ngửa, một chân duỗi sàn, một chân nâng vuông góc.",
+    "steps": "Thở: hạ chân. Hít: mở chân vẽ vòng tròn. Thở: nâng chân về. Đổi chiều và chân.",
+    "reps": "5 vòng mỗi chiều mỗi chân",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Vị trí chuẩn bị",
+        "url": "/images/mat-one-leg-circle/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Hạ chân",
+        "url": "/images/mat-one-leg-circle/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Mở chân vẽ vòng tròn",
+        "url": "/images/mat-one-leg-circle/3.jpg"
+      },
+      {
+        "step": 4,
+        "caption": "Nâng chân về vị trí bắt đầu",
+        "url": "/images/mat-one-leg-circle/4.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-one-leg-circle.mp3"
+  },
+  {
+    "id": "mat-single-leg-stretch",
+    "nameEn": "SINGLE LEG STRETCH",
+    "nameVi": "Duỗi một chân",
+    "category": "MAT (Thảm) — Bài chính",
+    "packId": "mat-main",
+    "prep": "Nằm ngửa, đầu và vai nâng, một chân co table-top, tay nắm ống chân.",
+    "steps": "Thở: duỗi chân ra, giữ chân còn lại co. Hít: đổi chân.",
+    "reps": "8–10 lần cả hai chân",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Vị trí bắt đầu",
+        "url": "/images/mat-single-leg-stretch/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Một chân co, một chân duỗi",
+        "url": "/images/mat-single-leg-stretch/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Đổi chân",
+        "url": "/images/mat-single-leg-stretch/3.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-single-leg-stretch.mp3"
+  },
+  {
+    "id": "mat-double-leg-stretch",
+    "nameEn": "DOUBLE LEG STRETCH",
+    "nameVi": "Duỗi hai chân",
+    "category": "MAT (Thảm) — Bài chính",
+    "packId": "mat-main",
+    "prep": "Chest lift, hai chân co table-top, tay nắm ống chân.",
+    "steps": "Hít: gập khuỷu tay. Thở: vươn tay qua đầu, duỗi thẳng chân. Hít: mở tay sang hai bên, co gối. Thở: vẽ tay vòng tròn trở về.",
+    "reps": "5–10 lần",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Vị trí chuẩn bị",
+        "url": "/images/mat-double-leg-stretch/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Gập khuỷu tay",
+        "url": "/images/mat-double-leg-stretch/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Vươn tay qua đầu, duỗi chân",
+        "url": "/images/mat-double-leg-stretch/3.jpg"
+      },
+      {
+        "step": 4,
+        "caption": "Mở tay sang hai bên, co gối",
+        "url": "/images/mat-double-leg-stretch/4.jpg"
+      },
+      {
+        "step": 5,
+        "caption": "Vẽ tay vòng tròn trở về",
+        "url": "/images/mat-double-leg-stretch/5.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-double-leg-stretch.mp3"
+  },
+  {
+    "id": "mat-scissors",
+    "nameEn": "SCISSORS",
+    "nameVi": "Kéo chân",
+    "category": "MAT (Thảm) — Bài chính",
+    "packId": "mat-main",
+    "prep": "Nằm ngửa, một chân thẳng sàn, một chân nâng, tay nắm cổ chân, imprint.",
+    "steps": "Hít: kéo chân nâng về phía người. Thở: đổi chân.",
+    "reps": "8–10 lần",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Vị trí chuẩn bị",
+        "url": "/images/mat-scissors/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Đổi chân",
+        "url": "/images/mat-scissors/2.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-scissors.mp3"
+  },
+  {
+    "id": "mat-double-leg-straight",
+    "nameEn": "DOUBLE LEG STRAIGHT",
+    "nameVi": "Duỗi thẳng hai chân",
+    "category": "MAT (Thảm) — Bài chính",
+    "packId": "mat-main",
+    "prep": "Nằm ngửa, hai chân nâng vuông góc, tay sau đầu.",
+    "steps": "Hít: gập cổ chân. Thở: nâng chân lên. Hít: duỗi cổ chân. Thở: hạ chân xuống.",
+    "reps": "8–10 lần",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Vị trí chuẩn bị",
+        "url": "/images/mat-double-leg-straight/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Gập cổ chân",
+        "url": "/images/mat-double-leg-straight/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Nâng chân lên",
+        "url": "/images/mat-double-leg-straight/3.jpg"
+      },
+      {
+        "step": 4,
+        "caption": "Duỗi cổ chân",
+        "url": "/images/mat-double-leg-straight/4.jpg"
+      },
+      {
+        "step": 5,
+        "caption": "Hạ chân xuống",
+        "url": "/images/mat-double-leg-straight/5.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-double-leg-straight.mp3"
+  },
+  {
+    "id": "mat-shoulder-bridge",
+    "nameEn": "SHOULDER BRIDGE",
+    "nameVi": "Cầu vai",
+    "category": "MAT (Thảm) — Bài chính",
+    "packId": "mat-main",
+    "prep": "Nằm ngửa, gối co, chân úp sàn, cây cầu.",
+    "steps": "Nâng một chân table-top, duỗi thẳng lên trần, gập cổ chân hạ xuống. Đổi chân.",
+    "reps": "3 lần mỗi chân",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Tư thế chuẩn bị",
+        "url": "/images/mat-shoulder-bridge/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Nâng một chân table-top",
+        "url": "/images/mat-shoulder-bridge/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Duỗi thẳng lên trần",
+        "url": "/images/mat-shoulder-bridge/3.jpg"
+      },
+      {
+        "step": 4,
+        "caption": "Gập cổ chân, hạ chân",
+        "url": "/images/mat-shoulder-bridge/4.jpg"
+      },
+      {
+        "step": 5,
+        "caption": "Đổi chân lên table-top",
+        "url": "/images/mat-shoulder-bridge/5.jpg"
+      },
+      {
+        "step": 6,
+        "caption": "Nâng thẳng chân lên trần",
+        "url": "/images/mat-shoulder-bridge/6.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-shoulder-bridge.mp3"
+  },
+  {
+    "id": "mat-rolling-like-a-ball",
+    "nameEn": "ROLLING LIKE A BALL",
+    "nameVi": "Lăn như một quả bóng",
+    "category": "MAT (Thảm) — Bài chính",
+    "packId": "mat-main",
+    "prep": "Ngồi, ôm gối, cằm hướng xương ức, mắt nhìn rốn.",
+    "steps": "Hít: lăn về vai. Thở: lăn về cân bằng.",
+    "reps": "7–10 lần",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Tư thế chuẩn bị",
+        "url": "/images/mat-rolling-like-a-ball/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Lăn về vai",
+        "url": "/images/mat-rolling-like-a-ball/2.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-rolling-like-a-ball.mp3"
+  },
+  {
+    "id": "mat-roll-over",
+    "nameEn": "ROLL OVER",
+    "nameVi": "Cuộn người qua đầu",
+    "category": "MAT (Thảm) — Bài chính",
+    "packId": "mat-main",
+    "prep": "Nằm ngửa, chân duỗi thẳng, tay dọc thân.",
+    "steps": "Thở: nâng chân lên trần, cuộn qua đầu, chân song song sàn, hạ mũi chân, mở chân. Thở: cuộn xuống, khép chân về.",
+    "reps": "5 lần",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Vị trí chuẩn bị",
+        "url": "/images/mat-roll-over/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Nâng chân lên trần",
+        "url": "/images/mat-roll-over/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Cuộn lên chân song song sàn",
+        "url": "/images/mat-roll-over/3.jpg"
+      },
+      {
+        "step": 4,
+        "caption": "Hạ mũi chân",
+        "url": "/images/mat-roll-over/4.jpg"
+      },
+      {
+        "step": 5,
+        "caption": "Nâng mở chân",
+        "url": "/images/mat-roll-over/5.jpg"
+      },
+      {
+        "step": 6,
+        "caption": "Cuộn xuống",
+        "url": "/images/mat-roll-over/6.jpg"
+      },
+      {
+        "step": 7,
+        "caption": "Bắt đầu hạ chân",
+        "url": "/images/mat-roll-over/7.jpg"
+      },
+      {
+        "step": 8,
+        "caption": "Khép về ban đầu",
+        "url": "/images/mat-roll-over/8.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-roll-over.mp3"
+  },
+  {
+    "id": "mat-teaser",
+    "nameEn": "TEASER",
+    "nameVi": "Ngồi chữ V",
+    "category": "MAT (Thảm) — Bài chính",
+    "packId": "mat-main",
+    "prep": "Nằm ngửa, tay qua đầu, chân duỗi khép, lưng-hông trung tính.",
+    "steps": "Hít: nâng tay vuông góc, co gối. Thở: cuộn lên ngồi thăng bằng trên xương ngồi, nâng chân (table-top hoặc duỗi). Hít: tay sát tai. Thở: cuộn xuống.",
+    "reps": "3–5 lần",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Vị trí chuẩn bị",
+        "url": "/images/mat-teaser/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Nâng tay lên",
+        "url": "/images/mat-teaser/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Bắt đầu cuộn lưng lên",
+        "url": "/images/mat-teaser/3.jpg"
+      },
+      {
+        "step": 4,
+        "caption": "Ngồi ở vị trí chữ V",
+        "url": "/images/mat-teaser/4.jpg"
+      },
+      {
+        "step": 5,
+        "caption": "Duỗi gối",
+        "url": "/images/mat-teaser/5.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-teaser.mp3"
+  },
+  {
+    "id": "mat-side-kick",
+    "nameEn": "SIDE KICK",
+    "nameVi": "Đá chân sang ngang",
+    "category": "MAT (Thảm) — Bài chính",
+    "packId": "mat-main",
+    "prep": "Nằm nghiêng, đầu trên tay, chân trên nâng ngang hông.",
+    "steps": "Hít: đá chân về trước 2 lần. Thở: đá chân về sau.",
+    "reps": "8–10 lần",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Vị trí chuẩn bị",
+        "url": "/images/mat-side-kick/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Đá chân về trước 2 lần",
+        "url": "/images/mat-side-kick/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Đá chân về sau",
+        "url": "/images/mat-side-kick/3.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-side-kick.mp3"
+  },
+  {
+    "id": "mat-side-leg-abduction",
+    "nameEn": "TOP LEG ABDUCTION",
+    "nameVi": "Dạng chân nằm nghiêng",
+    "category": "MAT (Thảm) — Bài chính",
+    "packId": "mat-main",
+    "prep": "Nằm nghiêng, chân xếp chồng, tay nâng đầu.",
+    "steps": "Thở: nâng chân trên lên. Hít: gập cổ chân. Thở: hạ chân. Hít: duỗi cổ chân.",
+    "reps": "5–10 lần",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Tư thế nằm nghiêng",
+        "url": "/images/mat-side-leg-abduction/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Nâng chân lên",
+        "url": "/images/mat-side-leg-abduction/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Gập cổ chân",
+        "url": "/images/mat-side-leg-abduction/3.jpg"
+      },
+      {
+        "step": 4,
+        "caption": "Hạ chân xuống",
+        "url": "/images/mat-side-leg-abduction/4.jpg"
+      },
+      {
+        "step": 5,
+        "caption": "Duỗi cổ chân",
+        "url": "/images/mat-side-leg-abduction/5.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-side-leg-abduction.mp3"
+  },
+  {
+    "id": "mat-side-leg-circles",
+    "nameEn": "TOP LEG CIRCLES",
+    "nameVi": "Xoay chân trên",
+    "category": "MAT (Thảm) — Bài chính",
+    "packId": "mat-main",
+    "prep": "Nằm nghiêng, chân trên nâng ngang hông.",
+    "steps": "Thở: nâng chân. Hít: vẽ vòng tròn. Thở: hạ chân về.",
+    "reps": "5 vòng mỗi chiều",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Nâng chân lên",
+        "url": "/images/mat-side-leg-circles/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Vẽ chân vòng tròn",
+        "url": "/images/mat-side-leg-circles/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Hạ chân về vị trí ban đầu",
+        "url": "/images/mat-side-leg-circles/3.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-side-leg-circles.mp3"
+  },
+  {
+    "id": "mat-staggered-legs",
+    "nameEn": "STAGGERED LEGS",
+    "nameVi": "Chân so le",
+    "category": "MAT (Thảm) — Bài chính",
+    "packId": "mat-main",
+    "prep": "Nằm nghiêng, chân so le phía trước.",
+    "steps": "Thở: nâng chân trên. Hít: nâng chân dưới chạm chân trên. Thở: hạ hai chân.",
+    "reps": "5–10 lần",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Nâng chân lên",
+        "url": "/images/mat-staggered-legs/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Nâng chân dưới chạm chân trên",
+        "url": "/images/mat-staggered-legs/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Hạ 2 chân xuống",
+        "url": "/images/mat-staggered-legs/3.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-staggered-legs.mp3"
+  },
+  {
+    "id": "mat-both-legs-together",
+    "nameEn": "BOTH LEGS TOGETHER",
+    "nameVi": "Nâng cả hai chân",
+    "category": "MAT (Thảm) — Bài chính",
+    "packId": "mat-main",
+    "prep": "Nằm nghiêng, chân xếp chồng.",
+    "steps": "Thở: nâng hai chân lên. Hít: hạ hai chân xuống.",
+    "reps": "5–10 lần",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Nâng hai chân lên",
+        "url": "/images/mat-both-legs-together/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Hạ hai chân xuống",
+        "url": "/images/mat-both-legs-together/2.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-both-legs-together.mp3"
+  },
+  {
+    "id": "mat-breast-stroke-prep-shoulders",
+    "nameEn": "BREAST STROKE PREP — HANDS BY SHOULDERS",
+    "nameVi": "Chuẩn bị bơi ếch — Tay ngang vai",
+    "category": "MAT (Thảm) — Bài chính",
+    "packId": "mat-main",
+    "prep": "Nằm sấp, khuỷu gập ngang mũi, trán trên tay.",
+    "steps": "Thở: nâng ngực lên. Hít: hạ xuống.",
+    "reps": "5–8 lần",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Vị trí chuẩn bị",
+        "url": "/images/mat-breast-stroke-prep-shoulders/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Nâng ngực lên",
+        "url": "/images/mat-breast-stroke-prep-shoulders/2.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-breast-stroke-prep-shoulders.mp3"
+  },
+  {
+    "id": "mat-breast-stroke-prep-flight",
+    "nameEn": "BREAST STROKE PREP — FLIGHT",
+    "nameVi": "Chuẩn bị bơi ếch — Tư thế bay",
+    "category": "MAT (Thảm) — Bài chính",
+    "packId": "mat-main",
+    "prep": "Nằm sấp, tay duỗi sang hai bên (tư thế bay).",
+    "steps": "Thở: nâng ngực lên. Hít: hạ xuống.",
+    "reps": "5–8 lần",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Vị trí chuẩn bị",
+        "url": "/images/mat-breast-stroke-prep-flight/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Nâng ngực lên",
+        "url": "/images/mat-breast-stroke-prep-flight/2.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-breast-stroke-prep-flight.mp3"
+  },
+  {
+    "id": "mat-breast-stroke",
+    "nameEn": "BREAST STROKE",
+    "nameVi": "Bơi ếch",
+    "category": "MAT (Thảm) — Bài chính",
+    "packId": "mat-main",
+    "prep": "Nằm sấp, tay dọc thân.",
+    "steps": "Thở: nâng ngực, duỗi tay qua đầu. Hít: mở tay về hông. Thở: trở về.",
+    "reps": "5–8 lần",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Vị trí chuẩn bị",
+        "url": "/images/mat-breast-stroke/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Nâng ngực lên",
+        "url": "/images/mat-breast-stroke/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Duỗi tay qua đầu",
+        "url": "/images/mat-breast-stroke/3.jpg"
+      },
+      {
+        "step": 4,
+        "caption": "Mở tay về hông",
+        "url": "/images/mat-breast-stroke/4.jpg"
+      },
+      {
+        "step": 5,
+        "caption": "Trở về vị trí ban đầu",
+        "url": "/images/mat-breast-stroke/5.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-breast-stroke.mp3"
+  },
+  {
+    "id": "mat-heel-squeeze-prone",
+    "nameEn": "HEEL SQUEEZE PRONE",
+    "nameVi": "Ép gót chân nằm sấp",
+    "category": "MAT (Thảm) — Bài chính",
+    "packId": "mat-main",
+    "prep": "Nằm sấp, hai gót chân khép sát.",
+    "steps": "Thở: nhấn gót vào nhau. Hít: thả lỏng.",
+    "reps": "8–10 lần",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Vị trí chuẩn bị",
+        "url": "/images/mat-heel-squeeze-prone/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Nhấn gót vào nhau",
+        "url": "/images/mat-heel-squeeze-prone/2.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-heel-squeeze-prone.mp3"
+  },
+  {
+    "id": "mat-heel-beats",
+    "nameEn": "HEEL BEATS",
+    "nameVi": "Đập gót chân",
+    "category": "MAT (Thảm) — Bài chính",
+    "packId": "mat-main",
+    "prep": "Nằm sấp, hai chân duỗi, tay gối đầu.",
+    "steps": "Thở: nâng hai chân. Hít: gõ chân 3 lần. Thở: gập cổ chân, gõ gót 3 lần.",
+    "reps": "8–10 lần",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Vị trí chuẩn bị",
+        "url": "/images/mat-heel-beats/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Nâng hai chân",
+        "url": "/images/mat-heel-beats/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Gõ chân 3 lần",
+        "url": "/images/mat-heel-beats/3.jpg"
+      },
+      {
+        "step": 4,
+        "caption": "Gập cổ chân",
+        "url": "/images/mat-heel-beats/4.jpg"
+      },
+      {
+        "step": 5,
+        "caption": "Gõ gót 3 lần",
+        "url": "/images/mat-heel-beats/5.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-heel-beats.mp3"
+  },
+  {
+    "id": "mat-one-leg-kick",
+    "nameEn": "ONE LEG KICK",
+    "nameVi": "Đá một chân",
+    "category": "MAT (Thảm) — Bài chính",
+    "packId": "mat-main",
+    "prep": "Nằm sấp, khuỷu gập, trán trên tay, một chân co.",
+    "steps": "Thở: gập gối đá chân 2 lần về mông. Hít: gập cổ chân. Thở: đá 2 lần. Đổi chân.",
+    "reps": "5–8 lần mỗi chân",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Vị trí chuẩn bị",
+        "url": "/images/mat-one-leg-kick/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Gập gối, đá chân 2 lần",
+        "url": "/images/mat-one-leg-kick/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Gập cổ chân",
+        "url": "/images/mat-one-leg-kick/3.jpg"
+      },
+      {
+        "step": 4,
+        "caption": "Đá chân 2 lần",
+        "url": "/images/mat-one-leg-kick/4.jpg"
+      },
+      {
+        "step": 5,
+        "caption": "Trở về và đổi chân",
+        "url": "/images/mat-one-leg-kick/5.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-one-leg-kick.mp3"
+  },
+  {
+    "id": "mat-shell-stretch",
+    "nameEn": "SHELL STRETCH",
+    "nameVi": "Nghỉ ngơi tư thế em bé",
+    "category": "MAT (Thảm) — Bài chính",
+    "packId": "mat-main",
+    "prep": "Quỳ, ngồi lên gót, gập người về phía trước.",
+    "steps": "Giãn lưng ở tư thế em bé.",
+    "reps": "Theo nhu cầu",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Giãn lưng ở tư thế em bé",
+        "url": "/images/mat-shell-stretch/1.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-shell-stretch.mp3"
+  },
+  {
+    "id": "mat-leg-extension",
+    "nameEn": "SINGLE & DOUBLE LEG EXTENSION",
+    "nameVi": "Đuôi một chân / hai chân",
+    "category": "MAT (Thảm) — Bài chính",
+    "packId": "mat-main",
+    "prep": "Nằm sấp, tay gối đầu, chân duỗi.",
+    "steps": "Thở: nâng một chân. Hít: hạ. Thở: nâng cả hai chân.",
+    "reps": "6–8 lần",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Nâng một chân",
+        "url": "/images/mat-leg-extension/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Nâng cả 2 chân",
+        "url": "/images/mat-leg-extension/2.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-leg-extension.mp3"
+  },
+  {
+    "id": "mat-swimming",
+    "nameEn": "SWIMMING",
+    "nameVi": "Động tác bơi",
+    "category": "MAT (Thảm) — Bài chính",
+    "packId": "mat-main",
+    "prep": "Nằm sấp, tay duỗi phía trước.",
+    "steps": "Thở: nâng người, nâng tay và chân. Hít/thở: đổi tay chân đối diện như bơi.",
+    "reps": "3–5 lần (hít 5/thở 5)",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Vị trí chuẩn bị",
+        "url": "/images/mat-swimming/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Nâng người, nâng tay và chân",
+        "url": "/images/mat-swimming/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Nâng tay trái chân phải",
+        "url": "/images/mat-swimming/3.jpg"
+      },
+      {
+        "step": 4,
+        "caption": "Đổi tay và chân",
+        "url": "/images/mat-swimming/4.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-swimming.mp3"
+  },
+  {
+    "id": "mat-baby-swan",
+    "nameEn": "BABY SWAN",
+    "nameVi": "Thiên nga nhỏ",
+    "category": "MAT (Thảm) — Bài chính",
+    "packId": "mat-main",
+    "prep": "Nằm sấp, khuỷu gập ngang vai.",
+    "steps": "Thở: nâng người lên, duỗi cột sống.",
+    "reps": "5–8 lần",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Vị trí chuẩn bị",
+        "url": "/images/mat-baby-swan/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Nâng người lên",
+        "url": "/images/mat-baby-swan/2.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-baby-swan.mp3"
+  },
+  {
+    "id": "mat-swan-dive",
+    "nameEn": "SWAN DIVE",
+    "nameVi": "Thiên nga bay",
+    "category": "MAT (Thảm) — Bài chính",
+    "packId": "mat-main",
+    "prep": "Nằm sấp, tay dọc thân.",
+    "steps": "Thở: nâng lên baby swan. Hít: bập bênh. Thở: trở về.",
+    "reps": "Lắc 3 lần/bộ, 5 lần",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Vị trí chuẩn bị",
+        "url": "/images/mat-swan-dive/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Nâng người lên baby swan",
+        "url": "/images/mat-swan-dive/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Bập bênh",
+        "url": "/images/mat-swan-dive/3.jpg"
+      },
+      {
+        "step": 4,
+        "caption": "Trở về tư thế ban đầu",
+        "url": "/images/mat-swan-dive/4.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-swan-dive.mp3"
+  },
+  {
+    "id": "mat-leg-pull-front-prep",
+    "nameEn": "LEG PULL FRONT PREP",
+    "nameVi": "Chuẩn bị nâng chân trước",
+    "category": "MAT (Thảm) — Bài chính",
+    "packId": "mat-main",
+    "prep": "Tư thế plank, tay thẳng.",
+    "steps": "Thở: nâng gối. Hít: trở về.",
+    "reps": "5–8 lần",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Vị trí chuẩn bị",
+        "url": "/images/mat-leg-pull-front-prep/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Nâng gối",
+        "url": "/images/mat-leg-pull-front-prep/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Trở về vị trí ban đầu",
+        "url": "/images/mat-leg-pull-front-prep/3.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-leg-pull-front-prep.mp3"
+  },
+  {
+    "id": "mat-bird-dog",
+    "nameEn": "BIRD DOG",
+    "nameVi": "Kéo dài tay chân đối diện",
+    "category": "MAT (Thảm) — Bài chính",
+    "packId": "mat-main",
+    "prep": "Tư thế bốn điểm, cột sống trung tính.",
+    "steps": "Thở: nâng tay trái chân phải. Hít: hạ về. Thở: nâng tay phải chân trái.",
+    "reps": "3–5 lần mỗi bên",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Vị trí chuẩn bị",
+        "url": "/images/mat-bird-dog/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Nâng tay trái, chân phải",
+        "url": "/images/mat-bird-dog/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Hạ tay và chân về",
+        "url": "/images/mat-bird-dog/3.jpg"
+      },
+      {
+        "step": 4,
+        "caption": "Nâng tay phải, chân trái",
+        "url": "/images/mat-bird-dog/4.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-bird-dog.mp3"
+  },
+  {
+    "id": "mat-leg-pull-front",
+    "nameEn": "LEG PULL FRONT",
+    "nameVi": "Nâng chân trước",
+    "category": "MAT (Thảm) — Bài chính",
+    "packId": "mat-main",
+    "prep": "Tư thế plank.",
+    "steps": "Thở: nâng một chân. Hít: duỗi mũi chân. Thở: gập cổ chân hạ chân. Đổi bên.",
+    "reps": "8 lần cả hai chân",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Vị trí chuẩn bị",
+        "url": "/images/mat-leg-pull-front/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Nâng một chân lên",
+        "url": "/images/mat-leg-pull-front/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Duỗi mũi chân",
+        "url": "/images/mat-leg-pull-front/3.jpg"
+      },
+      {
+        "step": 4,
+        "caption": "Gập cổ chân, hạ chân",
+        "url": "/images/mat-leg-pull-front/4.jpg"
+      },
+      {
+        "step": 5,
+        "caption": "Về vị trí ban đầu và đổi bên",
+        "url": "/images/mat-leg-pull-front/5.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-leg-pull-front.mp3"
+  },
+  {
+    "id": "mat-spine-twist",
+    "nameEn": "SPINE TWIST",
+    "nameVi": "Xoay cột sống",
+    "category": "MAT (Thảm) — Bài chính",
+    "packId": "mat-main",
+    "prep": "Ngồi thẳng lưng, chân mở rộng hơn vai, tay dang ngang.",
+    "steps": "Hít: xoay người sang bên. Thở: xoay đối bên. Trở về giữa.",
+    "reps": "3–5 lần mỗi bên",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Vị trí chuẩn bị",
+        "url": "/images/mat-spine-twist/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Xoay người sang bên",
+        "url": "/images/mat-spine-twist/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Xoay đối bên",
+        "url": "/images/mat-spine-twist/3.jpg"
+      },
+      {
+        "step": 4,
+        "caption": "Trở về",
+        "url": "/images/mat-spine-twist/4.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-spine-twist.mp3"
+  },
+  {
+    "id": "mat-saw",
+    "nameEn": "SAW",
+    "nameVi": "Động tác cưa",
+    "category": "MAT (Thảm) — Bài chính",
+    "packId": "mat-main",
+    "prep": "Ngồi thẳng lưng, chân mở V, tay dang ngang, lòng bàn tay đối nhau.",
+    "steps": "Hít: xoay người sang bên. Thở: gập người trên chân, mắt nhìn tay sau. Hít: nâng lên. Thở: xoay về giữa. Đổi bên.",
+    "reps": "6–8 lần",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Vị trí chuẩn bị",
+        "url": "/images/mat-saw/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Xoay người sang bên",
+        "url": "/images/mat-saw/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Gập người trên chân",
+        "url": "/images/mat-saw/3.jpg"
+      },
+      {
+        "step": 4,
+        "caption": "Nâng người lên",
+        "url": "/images/mat-saw/4.jpg"
+      },
+      {
+        "step": 5,
+        "caption": "Xoay về giữa",
+        "url": "/images/mat-saw/5.jpg"
+      },
+      {
+        "step": 6,
+        "caption": "Xoay đối bên",
+        "url": "/images/mat-saw/6.jpg"
+      },
+      {
+        "step": 7,
+        "caption": "Gập người trên chân",
+        "url": "/images/mat-saw/7.jpg"
+      },
+      {
+        "step": 8,
+        "caption": "Nâng người lên",
+        "url": "/images/mat-saw/8.jpg"
+      },
+      {
+        "step": 9,
+        "caption": "Trở về vị trí ban đầu",
+        "url": "/images/mat-saw/9.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-saw.mp3"
+  },
+  {
+    "id": "mat-obliques-roll-back",
+    "nameEn": "OBLIQUES ROLL BACK",
+    "nameVi": "Cuộn lưng nghiêng",
+    "category": "MAT (Thảm) — Bài chính",
+    "packId": "mat-main",
+    "prep": "Ngồi khoanh chân, tay trước ngực.",
+    "steps": "Thở: cuộn ra sau và xoay người. Hít: trở về. Đổi bên.",
+    "reps": "3–5 lần mỗi bên",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Vị trí chuẩn bị",
+        "url": "/images/mat-obliques-roll-back/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Cuộn ra sau và xoay người",
+        "url": "/images/mat-obliques-roll-back/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Trở về",
+        "url": "/images/mat-obliques-roll-back/3.jpg"
+      },
+      {
+        "step": 4,
+        "caption": "Đổi bên",
+        "url": "/images/mat-obliques-roll-back/4.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-obliques-roll-back.mp3"
+  },
+  {
+    "id": "mat-spine-stretch-forward",
+    "nameEn": "SPINE STRETCH FORWARD",
+    "nameVi": "Duỗi cột sống về phía trước",
+    "category": "MAT (Thảm) — Bài chính",
+    "packId": "mat-main",
+    "prep": "Ngồi thẳng lưng, chân duỗi mở rộng hơn vai, cổ chân gập, tay giữa hai chân.",
+    "steps": "Hít: giữ nguyên. Thở: cuộn từ cổ xuống, siết bụng giữ xương chậu dựng. Hít: giữ, mở khung sườn. Thở: cuộn từ xương cụt dựng lên.",
+    "reps": "3–5 lần",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Vị trí chuẩn bị",
+        "url": "/images/mat-spine-stretch-forward/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Cuộn từ đầu",
+        "url": "/images/mat-spine-stretch-forward/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Cong lưng về phía trước",
+        "url": "/images/mat-spine-stretch-forward/3.jpg"
+      },
+      {
+        "step": 4,
+        "caption": "Cuộn về vị trí ban đầu",
+        "url": "/images/mat-spine-stretch-forward/4.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-spine-stretch-forward.mp3"
+  },
+  {
+    "id": "mat-open-leg-rocker",
+    "nameEn": "OPEN LEG ROCKER",
+    "nameVi": "Lắc người chân mở",
+    "category": "MAT (Thảm) — Bài chính",
+    "packId": "mat-main",
+    "prep": "Ngồi thăng bằng trên xương ngồi, ôm ống chân, chân mở rộng hơn vai.",
+    "steps": "Thở: cuộn ra sau. Hít: cuộn lên về cân bằng.",
+    "reps": "6–8 lần",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Vị trí chuẩn bị",
+        "url": "/images/mat-open-leg-rocker/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Cuộn ra sau",
+        "url": "/images/mat-open-leg-rocker/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Cuộn lên",
+        "url": "/images/mat-open-leg-rocker/3.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-open-leg-rocker.mp3"
+  },
+  {
+    "id": "mat-mermaid",
+    "nameEn": "MERMAID",
+    "nameVi": "Tư thế nghiêng mở hông",
+    "category": "MAT (Thảm) — Bài chính",
+    "packId": "mat-main",
+    "prep": "Ngồi, chân gập một bên, tay đặt cạnh hông.",
+    "steps": "Hít: nâng tay. Thở: nghiêng bên. Đổi bên.",
+    "reps": "6–8 lần",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Vị trí chuẩn bị",
+        "url": "/images/mat-mermaid/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Nâng tay",
+        "url": "/images/mat-mermaid/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Nghiêng bên",
+        "url": "/images/mat-mermaid/3.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-mermaid.mp3"
+  },
+  {
+    "id": "mat-leg-pull-prep",
+    "nameEn": "LEG PULL PREP",
+    "nameVi": "Chuẩn bị nâng chân sau",
+    "category": "MAT (Thảm) — Bài chính",
+    "packId": "mat-main",
+    "prep": "Ngồi chân duỗi, tay đặt sau hông.",
+    "steps": "Thở: nhấn chân, cuộn từ mông nâng lên push-up ngược. Hít: trở về.",
+    "reps": "6 lần",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Vị trí chuẩn bị",
+        "url": "/images/mat-leg-pull-prep/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Nhấn chân, cuộn từ mông",
+        "url": "/images/mat-leg-pull-prep/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Nâng thẳng người push-up ngược",
+        "url": "/images/mat-leg-pull-prep/3.jpg"
+      },
+      {
+        "step": 4,
+        "caption": "Trở về",
+        "url": "/images/mat-leg-pull-prep/4.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-leg-pull-prep.mp3"
+  },
+  {
+    "id": "mat-side-bend",
+    "nameEn": "SIDE BEND",
+    "nameVi": "Gập nghiêng người",
+    "category": "MAT (Thảm) — Bài chính",
+    "packId": "mat-main",
+    "prep": "Ngồi nghiêng, chân xếp chồng, tay đặt cạnh hông.",
+    "steps": "Thở: nâng hông lên. Hít: hạ hông xuống. Đổi bên.",
+    "reps": "6 lần mỗi bên",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Vị trí chuẩn bị",
+        "url": "/images/mat-side-bend/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Nâng hông lên",
+        "url": "/images/mat-side-bend/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Hạ hông xuống",
+        "url": "/images/mat-side-bend/3.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-side-bend.mp3"
+  },
+  {
+    "id": "mat-push-up",
+    "nameEn": "PUSH UP",
+    "nameVi": "Chuỗi hít đất",
+    "category": "MAT (Thảm) — Bài chính",
+    "packId": "mat-main",
+    "prep": "Đứng thẳng, chân khép.",
+    "steps": "Gập gối, kiễng gót, cuộn xuống, bước tay ra plank, chống đẩy 3 lần, thu tay, cuộn lên đứng.",
+    "reps": "3 chống đẩy/bộ, 3 lần",
+    "images": [
+      {
+        "step": 1,
+        "caption": "Vị trí chuẩn bị",
+        "url": "/images/mat-push-up/1.jpg"
+      },
+      {
+        "step": 2,
+        "caption": "Gập gối",
+        "url": "/images/mat-push-up/2.jpg"
+      },
+      {
+        "step": 3,
+        "caption": "Kiễng gót",
+        "url": "/images/mat-push-up/3.jpg"
+      },
+      {
+        "step": 4,
+        "caption": "Hạ gót",
+        "url": "/images/mat-push-up/4.jpg"
+      },
+      {
+        "step": 5,
+        "caption": "Cuộn xuống",
+        "url": "/images/mat-push-up/5.jpg"
+      },
+      {
+        "step": 6,
+        "caption": "Hạ lòng bàn tay xuống thảm",
+        "url": "/images/mat-push-up/6.jpg"
+      },
+      {
+        "step": 7,
+        "caption": "Bước bằng tay",
+        "url": "/images/mat-push-up/7.jpg"
+      },
+      {
+        "step": 8,
+        "caption": "Bước tay đến tư thế tấm ván",
+        "url": "/images/mat-push-up/8.jpg"
+      },
+      {
+        "step": 9,
+        "caption": "Chống đẩy",
+        "url": "/images/mat-push-up/9.jpg"
+      },
+      {
+        "step": 10,
+        "caption": "Nâng người",
+        "url": "/images/mat-push-up/10.jpg"
+      },
+      {
+        "step": 11,
+        "caption": "Bắt đầu thu tay về",
+        "url": "/images/mat-push-up/11.jpg"
+      },
+      {
+        "step": 12,
+        "caption": "Cuộn lên",
+        "url": "/images/mat-push-up/12.jpg"
+      },
+      {
+        "step": 13,
+        "caption": "Trở về tư trí ban đầu",
+        "url": "/images/mat-push-up/13.jpg"
+      }
+    ],
+    "audioUrl": "/audio/mat-push-up.mp3"
   }
 ]
