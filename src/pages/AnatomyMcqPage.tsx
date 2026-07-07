@@ -1,7 +1,12 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { QuestionNav } from "../components/QuestionNav";
-import { buildConceptOptions, getPackConcepts, maskDefinition } from "../lib/anatomy";
+import {
+  buildConceptOptions,
+  getPackConcepts,
+  maskDefinition,
+} from "../lib/anatomy";
+import { shuffle } from "../lib/shuffle";
 import type { AnatomyConcept } from "../types/anatomy";
 import type { QuestionStatus, QuizAnswer } from "../types";
 
@@ -14,29 +19,35 @@ type OptionCache = Record<number, AnatomyConcept[]>;
 export const AnatomyMcqPage = ({ concepts }: AnatomyMcqPageProps) => {
   const { packId = "" } = useParams<{ packId: string }>();
 
-  const packConcepts = useMemo(() => {
-    const ids = concepts.filter((c) => c.packId === packId).map((c) => c.id);
-    return getPackConcepts(ids, concepts);
-  }, [concepts, packId]);
+  const conceptIds = useMemo(
+    () => concepts.filter((c) => c.packId === packId).map((c) => c.id),
+    [concepts, packId],
+  );
 
+  const [packConcepts, setPackConcepts] = useState<AnatomyConcept[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState<Record<number, QuizAnswer>>({});
   const [optionCache, setOptionCache] = useState<OptionCache>({});
+
+  useEffect(() => {
+    setPackConcepts(shuffle(getPackConcepts(conceptIds, concepts)));
+    setCurrentIndex(0);
+    setAnswers({});
+    setOptionCache({});
+  }, [conceptIds, concepts, packId]);
 
   const currentConcept = packConcepts[currentIndex];
   const currentAnswer = answers[currentIndex];
   const isSubmitted = Boolean(currentAnswer);
 
   useEffect(() => {
-    setOptionCache((prev) => {
-      const next = { ...prev };
-      packConcepts.forEach((concept, index) => {
-        if (!next[index]) {
-          next[index] = buildConceptOptions(concept, packConcepts);
-        }
-      });
-      return next;
+    if (packConcepts.length === 0) return;
+
+    const next: OptionCache = {};
+    packConcepts.forEach((concept, index) => {
+      next[index] = buildConceptOptions(concept, packConcepts);
     });
+    setOptionCache(next);
   }, [packConcepts]);
 
   const statuses: QuestionStatus[] = packConcepts.map((_, index) => {

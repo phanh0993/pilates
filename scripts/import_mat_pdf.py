@@ -10,7 +10,7 @@ from pathlib import Path
 
 import edge_tts
 import fitz
-from PIL import Image
+from PIL import Image, ImageStat
 
 ROOT = Path(__file__).resolve().parent.parent
 PUBLIC = ROOT / "public"
@@ -37,6 +37,7 @@ class PageLayout:
     layout: str
     captions: list[str]
     region: tuple[float, float, float, float] | None = None
+    boxes: list[tuple[float, float, float, float]] | None = None
 
 
 @dataclass
@@ -59,9 +60,10 @@ def P(
     captions: list[str],
     start: int = 1,
     region: tuple[float, float, float, float] | None = None,
+    boxes: list[tuple[float, float, float, float]] | None = None,
 ) -> PageLayout:
     steps = list(range(start, start + len(captions)))
-    return PageLayout(pdf, page, steps, layout, captions, region)
+    return PageLayout(pdf, page, steps, layout, captions, region, boxes)
 
 
 def ex(
@@ -118,12 +120,18 @@ MAT_EXERCISES: list[ExerciseSeed] = [
         "Nằm ngửa, lưng-hông trung tính. Hai tay cạnh thân, lòng bàn tay úp. Gập gối, chân mở bằng hông. Siết bụng, bả vai ổn định.",
         "Hít: thả lỏng khớp hông, mở một chân sang bên, duỗi gối trượt má chân ra xa mông. Thở: xoay chân về neutral, gập gối trượt lòng bàn chân về.",
         "3 lần mỗi chân",
-        P("mat1", 2, "2x2+1", [
+        P("mat1", 2, "boxes", [
             "Tư thế chuẩn bị",
             "Bắt đầu nâng 1 chân",
             "Trượt gót chân ra xa xương ngồi",
             "Trượt gót về",
             "Đưa chân về vị trí ban đầu",
+        ], boxes=[
+            (0.085, 0.273, 0.412, 0.504),
+            (0.210, 0.331, 0.501, 0.512),
+            (0.503, 0.270, 0.822, 0.503),
+            (0.733, 0.325, 0.915, 0.506),
+            (0.070, 0.483, 0.433, 0.699),
         ]),
     ),
     ex(
@@ -151,10 +159,9 @@ MAT_EXERCISES: list[ExerciseSeed] = [
         "Nằm ngửa, gối co, chân úp sàn.",
         "Hít: mở căng lồng ngực. Thở: cuộn tuần tự từ mông lên ngực qua imprint lên cây cầu. Hít: duy trì, mở khung sườn. Thở: cuộn từ ngực xuống, lưng-hông trung tính.",
         "5–8 lần",
-        P("mat1", 4, "2x2", [
+        P("mat1", 4, "2+1L", [
             "Vị trí ban đầu",
             "Cuộn lưng qua imprint lên cây cầu",
-            "Cuộn trở về",
             "Cuộn trở về",
         ]),
     ),
@@ -330,10 +337,14 @@ MAT_EXERCISES: list[ExerciseSeed] = [
         "Nằm ngửa, giữ chân table-top.",
         "Giữ chân table-top khi thực hiện hundred.",
         "10 lần",
-        P("mat1", 15, "2+1", [
+        P("mat1", 15, "boxes", [
             "Biến thể dễ",
             "Giữ chân table-top",
             "Đập tay",
+        ], boxes=[
+            (0.04, 0.44, 0.50, 0.58),
+            (0.04, 0.44, 0.50, 0.58),
+            (0.04, 0.58, 0.50, 0.70),
         ]),
     ),
     ex(
@@ -345,7 +356,7 @@ MAT_EXERCISES: list[ExerciseSeed] = [
         "Nằm ngửa, chân duỗi, tay qua đầu, lưng-hông trung tính.",
         "Hít: nâng tay lên trần. Thở: cuộn cột sống lên, úp lưng về trước. Hít: chuẩn bị cuộn xuống. Thở: cuộn lưng nằm xuống.",
         "5–8 lần",
-        P("mat1", 16, "2x2+1", [
+        P("mat1", 16, "page_auto", [
             "Vị trí chuẩn bị",
             "Nâng tay lên trần nhà",
             "Cuộn cột sống lên",
@@ -393,12 +404,18 @@ MAT_EXERCISES: list[ExerciseSeed] = [
         "Chest lift, hai chân co table-top, tay nắm ống chân.",
         "Hít: gập khuỷu tay. Thở: vươn tay qua đầu, duỗi thẳng chân. Hít: mở tay sang hai bên, co gối. Thở: vẽ tay vòng tròn trở về.",
         "5–10 lần",
-        P("mat1", 19, "1+2x2", [
+        P("mat1", 19, "boxes", [
             "Vị trí chuẩn bị",
             "Gập khuỷu tay",
             "Vươn tay qua đầu, duỗi chân",
             "Mở tay sang hai bên, co gối",
             "Vẽ tay vòng tròn trở về",
+        ], boxes=[
+            (0.535, 0.159, 0.838, 0.375),
+            (0.093, 0.379, 0.443, 0.636),
+            (0.342, 0.430, 0.493, 0.579),
+            (0.506, 0.365, 0.860, 0.636),
+            (0.077, 0.609, 0.435, 0.878),
         ]),
     ),
     ex(
@@ -473,7 +490,7 @@ MAT_EXERCISES: list[ExerciseSeed] = [
         "Nằm ngửa, chân duỗi thẳng, tay dọc thân.",
         "Thở: nâng chân lên trần, cuộn qua đầu, chân song song sàn, hạ mũi chân, mở chân. Thở: cuộn xuống, khép chân về.",
         "5 lần",
-        P("mat1", 24, "3+3+2", [
+        P("mat1", 24, "page_auto", [
             "Vị trí chuẩn bị",
             "Nâng chân lên trần",
             "Cuộn lên chân song song sàn",
@@ -493,7 +510,7 @@ MAT_EXERCISES: list[ExerciseSeed] = [
         "Nằm ngửa, tay qua đầu, chân duỗi khép, lưng-hông trung tính.",
         "Hít: nâng tay vuông góc, co gối. Thở: cuộn lên ngồi thăng bằng trên xương ngồi, nâng chân (table-top hoặc duỗi). Hít: tay sát tai. Thở: cuộn xuống.",
         "3–5 lần",
-        P("mat2", 1, "1+2x2", [
+        P("mat2", 1, "page_auto", [
             "Vị trí chuẩn bị",
             "Nâng tay lên",
             "Bắt đầu cuộn lưng lên",
@@ -525,12 +542,18 @@ MAT_EXERCISES: list[ExerciseSeed] = [
         "Nằm nghiêng, chân xếp chồng, tay nâng đầu.",
         "Thở: nâng chân trên lên. Hít: gập cổ chân. Thở: hạ chân. Hít: duỗi cổ chân.",
         "5–10 lần",
-        P("mat2", 3, "1+2x2", [
+        P("mat2", 3, "boxes", [
             "Tư thế nằm nghiêng",
             "Nâng chân lên",
             "Gập cổ chân",
             "Hạ chân xuống",
             "Duỗi cổ chân",
+        ], boxes=[
+            (0.103, 0.230, 0.583, 0.449),
+            (0.523, 0.241, 0.875, 0.451),
+            (0.112, 0.548, 0.347, 0.742),
+            (0.533, 0.552, 0.765, 0.739),
+            (0.102, 0.726, 0.342, 0.910),
         ]),
     ),
     ex(
@@ -557,10 +580,14 @@ MAT_EXERCISES: list[ExerciseSeed] = [
         "Nằm nghiêng, chân so le phía trước.",
         "Thở: nâng chân trên. Hít: nâng chân dưới chạm chân trên. Thở: hạ hai chân.",
         "5–10 lần",
-        P("mat2", 5, "2+1", [
+        P("mat2", 5, "boxes", [
             "Nâng chân lên",
             "Nâng chân dưới chạm chân trên",
             "Hạ 2 chân xuống",
+        ], boxes=[
+            (0.117, 0.257, 0.348, 0.454),
+            (0.530, 0.262, 0.753, 0.450),
+            (0.115, 0.496, 0.340, 0.676),
         ]),
     ),
     ex(
@@ -822,7 +849,7 @@ MAT_EXERCISES: list[ExerciseSeed] = [
             "Xoay về giữa",
             "Xoay đối bên",
         ], start=1),
-        P("mat2", 23, "2+1", [
+        P("mat2", 23, "page_auto", [
             "Gập người trên chân",
             "Nâng người lên",
             "Trở về vị trí ban đầu",
@@ -884,7 +911,7 @@ MAT_EXERCISES: list[ExerciseSeed] = [
         "Ngồi, chân gập một bên, tay đặt cạnh hông.",
         "Hít: nâng tay. Thở: nghiêng bên. Đổi bên.",
         "6–8 lần",
-        P("mat3", 3, "2+1", [
+        P("mat3", 3, "2+1L", [
             "Vị trí chuẩn bị",
             "Nâng tay",
             "Nghiêng bên",
@@ -930,7 +957,7 @@ MAT_EXERCISES: list[ExerciseSeed] = [
         "Đứng thẳng, chân khép.",
         "Gập gối, kiễng gót, cuộn xuống, bước tay ra plank, chống đẩy 3 lần, thu tay, cuộn lên đứng.",
         "3 chống đẩy/bộ, 3 lần",
-        P("mat3", 6, "4x2", [
+        P("mat3", 6, "boxes", [
             "Vị trí chuẩn bị",
             "Gập gối",
             "Kiễng gót",
@@ -939,14 +966,29 @@ MAT_EXERCISES: list[ExerciseSeed] = [
             "Hạ lòng bàn tay xuống thảm",
             "Bước bằng tay",
             "Bước tay đến tư thế tấm ván",
-        ], start=1),
-        P("mat3", 7, "2+1+2", [
+        ], start=1, boxes=[
+            (0.1566, 0.7064, 0.3581, 0.7691),
+            (0.3600, 0.7064, 0.5605, 0.7691),
+            (0.5624, 0.7064, 0.7629, 0.7691),
+            (0.7452, 0.7064, 0.9669, 0.7691),
+            (0.1566, 0.7697, 0.3581, 0.8330),
+            (0.3600, 0.7697, 0.5605, 0.8330),
+            (0.5624, 0.7697, 0.7629, 0.8330),
+            (0.7648, 0.7697, 0.9669, 0.8330),
+        ]),
+        P("mat3", 7, "boxes", [
             "Chống đẩy",
             "Nâng người",
             "Bắt đầu thu tay về",
             "Cuộn lên",
             "Trở về tư trí ban đầu",
-        ], start=9),
+        ], start=9, boxes=[
+            (0.12, 0.16, 0.32, 0.30),
+            (0.34, 0.16, 0.55, 0.30),
+            (0.58, 0.16, 0.73, 0.30),
+            (0.78, 0.16, 0.92, 0.30),
+            (0.58, 0.28, 0.92, 0.44),
+        ]),
     ),
 ]
 
@@ -958,7 +1000,86 @@ def render_page(doc: fitz.Document, page_index: int) -> Image.Image:
     return Image.frombytes("RGB", (pix.width, pix.height), pix.samples)
 
 
-def photo_region(
+def _find_components(
+    region: Image.Image,
+    threshold: int = 238,
+    min_cnt: int = 35,
+) -> tuple[list[list[float | int]], tuple[int, int]]:
+    w, h = region.size
+    target_w = min(600, w)
+    scale = w / target_w
+    sh, sw = int(h / scale), target_w
+    small = region.resize((sw, sh), Image.Resampling.BILINEAR).convert("L")
+    px = small.load()
+    mask = [[px[x, y] < threshold for x in range(sw)] for y in range(sh)]
+    visited = [[False] * sw for _ in range(sh)]
+    comps: list[list[float | int]] = []
+
+    for sy in range(sh):
+        for sx in range(sw):
+            if not mask[sy][sx] or visited[sy][sx]:
+                continue
+            stack = [(sx, sy)]
+            visited[sy][sx] = True
+            minx = maxx = sx
+            miny = maxy = sy
+            cnt = 0
+            while stack:
+                x, y = stack.pop()
+                cnt += 1
+                minx = min(minx, x)
+                maxx = max(maxx, x)
+                miny = min(miny, y)
+                maxy = max(maxy, y)
+                for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1)):
+                    nx, ny = x + dx, y + dy
+                    if 0 <= nx < sw and 0 <= ny < sh and mask[ny][nx] and not visited[ny][nx]:
+                        visited[ny][nx] = True
+                        stack.append((nx, ny))
+            bw, bh = maxx - minx + 1, maxy - miny + 1
+            comps.append([minx, miny, maxx + 1, maxy + 1, bw, bh, cnt, scale])
+
+    return comps, (sw, sh)
+
+
+def _is_ruled_line(box: list[float | int], sw: int, sh: int) -> bool:
+    bw, bh, cnt = int(box[4]), int(box[5]), int(box[6])
+    if bh <= max(3, int(sh * 0.028)) and bw >= sw * 0.55:
+        return True
+    if bh <= max(4, int(sh * 0.035)) and cnt < bw * bh * 0.15:
+        return True
+    return False
+
+
+def _merge_boxes(raw_boxes: list[list[float | int]]) -> list[list[int]]:
+    boxes = [[int(v) for v in b[:4]] for b in raw_boxes]
+    boxes.sort(key=lambda b: (b[1], b[0]))
+    merged: list[list[int]] = []
+
+    for box in boxes:
+        placed = False
+        for i, prev in enumerate(merged):
+            ox = max(0, min(prev[2], box[2]) - max(prev[0], box[0]))
+            minw = min(prev[2] - prev[0], box[2] - box[0])
+            if minw <= 0:
+                continue
+            vgap = box[1] - prev[3]
+            if ox >= minw * 0.22 and -2 <= vgap <= 40:
+                merged[i] = [
+                    min(prev[0], box[0]),
+                    min(prev[1], box[1]),
+                    max(prev[2], box[2]),
+                    max(prev[3], box[3]),
+                ]
+                placed = True
+                break
+        if not placed:
+            merged.append(box)
+
+    return merged
+
+
+def smart_photo_region(
     image: Image.Image,
     region: tuple[float, float, float, float] | None = None,
 ) -> Image.Image:
@@ -966,7 +1087,68 @@ def photo_region(
     if region:
         x1, y1, x2, y2 = region
         return image.crop((int(w * x1), int(h * y1), int(w * x2), int(h * y2)))
-    return image.crop((int(w * 0.04), int(h * 0.40), int(w * 0.96), int(h * 0.92)))
+
+    scan = image.crop((int(w * 0.04), int(h * 0.35), int(w * 0.96), int(h * 0.80)))
+    comps, (sw, sh) = _find_components(scan)
+    photo_boxes = []
+    for box in comps:
+        if _is_ruled_line(box, sw, sh):
+            continue
+        bw, bh, cnt = int(box[4]), int(box[5]), int(box[6])
+        if bw >= sw * 0.07 and bh >= sh * 0.06 and cnt >= 50:
+            photo_boxes.append(box)
+
+    if not photo_boxes:
+        return image.crop((int(w * 0.04), int(h * 0.40), int(w * 0.96), int(h * 0.70)))
+
+    merged = _merge_boxes(photo_boxes)
+    scale = float(photo_boxes[0][7])
+    pad = int(14 * scale)
+    minx = min(int(b[0]) for b in merged)
+    miny = min(int(b[1]) for b in merged)
+    maxx = max(int(b[2]) for b in merged)
+    maxy = max(int(b[3]) for b in merged)
+    sx1 = int(w * 0.04)
+    sy1 = int(h * 0.35)
+    x1 = max(0, sx1 + int(minx * scale) - pad)
+    y1 = max(0, sy1 + int(miny * scale) - pad)
+    x2 = min(w, sx1 + int(maxx * scale) + pad)
+    y2 = min(h, sy1 + int(maxy * scale) + pad + int(18 * scale))
+    return image.crop((x1, y1, x2, y2))
+
+
+def auto_split(region: Image.Image, expected: int) -> list[Image.Image] | None:
+    comps, (sw, sh) = _find_components(region, threshold=237, min_cnt=25)
+    boxes = []
+    for box in comps:
+        if _is_ruled_line(box, sw, sh):
+            continue
+        bw, bh, cnt = int(box[4]), int(box[5]), int(box[6])
+        if bw >= sw * 0.05 and bh >= sh * 0.035 and cnt >= 30:
+            boxes.append(box)
+
+    merged = _merge_boxes(boxes)
+    merged = [b for b in merged if (b[2] - b[0]) >= sw * 0.08 and (b[3] - b[1]) >= sh * 0.06]
+    if len(merged) != expected:
+        return None
+
+    scale = float(boxes[0][7]) if boxes else 1.0
+    merged.sort(key=lambda b: (round((b[1] + b[3]) / 2 / (sh * 0.14)), b[0]))
+    rw, rh = region.size
+    pad = int(8 * scale)
+    crops: list[Image.Image] = []
+    for minx, miny, maxx, maxy in merged:
+        crops.append(
+            region.crop(
+                (
+                    max(0, int(minx * scale) - pad),
+                    max(0, int(miny * scale) - pad),
+                    min(rw, int(maxx * scale) + pad),
+                    min(rh, int(maxy * scale) + pad + int(12 * scale)),
+                )
+            )
+        )
+    return crops
 
 
 def split_region(region: Image.Image, layout: str) -> list[Image.Image]:
@@ -995,6 +1177,25 @@ def split_region(region: Image.Image, layout: str) -> list[Image.Image]:
             region.crop((0, mid_y + 3, mid_x - 3, h)),
             region.crop((mid_x + 3, mid_y + 3, w, h)),
         ]
+
+    if layout == "2+1L":
+        top_h = h * 2 // 3
+        mid = w // 2
+        return [
+            region.crop((0, 0, mid - 3, top_h)),
+            region.crop((mid + 3, 0, w, top_h)),
+            region.crop((0, top_h + 3, mid - 3, h)),
+        ]
+
+    if layout == "4+1BR":
+        top_h = int(h * 0.50)
+        col_w = w // 4
+        top = [
+            region.crop((i * col_w + (2 if i else 0), 0, (i + 1) * col_w - (2 if i < 3 else 0), top_h))
+            for i in range(4)
+        ]
+        bottom = region.crop((int(w * 0.62), top_h + 2, int(w * 0.98), h))
+        return top + [bottom]
 
     if layout == "3+2":
         top_h = int(h * 0.56)
@@ -1030,7 +1231,7 @@ def split_region(region: Image.Image, layout: str) -> list[Image.Image]:
             region.crop((0, mid_y + 3, mid_x - 3, top_h)),
             region.crop((mid_x + 3, mid_y + 3, w, top_h)),
         ]
-        bottom = region.crop((0, top_h + 4, mid_x - 3, h))
+        bottom = region.crop((int(w * 0.22), top_h + 4, int(w * 0.78), h))
         return grid + [bottom]
 
     if layout == "3x2+1":
@@ -1076,7 +1277,7 @@ def split_region(region: Image.Image, layout: str) -> list[Image.Image]:
         third = w // 3
         half = w // 2
         rows = []
-        for row, rh, yoff in [(0, row1_h, 0), (1, row2_h, row1_h + 3)]:
+        for _, rh, yoff in [(0, row1_h, 0), (1, row2_h, row1_h + 3)]:
             for col in range(3):
                 x1 = col * third
                 x2 = (col + 1) * third - 3 if col < 2 else w
@@ -1115,20 +1316,192 @@ def split_region(region: Image.Image, layout: str) -> list[Image.Image]:
                 cells.append(region.crop((x1 + (3 if col else 0), y1, x2, y2)))
         return cells
 
-    if layout == "2+1+2":
-        top_h = int(h * 0.38)
-        mid_h = int(h * 0.28)
-        mid = w // 2
-        y2 = top_h + mid_h
-        return [
-            region.crop((0, 0, mid - 3, top_h)),
-            region.crop((mid + 3, 0, w, top_h)),
-            region.crop((0, top_h + 3, w, y2)),
-            region.crop((0, y2 + 3, mid - 3, h)),
-            region.crop((mid + 3, y2 + 3, w, h)),
-        ]
-
     raise ValueError(f"Unknown layout: {layout}")
+
+
+def page_auto_split(page_image: Image.Image, expected: int) -> list[Image.Image]:
+    w, h = page_image.size
+    target_w = min(600, w)
+    scale = w / target_w
+    sh, sw = int(h / scale), target_w
+    small = page_image.resize((sw, sh), Image.Resampling.BILINEAR).convert("L")
+    px = small.load()
+    threshold = 232
+    mask = [[px[x, y] < threshold for x in range(sw)] for y in range(sh)]
+    visited = [[False] * sw for _ in range(sh)]
+    raw: list[list[int]] = []
+
+    for sy in range(sh):
+        for sx in range(sw):
+            if not mask[sy][sx] or visited[sy][sx]:
+                continue
+            stack = [(sx, sy)]
+            visited[sy][sx] = True
+            minx = maxx = sx
+            miny = maxy = sy
+            cnt = 0
+            while stack:
+                x, y = stack.pop()
+                cnt += 1
+                minx = min(minx, x)
+                maxx = max(maxx, x)
+                miny = min(miny, y)
+                maxy = max(maxy, y)
+                for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1)):
+                    nx, ny = x + dx, y + dy
+                    if 0 <= nx < sw and 0 <= ny < sh and mask[ny][nx] and not visited[ny][nx]:
+                        visited[ny][nx] = True
+                        stack.append((nx, ny))
+            bw, bh = maxx - minx + 1, maxy - miny + 1
+            if cnt >= 60 and bw >= sw * 0.05 and bh >= sh * 0.02:
+                if bh <= max(3, int(sh * 0.028)) and bw >= sw * 0.5:
+                    continue
+                raw.append([minx, miny, maxx + 1, maxy + 1])
+
+    merged: list[list[int]] = []
+    for box in sorted(raw, key=lambda b: (b[1], b[0])):
+        if not merged:
+            merged.append(box)
+            continue
+        prev = merged[-1]
+        ox = max(0, min(prev[2], box[2]) - max(prev[0], box[0]))
+        minw = min(prev[2] - prev[0], box[2] - box[0])
+        vgap = box[1] - prev[3]
+        prev_h = prev[3] - prev[1]
+        box_h = box[3] - box[1]
+        if minw > 0 and ox >= minw * 0.25 and 0 <= vgap <= 30 and box_h < prev_h * 0.5:
+            merged[-1] = [
+                min(prev[0], box[0]),
+                min(prev[1], box[1]),
+                max(prev[2], box[2]),
+                max(prev[3], box[3]),
+            ]
+        else:
+            merged.append(box)
+
+    merged = [b for b in merged if (b[2] - b[0]) >= sw * 0.07 and (b[3] - b[1]) >= sh * 0.035]
+    merged.sort(key=lambda b: (round((b[1] + b[3]) / 2 / (sh * 0.10)), b[0]))
+    if len(merged) != expected:
+        raise ValueError(f"page_auto found {len(merged)} photos, expected {expected}")
+
+    crops: list[Image.Image] = []
+    for minx, miny, maxx, maxy in merged:
+        pad_x = int(18 * scale)
+        pad_y = int(30 * scale)
+        if (maxx - minx) > (maxy - miny) * 1.5:
+            pad_y = int(50 * scale)
+        x1 = max(0, int(minx * scale) - pad_x)
+        y1 = max(0, int(miny * scale) - pad_y)
+        x2 = min(w, int(maxx * scale) + pad_x)
+        y2 = min(h, int(maxy * scale) + pad_y + int(25 * scale))
+        crops.append(page_image.crop((x1, y1, x2, y2)))
+    return crops
+
+
+def _crop_std(crop: Image.Image) -> float:
+    return ImageStat.Stat(crop.convert("L")).stddev[0]
+
+
+def _crop_quality(crop: Image.Image) -> bool:
+    std = _crop_std(crop)
+    if std < 16:
+        return False
+    w, h = crop.size
+    if w < 40 or h < 40:
+        return False
+    center = crop.crop((w // 4, h // 4, 3 * w // 4, 3 * h // 4))
+    return _crop_std(center) >= 12
+
+
+def trim_photo_crop(crop: Image.Image, threshold: int = 185, pad: int = 6) -> Image.Image:
+    """Cắt sát nội dung ảnh, bỏ vùng giấy trắng và dòng kẻ notebook."""
+    gray = crop.convert("L")
+    w, h = gray.size
+    px = gray.load()
+    minx, miny, maxx, maxy = w, h, 0, 0
+    found = False
+    for y in range(h):
+        for x in range(w):
+            if px[x, y] < threshold:
+                found = True
+                minx = min(minx, x)
+                maxx = max(maxx, x)
+                miny = min(miny, y)
+                maxy = max(maxy, y)
+    if not found:
+        return crop
+    return crop.crop(
+        (
+            max(0, minx - pad),
+            max(0, miny - pad),
+            min(w, maxx + 1 + pad),
+            min(h, maxy + 1 + pad),
+        )
+    )
+
+
+def _finalize_crop(crop: Image.Image) -> Image.Image:
+    if _crop_quality(crop):
+        return crop
+    trimmed = trim_photo_crop(crop)
+    return trimmed if _crop_quality(trimmed) else crop
+
+
+def _finalize_crops(crops: list[Image.Image]) -> list[Image.Image]:
+    return [_finalize_crop(c) for c in crops]
+
+
+def extract_crops(
+    page_image: Image.Image,
+    layout: PageLayout,
+) -> list[Image.Image]:
+    expected = len(layout.captions)
+
+    if layout.boxes:
+        w, h = page_image.size
+        crops = [
+            page_image.crop(
+                (
+                    int(w * x1),
+                    int(h * y1),
+                    int(w * x2),
+                    int(h * y2),
+                )
+            )
+            for x1, y1, x2, y2 in layout.boxes
+        ]
+        if len(crops) != expected:
+            raise ValueError(f"boxes produced {len(crops)} crops, expected {expected}")
+        crops = _finalize_crops(crops)
+        if not all(_crop_quality(c) for c in crops):
+            raise ValueError(f"boxes quality check failed on {layout.pdf}-p{layout.page}")
+        return crops
+
+    if layout.layout == "page_auto":
+        crops = _finalize_crops(page_auto_split(page_image, expected))
+        if not all(_crop_quality(c) for c in crops):
+            raise ValueError(f"page_auto quality check failed on {layout.pdf}-p{layout.page}")
+        return crops
+
+    region = smart_photo_region(page_image, layout.region)
+    crops = split_region(region, layout.layout)
+
+    if len(crops) != expected:
+        alt = auto_split(region, expected)
+        if alt is not None:
+            crops = alt
+        else:
+            raise ValueError(f"layout {layout.layout} produced {len(crops)} crops, expected {expected}")
+
+    crops = _finalize_crops(crops)
+    if not all(_crop_quality(c) for c in crops):
+        alt = auto_split(region, expected)
+        if alt is not None:
+            alt = _finalize_crops(alt)
+            if all(_crop_quality(c) for c in alt):
+                return alt
+
+    return crops
 
 
 def resize_image(image: Image.Image, max_width: int = 900) -> Image.Image:
@@ -1167,12 +1540,14 @@ async def main() -> None:
     for seed in MAT_EXERCISES:
         ex_dir = IMG_DIR / seed.id
         ex_dir.mkdir(parents=True, exist_ok=True)
+        if ex_dir.exists():
+            for old in ex_dir.glob("*.jpg"):
+                old.unlink()
         images: list[dict] = []
 
         for layout in seed.pages:
             page_image = get_page(layout.pdf, layout.page)
-            region = photo_region(page_image, layout.region)
-            crops = split_region(region, layout.layout)
+            crops = extract_crops(page_image, layout)
 
             if len(crops) != len(layout.steps):
                 raise SystemExit(

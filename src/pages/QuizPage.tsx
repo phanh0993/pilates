@@ -10,6 +10,7 @@ import {
   getModeLabel,
   getPackExercises,
   isAnswerCorrect,
+  shuffle,
 } from "../lib/quiz";
 import type { Exercise, QuestionStatus, QuizAnswer, QuizMode } from "../types";
 
@@ -29,43 +30,45 @@ export const QuizPage = ({ exercises }: QuizPageProps) => {
   }>();
 
   const quizMode = mode as QuizMode;
-  const packExercises = useMemo(
-    () =>
-      getPackExercises(
-        {
-          id: packId,
-          name: "",
-          description: "",
-          exerciseIds: exercises.filter((e) => e.packId === packId).map((e) => e.id),
-        },
-        exercises,
-      ),
+  const pack = useMemo(
+    () => ({
+      id: packId,
+      name: "",
+      description: "",
+      exerciseIds: exercises.filter((e) => e.packId === packId).map((e) => e.id),
+    }),
     [exercises, packId],
   );
 
+  const [packExercises, setPackExercises] = useState<Exercise[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState<Record<number, QuizAnswer>>({});
   const [typedValue, setTypedValue] = useState("");
   const [optionCache, setOptionCache] = useState<Record<number, OptionCache>>({});
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
+  useEffect(() => {
+    setPackExercises(shuffle(getPackExercises(pack, exercises)));
+    setCurrentIndex(0);
+    setAnswers({});
+    setOptionCache({});
+  }, [pack, exercises, quizMode]);
+
   const currentExercise = packExercises[currentIndex];
   const currentAnswer = answers[currentIndex];
   const isSubmitted = Boolean(currentAnswer);
 
   useEffect(() => {
-    setOptionCache((prev) => {
-      const next = { ...prev };
-      packExercises.forEach((exercise, index) => {
-        if (!next[index]) {
-          next[index] = {
-            names: buildNameOptions(exercise, exercises),
-            images: buildImageOptions(exercise, exercises),
-          };
-        }
-      });
-      return next;
+    if (packExercises.length === 0) return;
+
+    const next: Record<number, OptionCache> = {};
+    packExercises.forEach((exercise, index) => {
+      next[index] = {
+        names: buildNameOptions(exercise, exercises),
+        images: buildImageOptions(exercise, exercises),
+      };
     });
+    setOptionCache(next);
   }, [exercises, packExercises]);
 
   useEffect(() => {
