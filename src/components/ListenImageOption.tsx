@@ -9,6 +9,7 @@ type ListenImageOptionProps = {
   isCorrect: boolean;
   isSelected: boolean;
   onSelect: () => void;
+  hideExerciseName?: boolean;
 };
 
 export const ListenImageOption = ({
@@ -17,6 +18,7 @@ export const ListenImageOption = ({
   isCorrect,
   isSelected,
   onSelect,
+  hideExerciseName = false,
 }: ListenImageOptionProps) => {
   const [showSteps, setShowSteps] = useState(false);
   const extraCount = Math.max(exercise.images.length - 1, 0);
@@ -50,7 +52,7 @@ export const ListenImageOption = ({
       <div className={cardClass}>
         <button
           type="button"
-          aria-label={`Chọn hình ${exercise.nameEn}`}
+          aria-label={hideExerciseName ? "Chọn hình đáp án" : `Chọn hình ${exercise.nameEn}`}
           tabIndex={0}
           disabled={isSubmitted}
           onClick={onSelect}
@@ -58,7 +60,7 @@ export const ListenImageOption = ({
         >
           <img
             src={getPrimaryImage(exercise)}
-            alt={exercise.nameEn}
+            alt={hideExerciseName ? "Hình đáp án" : exercise.nameEn}
             className="h-40 w-full object-contain bg-slate-50 sm:h-44"
           />
         </button>
@@ -77,7 +79,7 @@ export const ListenImageOption = ({
             </button>
             <button
               type="button"
-              aria-label={`Xem các bước của ${exercise.nameEn}`}
+              aria-label={`Xem ${exercise.images.length} bước động tác`}
               tabIndex={0}
               onClick={handleOpenSteps}
               className="w-full border-t border-slate-100 bg-violet-50 py-2 text-xs font-semibold text-violet-700 sm:hidden"
@@ -92,6 +94,7 @@ export const ListenImageOption = ({
         exercise={exercise}
         isOpen={showSteps}
         onClose={() => setShowSteps(false)}
+        hideExerciseName={hideExerciseName}
       />
     </>
   );

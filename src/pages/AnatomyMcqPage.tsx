@@ -1,10 +1,10 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { QuestionNav } from "../components/QuestionNav";
+import { AnatomyQuestionPrompt } from "../components/AnatomyQuestionPrompt";
 import {
   buildConceptOptions,
   getPackConcepts,
-  maskDefinition,
 } from "../lib/anatomy";
 import { shuffle } from "../lib/shuffle";
 import type { AnatomyConcept } from "../types/anatomy";
@@ -12,11 +12,12 @@ import type { QuestionStatus, QuizAnswer } from "../types";
 
 type AnatomyMcqPageProps = {
   concepts: AnatomyConcept[];
+  pageIllustrations: Record<string, string>;
 };
 
 type OptionCache = Record<number, AnatomyConcept[]>;
 
-export const AnatomyMcqPage = ({ concepts }: AnatomyMcqPageProps) => {
+export const AnatomyMcqPage = ({ concepts, pageIllustrations }: AnatomyMcqPageProps) => {
   const { packId = "" } = useParams<{ packId: string }>();
 
   const conceptIds = useMemo(
@@ -92,17 +93,11 @@ export const AnatomyMcqPage = ({ concepts }: AnatomyMcqPageProps) => {
       </header>
 
       <main className="flex-1 space-y-5 px-4 py-5">
-        <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-          <p className="text-xs font-semibold uppercase text-slate-500">
-            {currentConcept.section ?? currentConcept.category}
-          </p>
-          <p className="mt-2 text-base leading-relaxed text-slate-800">
-            {maskDefinition(currentConcept)}
-          </p>
-          <p className="mt-3 text-sm font-medium text-slate-600">
-            Chọn thuật ngữ điền vào chỗ trống:
-          </p>
-        </div>
+        <AnatomyQuestionPrompt
+          concept={currentConcept}
+          pageIllustrations={pageIllustrations}
+          prompt="Chọn thuật ngữ điền vào chỗ trống:"
+        />
 
         <div className="grid gap-3 sm:grid-cols-2">
           {options.map((option) => {

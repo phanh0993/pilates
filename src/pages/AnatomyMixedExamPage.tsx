@@ -1,12 +1,12 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { QuestionNav } from "../components/QuestionNav";
+import { AnatomyQuestionPrompt } from "../components/AnatomyQuestionPrompt";
 import {
   buildConceptOptions,
   buildMixedExam,
   countExamScore,
   isTermCorrect,
-  maskDefinition,
   type MixedExamQuestion,
 } from "../lib/anatomy";
 import type { AnatomyConcept, AnatomyPack } from "../types/anatomy";
@@ -17,11 +17,16 @@ const EXAM_ALL_SIZE = 40;
 type AnatomyMixedExamPageProps = {
   concepts: AnatomyConcept[];
   packs: AnatomyPack[];
+  pageIllustrations: Record<string, string>;
 };
 
 type OptionCache = Record<number, AnatomyConcept[]>;
 
-export const AnatomyMixedExamPage = ({ concepts, packs }: AnatomyMixedExamPageProps) => {
+export const AnatomyMixedExamPage = ({
+  concepts,
+  packs,
+  pageIllustrations,
+}: AnatomyMixedExamPageProps) => {
   const { packId = "all" } = useParams<{ packId: string }>();
 
   const pack = packs.find((p) => p.id === packId);
@@ -137,19 +142,15 @@ export const AnatomyMixedExamPage = ({ concepts, packs }: AnatomyMixedExamPagePr
       </header>
 
       <main className="flex-1 space-y-5 px-4 py-5">
-        <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-          <p className="text-xs font-semibold uppercase text-slate-500">
-            {current.concept.section ?? current.concept.category}
-          </p>
-          <p className="mt-2 text-base leading-relaxed text-slate-800">
-            {maskDefinition(current.concept)}
-          </p>
-          <p className="mt-3 text-sm font-medium text-slate-600">
-            {current.mode === "mcq"
+        <AnatomyQuestionPrompt
+          concept={current.concept}
+          pageIllustrations={pageIllustrations}
+          prompt={
+            current.mode === "mcq"
               ? "Chọn thuật ngữ điền vào chỗ trống:"
-              : "Gõ tên khái niệm điền vào chỗ trống (tiếng Việt hoặc tiếng Anh):"}
-          </p>
-        </div>
+              : "Gõ tên khái niệm điền vào chỗ trống (tiếng Việt hoặc tiếng Anh):"
+          }
+        />
 
         {current.mode === "mcq" ? (
           <div className="grid gap-3 sm:grid-cols-2">

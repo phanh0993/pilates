@@ -17,6 +17,7 @@ type AnatomyDataState = {
   packs: AnatomyPack[];
   diagrams: AnatomyDiagram[];
   pages: AnatomyPage[];
+  pageIllustrations: Record<string, string>;
   loading: boolean;
   error: string | null;
 };
@@ -26,17 +27,20 @@ export const useAnatomyData = (): AnatomyDataState => {
   const [packs, setPacks] = useState<AnatomyPack[]>([]);
   const [diagrams, setDiagrams] = useState<AnatomyDiagram[]>([]);
   const [pages, setPages] = useState<AnatomyPage[]>([]);
+  const [pageIllustrations, setPageIllustrations] = useState<Record<string, string>>({});
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     const load = async () => {
       try {
-        const [conceptsRes, packsRes, diagramsRes, pagesRes] = await Promise.all([
+        const [conceptsRes, packsRes, diagramsRes, pagesRes, illustrationsRes] =
+          await Promise.all([
           fetch("/data/anatomy/concepts.json"),
           fetch("/data/anatomy/packs.json"),
           fetch("/data/anatomy/diagrams.json"),
           fetch("/data/anatomy/pages-manifest.json"),
+          fetch("/data/anatomy/page-illustrations.json"),
         ]);
 
         if (!conceptsRes.ok || !packsRes.ok || !diagramsRes.ok) {
@@ -50,6 +54,9 @@ export const useAnatomyData = (): AnatomyDataState => {
         if (pagesRes.ok) {
           setPages((await pagesRes.json()) as AnatomyPage[]);
         }
+        if (illustrationsRes.ok) {
+          setPageIllustrations((await illustrationsRes.json()) as Record<string, string>);
+        }
       } catch (loadError) {
         setError(loadError instanceof Error ? loadError.message : "Lỗi không xác định");
       } finally {
@@ -60,5 +67,5 @@ export const useAnatomyData = (): AnatomyDataState => {
     void load();
   }, []);
 
-  return { concepts, packs, diagrams, pages, loading, error };
+  return { concepts, packs, diagrams, pages, pageIllustrations, loading, error };
 };
