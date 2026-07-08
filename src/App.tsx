@@ -61,16 +61,27 @@ const App = () => {
             <AnatomyMixedExamPage
               concepts={anatomy.concepts}
               packs={anatomy.packs}
+              pageIllustrations={anatomy.pageIllustrations}
             />
           }
         />
         <Route
           path="/anatomy/mcq/:packId"
-          element={<AnatomyMcqPage concepts={anatomy.concepts} />}
+          element={
+            <AnatomyMcqPage
+              concepts={anatomy.concepts}
+              pageIllustrations={anatomy.pageIllustrations}
+            />
+          }
         />
         <Route
           path="/anatomy/type/:packId"
-          element={<AnatomyTypePage concepts={anatomy.concepts} />}
+          element={
+            <AnatomyTypePage
+              concepts={anatomy.concepts}
+              pageIllustrations={anatomy.pageIllustrations}
+            />
+          }
         />
         <Route
           path="/anatomy/study/:packId"

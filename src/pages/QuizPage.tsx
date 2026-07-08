@@ -44,6 +44,7 @@ export const QuizPage = ({ exercises }: QuizPageProps) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState<Record<number, QuizAnswer>>({});
   const [typedValue, setTypedValue] = useState("");
+  const [showHint, setShowHint] = useState(false);
   const [optionCache, setOptionCache] = useState<Record<number, OptionCache>>({});
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
@@ -73,6 +74,7 @@ export const QuizPage = ({ exercises }: QuizPageProps) => {
 
   useEffect(() => {
     setTypedValue("");
+    setShowHint(false);
   }, [currentIndex]);
 
   useEffect(() => {
@@ -177,15 +179,41 @@ export const QuizPage = ({ exercises }: QuizPageProps) => {
         {quizMode === "listen-pick-image" && (
           <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
             <p className="mb-3 text-sm text-slate-600">Nghe tên động tác và chọn hình đúng:</p>
-            <button
-              type="button"
-              aria-label="Phát lại tên động tác"
-              tabIndex={0}
-              onClick={handleReplayAudio}
-              className="rounded-xl bg-violet-600 px-4 py-2 text-sm font-semibold text-white hover:bg-violet-700"
-            >
-              🔊 Phát lại
-            </button>
+            <div className="flex flex-wrap gap-2">
+              <button
+                type="button"
+                aria-label="Phát lại tên động tác"
+                tabIndex={0}
+                onClick={handleReplayAudio}
+                className="rounded-xl bg-violet-600 px-4 py-2 text-sm font-semibold text-white hover:bg-violet-700"
+              >
+                🔊 Phát lại
+              </button>
+              {!isSubmitted && (
+                <button
+                  type="button"
+                  aria-label="Xem gợi ý"
+                  tabIndex={0}
+                  onClick={() => setShowHint((prev) => !prev)}
+                  className="rounded-xl border border-amber-300 bg-amber-50 px-4 py-2 text-sm font-semibold text-amber-800 hover:bg-amber-100"
+                >
+                  💡 Gợi ý
+                </button>
+              )}
+            </div>
+            {showHint && !isSubmitted && (
+              <div className="mt-3 space-y-2 rounded-xl border border-amber-200 bg-amber-50 p-3 text-sm text-amber-900">
+                <p>
+                  <span className="font-semibold">Tên tiếng Anh:</span> {currentExercise.nameEn}
+                </p>
+                <p>
+                  <span className="font-semibold">Chuẩn bị:</span> {currentExercise.prep}
+                </p>
+                <p>
+                  <span className="font-semibold">Cách thực hiện:</span> {currentExercise.steps}
+                </p>
+              </div>
+            )}
           </div>
         )}
 
@@ -233,6 +261,7 @@ export const QuizPage = ({ exercises }: QuizPageProps) => {
                 isSubmitted={isSubmitted}
                 isCorrect={option.id === currentExercise.id}
                 isSelected={currentAnswer?.value === option.id}
+                hideExerciseName
                 onSelect={() =>
                   handleSubmitChoice(option.id, option.id === currentExercise.id)
                 }

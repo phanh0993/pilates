@@ -5,12 +5,14 @@ type ExerciseStepsModalProps = {
   exercise: Exercise;
   isOpen: boolean;
   onClose: () => void;
+  hideExerciseName?: boolean;
 };
 
 export const ExerciseStepsModal = ({
   exercise,
   isOpen,
   onClose,
+  hideExerciseName = false,
 }: ExerciseStepsModalProps) => {
   const [activeIndex, setActiveIndex] = useState(0);
 
@@ -40,13 +42,15 @@ export const ExerciseStepsModal = ({
       className="fixed inset-0 z-50 flex flex-col bg-slate-950/98"
       role="dialog"
       aria-modal="true"
-      aria-label={`Các bước của ${exercise.nameEn}`}
+      aria-label={hideExerciseName ? "Các bước động tác" : `Các bước của ${exercise.nameEn}`}
       onKeyDown={handleBackdropKeyDown}
     >
       <div className="flex items-center justify-between border-b border-white/10 px-4 py-3 text-white">
         <div>
           <p className="text-xs uppercase tracking-wide text-violet-300">Các bước động tác</p>
-          <p className="text-sm font-semibold">{exercise.nameEn}</p>
+          {!hideExerciseName && (
+            <p className="text-sm font-semibold">{exercise.nameEn}</p>
+          )}
         </div>
         <button
           type="button"

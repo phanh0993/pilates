@@ -180,6 +180,16 @@ export const getConceptById = (
   id: string,
 ): AnatomyConcept | undefined => concepts.find((c) => c.id === id);
 
+export const getConceptIllustrationUrl = (
+  concept: AnatomyConcept,
+  pageIllustrations: Record<string, string>,
+): string | null => {
+  if (!concept.pageRef) {
+    return null;
+  }
+  return pageIllustrations[String(concept.pageRef)] ?? null;
+};
+
 export const getPackConcepts = (
   conceptIds: string[],
   concepts: AnatomyConcept[],
