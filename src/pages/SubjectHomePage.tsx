@@ -1,32 +1,45 @@
 import { Link } from "react-router-dom";
 
 export const SubjectHomePage = () => (
-  <div className="mx-auto max-w-3xl px-4 py-8">
-    <div className="rounded-3xl bg-gradient-to-br from-violet-600 to-indigo-700 p-8 text-white shadow-lg">
-      <h1 className="text-3xl font-black tracking-tight">Trắc nghiệm cho Vợ Ánh</h1>
-      <p className="mt-2 text-violet-100">Chọn môn học để bắt đầu.</p>
+  <div className="mx-auto max-w-5xl px-3 py-6 sm:px-4 sm:py-8">
+    <div className="rounded-3xl bg-gradient-to-br from-violet-600 to-indigo-700 p-6 text-white shadow-lg sm:p-8">
+      <h1 className="text-2xl font-black tracking-tight sm:text-3xl">
+        Trắc nghiệm cho Vợ Ánh
+      </h1>
+      <p className="mt-2 text-sm text-violet-100 sm:text-base">Chọn môn học để bắt đầu.</p>
     </div>
 
-    <div className="mt-8 grid gap-4 sm:grid-cols-2">
+    <div className="mt-6 grid gap-3 sm:mt-8 sm:grid-cols-3 sm:gap-4">
       <Link
         to="/pilates"
-        className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:border-violet-300 hover:shadow-md"
+        className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm transition active:bg-slate-50 sm:p-6 sm:hover:border-violet-300 sm:hover:shadow-md"
       >
         <p className="text-2xl">🧘</p>
-        <h2 className="mt-2 text-xl font-bold text-slate-900">Pilates</h2>
-        <p className="mt-1 text-sm text-slate-500">
+        <h2 className="mt-2 text-lg font-bold text-slate-900 sm:text-xl">Pilates</h2>
+        <p className="mt-1 text-sm leading-relaxed text-slate-500">
           Học tên động tác, nghe phát âm, xem hình các bước.
         </p>
       </Link>
 
       <Link
         to="/anatomy"
-        className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:border-teal-300 hover:shadow-md"
+        className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm transition active:bg-slate-50 sm:p-6 sm:hover:border-teal-300 sm:hover:shadow-md"
       >
         <p className="text-2xl">🫀</p>
-        <h2 className="mt-2 text-xl font-bold text-slate-900">Giải phẫu</h2>
-        <p className="mt-1 text-sm text-slate-500">
+        <h2 className="mt-2 text-lg font-bold text-slate-900 sm:text-xl">Giải phẫu</h2>
+        <p className="mt-1 text-sm leading-relaxed text-slate-500">
           Thuộc khái niệm theo chương — trắc nghiệm & điền thuật ngữ.
+        </p>
+      </Link>
+
+      <Link
+        to="/lesson-plans"
+        className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm transition active:bg-slate-50 sm:p-6 sm:hover:border-emerald-300 sm:hover:shadow-md"
+      >
+        <p className="text-2xl">📋</p>
+        <h2 className="mt-2 text-lg font-bold text-slate-900 sm:text-xl">Giáo án</h2>
+        <p className="mt-1 text-sm leading-relaxed text-slate-500">
+          Soạn giáo án dạng bảng, xuất PDF A4 để in.
         </p>
       </Link>
     </div>

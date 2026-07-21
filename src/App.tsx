@@ -8,6 +8,8 @@ import { AnatomyMixedExamPage } from "./pages/AnatomyMixedExamPage";
 import { AnatomyStudyPage } from "./pages/AnatomyStudyPage";
 import { AnatomyTypePage } from "./pages/AnatomyTypePage";
 import { LegacyQuizRedirect } from "./pages/LegacyQuizRedirect";
+import { LessonPlanEditorPage } from "./pages/LessonPlanEditorPage";
+import { LessonPlanHomePage } from "./pages/LessonPlanHomePage";
 import { PilatesHomePage } from "./pages/PilatesHomePage";
 import { QuizPage } from "./pages/QuizPage";
 import { SubjectHomePage } from "./pages/SubjectHomePage";
@@ -93,6 +95,9 @@ const App = () => {
           path="/admin/anatomy"
           element={<AnatomyAdminPage concepts={anatomy.concepts} />}
         />
+
+        <Route path="/lesson-plans" element={<LessonPlanHomePage />} />
+        <Route path="/lesson-plans/:planId" element={<LessonPlanEditorPage />} />
       </Routes>
     </BrowserRouter>
   );

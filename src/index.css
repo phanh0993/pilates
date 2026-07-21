@@ -11,3 +11,50 @@ body {
 #root {
   min-height: 100vh;
 }
+
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 12mm;
+  }
+
+  body {
+    background: white !important;
+  }
+
+  .print\:hidden {
+    display: none !important;
+  }
+
+  .lesson-plan-app {
+    max-width: none !important;
+    padding: 0 !important;
+  }
+
+  .lesson-print-sheet {
+    box-shadow: none !important;
+    border: none !important;
+  }
+
+  .lesson-section {
+    break-inside: avoid;
+  }
+
+  .lesson-block {
+    break-inside: avoid;
+    margin-bottom: 10pt;
+  }
+
+  .lesson-table td {
+    border: 1px solid #334155 !important;
+    font-size: 10pt;
+    vertical-align: top;
+  }
+
+  .lesson-table textarea {
+    border: none !important;
+    resize: none !important;
+    overflow: visible !important;
+    height: auto !important;
+  }
+}
