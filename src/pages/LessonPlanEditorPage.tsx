@@ -68,7 +68,8 @@ export const LessonPlanEditorPage = () => {
 
   const handleExportPdf = () => {
     upsertPlan(plan);
-    window.print();
+    // Đợi DOM render bản in (div) rồi mới mở hộp thoại in
+    window.setTimeout(() => window.print(), 50);
   };
 
   const updateSection = (sectionId: string, updater: (s: LessonSection) => LessonSection) => {
@@ -140,15 +141,23 @@ export const LessonPlanEditorPage = () => {
             onChange={(e) => patchPlan((p) => ({ ...p, title: e.target.value }))}
             aria-label="Tiêu đề giáo án"
             placeholder="Tiêu đề giáo án"
-            className="w-full border-0 bg-transparent text-2xl font-black leading-tight text-slate-900 outline-none placeholder:text-slate-300 sm:text-3xl print:text-2xl"
+            className="w-full border-0 bg-transparent text-2xl font-black leading-tight text-slate-900 outline-none placeholder:text-slate-300 sm:text-3xl print:hidden"
           />
+          <h1 className="lesson-print-text hidden text-2xl font-black text-slate-900 print:block">
+            {plan.title || "Giáo án"}
+          </h1>
           <input
             value={plan.subtitle}
             onChange={(e) => patchPlan((p) => ({ ...p, subtitle: e.target.value }))}
             aria-label="Phụ đề"
             placeholder="Phụ đề / lớp / thiết bị"
-            className="mt-1 w-full border-0 bg-transparent text-base text-slate-500 outline-none placeholder:text-slate-300 sm:text-sm"
+            className="mt-1 w-full border-0 bg-transparent text-base text-slate-500 outline-none placeholder:text-slate-300 sm:text-sm print:hidden"
           />
+          {plan.subtitle ? (
+            <p className="lesson-print-text mt-1 hidden text-sm text-slate-500 print:block">
+              {plan.subtitle}
+            </p>
+          ) : null}
         </header>
 
         <div className="mt-4 space-y-6 sm:mt-5 sm:space-y-8">
@@ -161,8 +170,11 @@ export const LessonPlanEditorPage = () => {
                     updateSection(section.id, (s) => ({ ...s, title: e.target.value }))
                   }
                   aria-label="Tiêu đề phần"
-                  className="w-full rounded-xl border-0 bg-emerald-50 px-3 py-3 text-base font-bold uppercase tracking-wide text-emerald-900 outline-none print:bg-transparent print:px-0 print:py-0 print:text-sm"
+                  className="w-full rounded-xl border-0 bg-emerald-50 px-3 py-3 text-base font-bold uppercase tracking-wide text-emerald-900 outline-none print:hidden"
                 />
+                <h2 className="lesson-print-text mb-2 hidden text-sm font-bold uppercase tracking-wide text-emerald-900 print:block">
+                  {section.title}
+                </h2>
                 <div className="flex gap-2 print:hidden">
                   <button
                     type="button"
@@ -278,12 +290,13 @@ export const LessonPlanEditorPage = () => {
                         minRows={4}
                         aria-label="Nội dung văn bản"
                         placeholder="Ghi chú / hướng dẫn chung..."
-                        className="w-full rounded-xl border border-slate-200 px-3 py-3 text-base leading-relaxed text-slate-800 outline-none focus:border-emerald-400 focus:ring-2 focus:ring-emerald-100 print:border-0 print:px-0"
+                        className="w-full rounded-xl border border-slate-200 px-3 py-3 text-base leading-relaxed text-slate-800 outline-none focus:border-emerald-400 focus:ring-2 focus:ring-emerald-100"
+                        printClassName="lesson-print-text text-[10pt] leading-snug text-slate-800"
                       />
                     )}
 
                     {block.type === "exercise" && (
-                      <div className="space-y-3">
+                      <div className="space-y-3 print:space-y-1">
                         <input
                           value={block.name}
                           onChange={(e) =>
@@ -293,8 +306,11 @@ export const LessonPlanEditorPage = () => {
                           }
                           aria-label="Tên động tác"
                           placeholder="Tên động tác (EN / VI)"
-                          className="w-full rounded-xl border border-slate-200 px-3 py-3 text-base font-bold text-slate-900 outline-none focus:border-emerald-400 focus:ring-2 focus:ring-emerald-100 print:border-0 print:px-0 print:text-base"
+                          className="w-full rounded-xl border border-slate-200 px-3 py-3 text-base font-bold text-slate-900 outline-none focus:border-emerald-400 focus:ring-2 focus:ring-emerald-100 print:hidden"
                         />
+                        <h3 className="lesson-print-text hidden text-base font-bold text-slate-900 print:block">
+                          {block.name}
+                        </h3>
                         <input
                           value={block.note}
                           onChange={(e) =>
@@ -304,8 +320,13 @@ export const LessonPlanEditorPage = () => {
                           }
                           aria-label="Ghi chú động tác"
                           placeholder="Setup / set lò xo (tuỳ chọn)"
-                          className="w-full rounded-xl border border-slate-200 px-3 py-3 text-base text-slate-600 outline-none focus:border-emerald-400 focus:ring-2 focus:ring-emerald-100 print:border-0 print:px-0 print:text-sm"
+                          className="w-full rounded-xl border border-slate-200 px-3 py-3 text-base text-slate-600 outline-none focus:border-emerald-400 focus:ring-2 focus:ring-emerald-100 print:hidden"
                         />
+                        {block.note ? (
+                          <p className="lesson-print-text hidden text-[10pt] text-slate-600 print:block">
+                            {block.note}
+                          </p>
+                        ) : null}
                         <LessonTableEditor
                           table={block.table}
                           onChange={(table) =>
@@ -316,7 +337,7 @@ export const LessonPlanEditorPage = () => {
                     )}
 
                     {block.type === "table" && (
-                      <div className="space-y-3">
+                      <div className="space-y-3 print:space-y-1">
                         <input
                           value={block.caption}
                           onChange={(e) =>
@@ -326,8 +347,13 @@ export const LessonPlanEditorPage = () => {
                           }
                           aria-label="Chú thích bảng"
                           placeholder="Chú thích bảng (tuỳ chọn)"
-                          className="w-full rounded-xl border border-slate-200 px-3 py-3 text-base font-semibold text-slate-700 outline-none focus:border-emerald-400 focus:ring-2 focus:ring-emerald-100 print:border-0 print:px-0 print:text-sm"
+                          className="w-full rounded-xl border border-slate-200 px-3 py-3 text-base font-semibold text-slate-700 outline-none focus:border-emerald-400 focus:ring-2 focus:ring-emerald-100 print:hidden"
                         />
+                        {block.caption ? (
+                          <p className="lesson-print-text hidden text-[10pt] font-semibold text-slate-700 print:block">
+                            {block.caption}
+                          </p>
+                        ) : null}
                         <LessonTableEditor
                           table={block.table}
                           onChange={(table) =>

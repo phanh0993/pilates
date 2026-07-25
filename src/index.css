@@ -15,47 +15,85 @@ body {
 @media print {
   @page {
     size: A4 portrait;
-    margin: 12mm;
+    margin: 10mm;
   }
 
+  html,
   body {
     background: white !important;
+    height: auto !important;
+    overflow: visible !important;
+  }
+
+  #root {
+    height: auto !important;
+    min-height: 0 !important;
+    overflow: visible !important;
   }
 
   .print\:hidden {
     display: none !important;
   }
 
+  .print\:block {
+    display: block !important;
+  }
+
   .lesson-plan-app {
     max-width: none !important;
     padding: 0 !important;
+    min-height: 0 !important;
+    overflow: visible !important;
   }
 
   .lesson-print-sheet {
     box-shadow: none !important;
     border: none !important;
+    overflow: visible !important;
   }
 
+  /* Cho phép tách trang; tránh cắt giữa hàng bảng */
   .lesson-section {
-    break-inside: avoid;
+    break-inside: auto;
   }
 
   .lesson-block {
+    break-inside: auto;
+    margin-bottom: 8pt;
+  }
+
+  .lesson-table {
+    width: 100% !important;
+    table-layout: fixed !important;
+    border-collapse: collapse !important;
+  }
+
+  .lesson-table-wrap {
+    overflow: visible !important;
+    border-radius: 0 !important;
+  }
+
+  .lesson-table tr {
     break-inside: avoid;
-    margin-bottom: 10pt;
+    page-break-inside: avoid;
   }
 
   .lesson-table td {
     border: 1px solid #334155 !important;
     font-size: 10pt;
     vertical-align: top;
+    overflow: visible !important;
+    height: auto !important;
   }
 
   .lesson-table textarea {
-    border: none !important;
-    resize: none !important;
+    display: none !important;
+  }
+
+  .lesson-print-text {
+    white-space: pre-wrap !important;
+    word-break: break-word !important;
     overflow: visible !important;
     height: auto !important;
-    min-height: unset !important;
   }
 }

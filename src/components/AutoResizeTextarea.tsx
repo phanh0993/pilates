@@ -7,6 +7,8 @@ type AutoResizeTextareaProps = {
   className?: string;
   "aria-label"?: string;
   placeholder?: string;
+  /** Class cho bản in (div), mặc định padding giống ô bảng */
+  printClassName?: string;
 };
 
 const LINE_PX = 24;
@@ -24,6 +26,7 @@ export const AutoResizeTextarea = ({
   className = "",
   "aria-label": ariaLabel,
   placeholder,
+  printClassName = "px-2 py-2 text-[10pt] leading-snug text-slate-800",
 }: AutoResizeTextareaProps) => {
   const ref = useRef<HTMLTextAreaElement>(null);
 
@@ -54,18 +57,27 @@ export const AutoResizeTextarea = ({
   }, [minRows]);
 
   return (
-    <textarea
-      ref={ref}
-      value={value}
-      rows={minRows}
-      aria-label={ariaLabel}
-      placeholder={placeholder}
-      onChange={(e) => {
-        const el = e.currentTarget;
-        onChange(el.value);
-        fitHeight(el, minRows);
-      }}
-      className={`box-border overflow-hidden ${className}`}
-    />
+    <>
+      <textarea
+        ref={ref}
+        value={value}
+        rows={minRows}
+        aria-label={ariaLabel}
+        placeholder={placeholder}
+        onChange={(e) => {
+          const el = e.currentTarget;
+          onChange(el.value);
+          fitHeight(el, minRows);
+        }}
+        className={`box-border overflow-hidden print:hidden ${className}`}
+      />
+      {/* Bản in: div hiển thị đủ chữ (textarea bị trình duyệt cắt khi print) */}
+      <div
+        aria-hidden="true"
+        className={`hidden whitespace-pre-wrap break-words print:block ${printClassName}`}
+      >
+        {value || "\u00A0"}
+      </div>
+    </>
   );
 };

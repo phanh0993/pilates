@@ -80,7 +80,7 @@ export const LessonTableEditor = ({
       </div>
 
       {/* Desktop + in: bảng lưới */}
-      <div className="hidden overflow-x-auto rounded-xl border border-slate-300 bg-white md:block print:block">
+      <div className="lesson-table-wrap hidden overflow-x-auto rounded-xl border border-slate-300 bg-white md:block print:block">
         <table className="lesson-table w-full border-collapse text-sm">
           <tbody>
             {table.rows.map((row, ri) => (
@@ -92,7 +92,7 @@ export const LessonTableEditor = ({
                     style={{ width: `${100 / Math.max(table.cols, 1)}%` }}
                   >
                     {readOnly ? (
-                      <div className="min-h-16 whitespace-pre-wrap px-2 py-2 text-slate-800">
+                      <div className="lesson-print-text min-h-16 whitespace-pre-wrap px-2 py-2 text-slate-800">
                         {cell || "\u00A0"}
                       </div>
                     ) : (
@@ -102,6 +102,7 @@ export const LessonTableEditor = ({
                         minRows={3}
                         aria-label={`Ô hàng ${ri + 1} cột ${ci + 1}`}
                         className="min-h-16 w-full border-0 bg-transparent px-2 py-2 text-sm leading-relaxed text-slate-800 outline-none focus:bg-amber-50"
+                        printClassName="lesson-print-text px-2 py-2 text-[10pt] leading-snug text-slate-800"
                       />
                     )}
                   </td>
