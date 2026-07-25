@@ -6,6 +6,7 @@ import {
   removeTableRow,
   updateCell,
 } from "../lib/lessonPlan";
+import { AutoResizeTextarea } from "./AutoResizeTextarea";
 
 type LessonTableEditorProps = {
   table: LessonTable;
@@ -63,10 +64,10 @@ export const LessonTableEditor = ({
                       {cell || "\u00A0"}
                     </div>
                   ) : (
-                    <textarea
+                    <AutoResizeTextarea
                       value={cell}
-                      onChange={(e) => handleCellChange(ri, ci, e.target.value)}
-                      rows={4}
+                      onChange={(value) => handleCellChange(ri, ci, value)}
+                      minRows={4}
                       aria-label={`${colLabel(ci, table.cols)}, hàng ${ri + 1}`}
                       className="min-h-24 w-full rounded-xl border border-slate-200 bg-white px-3 py-2.5 text-base leading-relaxed text-slate-800 outline-none focus:border-emerald-500 focus:ring-2 focus:ring-emerald-100"
                     />
@@ -95,12 +96,12 @@ export const LessonTableEditor = ({
                         {cell || "\u00A0"}
                       </div>
                     ) : (
-                      <textarea
+                      <AutoResizeTextarea
                         value={cell}
-                        onChange={(e) => handleCellChange(ri, ci, e.target.value)}
-                        rows={3}
+                        onChange={(value) => handleCellChange(ri, ci, value)}
+                        minRows={3}
                         aria-label={`Ô hàng ${ri + 1} cột ${ci + 1}`}
-                        className="min-h-16 w-full resize-y border-0 bg-transparent px-2 py-2 text-sm text-slate-800 outline-none focus:bg-amber-50"
+                        className="min-h-16 w-full border-0 bg-transparent px-2 py-2 text-sm leading-relaxed text-slate-800 outline-none focus:bg-amber-50"
                       />
                     )}
                   </td>

@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
+import { AutoResizeTextarea } from "../components/AutoResizeTextarea";
 import { LessonTableEditor } from "../components/LessonTableEditor";
 import {
   createExerciseBlock,
@@ -267,14 +268,14 @@ export const LessonPlanEditorPage = () => {
                     </div>
 
                     {block.type === "text" && (
-                      <textarea
+                      <AutoResizeTextarea
                         value={block.content}
-                        onChange={(e) =>
+                        onChange={(content) =>
                           updateBlock(section.id, block.id, (b) =>
-                            b.type === "text" ? { ...b, content: e.target.value } : b,
+                            b.type === "text" ? { ...b, content } : b,
                           )
                         }
-                        rows={4}
+                        minRows={4}
                         aria-label="Nội dung văn bản"
                         placeholder="Ghi chú / hướng dẫn chung..."
                         className="w-full rounded-xl border border-slate-200 px-3 py-3 text-base leading-relaxed text-slate-800 outline-none focus:border-emerald-400 focus:ring-2 focus:ring-emerald-100 print:border-0 print:px-0"
