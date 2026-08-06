@@ -68,7 +68,27 @@ export const LessonPlanEditorPage = () => {
 
   const handleExportPdf = () => {
     upsertPlan(plan);
-    // Đợi DOM render bản in (div) rồi mới mở hộp thoại in
+
+    const defaultName = (plan.title || "Giao-an").trim();
+    const typed = window.prompt("Tên file PDF muốn lưu:", defaultName);
+    if (typed === null) return;
+
+    const fileName =
+      typed
+        .trim()
+        .replace(/[\\/:*?"<>|]+/g, "-")
+        .replace(/\s+/g, " ")
+        .replace(/\.pdf$/i, "") || defaultName;
+
+    const previousTitle = document.title;
+    document.title = fileName;
+
+    const restoreTitle = () => {
+      document.title = previousTitle;
+      window.removeEventListener("afterprint", restoreTitle);
+    };
+    window.addEventListener("afterprint", restoreTitle);
+
     window.setTimeout(() => window.print(), 50);
   };
 
@@ -422,6 +442,10 @@ export const LessonPlanEditorPage = () => {
             + Thêm phần
           </button>
         </div>
+
+        <footer className="lesson-print-footer mt-8 hidden border-t border-slate-300 pt-3 text-right text-[10pt] font-semibold text-slate-700 print:block">
+          HLV Éng
+        </footer>
       </article>
 
       {/* Thanh cố định dưới cùng — tiện bấm một tay trên điện thoại */}

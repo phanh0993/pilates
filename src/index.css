@@ -15,7 +15,7 @@ body {
 @media print {
   @page {
     size: A4 portrait;
-    margin: 10mm;
+    margin: 12mm 10mm 14mm;
   }
 
   html,
@@ -50,6 +50,17 @@ body {
     box-shadow: none !important;
     border: none !important;
     overflow: visible !important;
+  }
+
+  .lesson-print-footer {
+    display: block !important;
+    margin-top: 16pt;
+    padding-top: 8pt;
+    border-top: 1px solid #94a3b8;
+    text-align: right;
+    font-size: 10pt;
+    font-weight: 600;
+    color: #334155;
   }
 
   /* Cho phép tách trang; tránh cắt giữa hàng bảng */
